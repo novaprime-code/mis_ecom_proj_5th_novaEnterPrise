@@ -1,0 +1,31 @@
+#toplevel_page_berocket_account .wp-first-item {
+    display: none!important;
+}
+.toplevel_page_berocket_custom_post .dashicons-before img {
+    max-width: 16px;
+    max-height: 16px;
+}
+.berocket_admin_menu_custom_post_submenu {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+}
+.berocket_admin_menu_custom_post_submenu:before {
+    content: "";
+    background: transparent url('../images/submenu-icon.png') top left/cover;
+    height: 14px;
+    width: 14px;
+    display: block;
+    position: absolute;
+    left: 6px;
+    top: -1px;
+}
+.current .berocket_admin_menu_custom_post_submenu:before {
+    background: transparent url('../images/submenu-icon-a.png') top left/cover;
+}
+.berocket_admin_menu_custom_post_submenu_upgrade {
+    color: #77e038;
+}
+.berocket_debug_errors {
+    margin-top: 60px;
+}

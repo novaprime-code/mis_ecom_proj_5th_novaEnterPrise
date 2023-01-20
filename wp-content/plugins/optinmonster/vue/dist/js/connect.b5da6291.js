@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["connect"],{"2c32":function(n,t,c){"use strict";c.r(t);var e=function(){var n=this,t=n._self._c;return t("core-page",{attrs:{title:"Connect!"}},[t("core-connect-button")],1)},o=[],r=c("2877"),u={},l=Object(r["a"])(u,e,o,!1,null,null,null);t["default"]=l.exports}}]);
+//# sourceMappingURL=connect.b5da6291.js.map

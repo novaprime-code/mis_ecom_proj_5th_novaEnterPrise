@@ -1,0 +1,11 @@
+// ------------------------------------
+// WOOCOMMERCE FORM-ROW
+// ------------------------------------
+
+div.woocommerce form #payment .form-row.form-row-first,
+div.woocommerce form #payment .form-row.form-row-middle {
+	@media (#{$bp-larger-than-tablet}) {
+		margin-#{ $alignment-left }: 0;
+		margin-#{ $alignment-right }: 4%;
+	}
+}

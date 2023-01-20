@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g>
+        <g id="menu" transform="matrix(1,0,0,0.845757,-6.05694,1.39265)">
+            <path d="M109.788,10.613C109.788,7.543 107.68,5.051 105.084,5.051L35.03,5.051C32.434,5.051 30.326,7.543 30.326,10.613L30.326,116.939C30.326,120.009 32.434,122.501 35.03,122.501L105.084,122.501C107.68,122.501 109.788,120.009 109.788,116.939L109.788,10.613Z" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <path d="M109.788,10.613C109.788,7.543 107.68,5.051 105.084,5.051L35.03,5.051C32.434,5.051 30.326,7.543 30.326,10.613L30.326,116.939C30.326,120.009 32.434,122.501 35.03,122.501L105.084,122.501C107.68,122.501 109.788,120.009 109.788,116.939L109.788,10.613Z"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="top-shade" transform="matrix(1,0,0,1.47248,6.05694,-2.64103)">
+                    <rect x="21.589" y="3.428" width="90.706" height="16.095" style="fill:rgb(116,220,252);"/>
+                </g>
+            </g>
+            <path d="M109.788,10.613C109.788,7.543 107.68,5.051 105.084,5.051L35.03,5.051C32.434,5.051 30.326,7.543 30.326,10.613L30.326,116.939C30.326,120.009 32.434,122.501 35.03,122.501L105.084,122.501C107.68,122.501 109.788,120.009 109.788,116.939L109.788,10.613Z" style="fill:none;stroke:rgb(72,85,102);stroke-width:4.32px;"/>
+        </g>
+        <g id="menu-items" transform="matrix(1,0,0,1,-0.378613,5.10679)">
+            <rect x="40.958" y="36.45" width="46.842" height="27.55" style="fill:rgb(210,220,228);stroke:rgb(72,85,102);stroke-width:4px;"/>
+        </g>
+        <circle id="button" cx="66.022" cy="104.999" r="17.276" style="fill:rgb(255,119,124);stroke:rgb(72,85,102);stroke-width:4px;"/>
+    </g>
+</svg>

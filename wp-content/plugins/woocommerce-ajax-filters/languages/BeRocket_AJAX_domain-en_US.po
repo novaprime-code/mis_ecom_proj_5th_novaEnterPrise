@@ -1,0 +1,3638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce AJAX Products Filter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-26 08:53+0000\n"
+"POT-Revision-Date: Wed Jun 29 2016 09:22:13 GMT+0300 (EEST)\n"
+"PO-Revision-Date: 2021-04-21 07:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1"
+
+#: includes/addons/seo_meta_title.php:93
+msgid " - "
+msgstr ""
+
+#: includes/addons/seo_meta_title.php:90
+msgid " / "
+msgstr ""
+
+#: includes/addons/seo_meta_title.php:14 includes/addons/seo_meta_title.php:19
+#: includes/addons/seo_meta_title.php:53 includes/addons/seo_meta_title.php:63
+#: includes/addons/seo_meta_title.php:85
+msgid " and "
+msgstr ""
+
+#: includes/addons/seo_meta_title.php:15 includes/addons/seo_meta_title.php:54
+#: includes/addons/seo_meta_title.php:86
+msgid " or "
+msgstr ""
+
+#: templates/filters_group_simple.php:44 templates/filter_post_simple.php:133
+msgid " page"
+msgstr ""
+
+#: includes/addons/seo_meta_title.php:22 includes/addons/seo_meta_title.php:69
+msgid " with "
+msgstr ""
+
+#: includes/paid.php:1975
+msgid "\"No Products\" messages"
+msgstr ""
+
+#: includes/paid.php:2002
+msgid "\"No products\" messages"
+msgstr ""
+
+#: includes/paid.php:1967 includes/paid.php:2006 includes/paid.php:3951
+#: includes/paid.php:3959 includes/paid.php:3969
+msgid "\"No values\" messages"
+msgstr ""
+
+#: includes/paid.php:1971 includes/paid.php:2010 includes/paid.php:3955
+#: includes/paid.php:3973
+msgid "\"Select previous\" messages"
+msgstr ""
+
+#: main.php:1094
+msgid "(4)"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:14
+#: addons/deprecated_filters/settings/design.php:29
+msgid "(depends on font)"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:717
+#: templates/single_filter/single_settings_elements.php:368
+msgid "(use white space for multiple classes)"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:343
+#: templates/single_filter/single_settings_elements.php:522
+msgid "* use numeric values only, strings will not work as expected"
+msgstr ""
+
+#: main.php:1127
+msgid "-"
+msgstr ""
+
+#: includes/divi-builder.php:18 includes/new_widget.php:306
+#: includes/visual-composer.php:10 includes/visual-composer.php:36
+msgid "--Please select filter--"
+msgstr ""
+
+#: includes/divi-builder.php:63 includes/new_widget.php:127
+msgid "--Please select group--"
+msgstr ""
+
+#: includes/paid.php:1916 templates/paid/filters_search_box.php:60
+msgid "0%"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:444
+#: includes/filters/display_widget.php:497
+msgid "1 star"
+msgstr ""
+
+#: includes/paid.php:3802 addons/deprecated_filters/filter_post.php:283
+msgid "1.00-100.00, 100.00-200.00, 200.00-1000.00"
+msgstr ""
+
+#: includes/paid.php:3801 addons/deprecated_filters/filter_post.php:282
+msgid "1.00-100.00, 101.00-200.00, 201.00-1000.00"
+msgstr ""
+
+#: includes/paid.php:3803 addons/deprecated_filters/filter_post.php:284
+msgid "1.00-99.99, 100.00-199.99, 200.00-999.99"
+msgstr ""
+
+#: includes/paid.php:1915 templates/paid/filters_search_box.php:59
+msgid "10%"
+msgstr ""
+
+#: includes/paid.php:1906 templates/paid/filters_search_box.php:50
+msgid "100%"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:494
+#: templates/single_filter/single_settings_elements.php:461
+msgid "1em x 1em"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:495
+#: templates/single_filter/single_settings_elements.php:462
+msgid "1em x 2em"
+msgstr ""
+
+#: main.php:1129
+msgid "2 spaces"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:445
+#: includes/filters/display_widget.php:498
+msgid "2 stars"
+msgstr ""
+
+#: includes/paid.php:1914 templates/paid/filters_search_box.php:58
+msgid "20%"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:493
+#: templates/single_filter/single_settings_elements.php:460
+msgid "2em x 2em"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:496
+#: templates/single_filter/single_settings_elements.php:463
+msgid "2em x 3em"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:497
+#: templates/single_filter/single_settings_elements.php:464
+msgid "2em x 4em"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:446
+#: includes/filters/display_widget.php:499
+msgid "3 stars"
+msgstr ""
+
+#: includes/paid.php:1913 templates/paid/filters_search_box.php:57
+msgid "30%"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:498
+#: templates/single_filter/single_settings_elements.php:465
+msgid "3em x 3em"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:499
+#: templates/single_filter/single_settings_elements.php:466
+msgid "3em x 4em"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:500
+#: templates/single_filter/single_settings_elements.php:467
+msgid "3em x 5em"
+msgstr ""
+
+#: main.php:1093
+msgid "4"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:447
+#: includes/filters/display_widget.php:500
+msgid "4 stars"
+msgstr ""
+
+#: includes/paid.php:1912 templates/paid/filters_search_box.php:56
+msgid "40%"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:501
+#: templates/single_filter/single_settings_elements.php:468
+msgid "4em x 4em"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:502
+#: templates/single_filter/single_settings_elements.php:469
+msgid "4em x 5em"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:448
+#: includes/filters/display_widget.php:501
+msgid "5 stars"
+msgstr ""
+
+#: includes/paid.php:1911 templates/paid/filters_search_box.php:55
+msgid "50%"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:503
+#: templates/single_filter/single_settings_elements.php:470
+msgid "5em x 5em"
+msgstr ""
+
+#: includes/paid.php:1910 templates/paid/filters_search_box.php:54
+msgid "60%"
+msgstr ""
+
+#: includes/paid.php:1909 templates/paid/filters_search_box.php:53
+msgid "70%"
+msgstr ""
+
+#: includes/paid.php:1908 templates/paid/filters_search_box.php:52
+msgid "80%"
+msgstr ""
+
+#: includes/paid.php:1907 templates/paid/filters_search_box.php:51
+msgid "90%"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:448
+#: includes/filters/display_widget.php:501
+msgid ""
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-"
+"star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i>"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:447
+#: includes/filters/display_widget.php:500
+msgid ""
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-"
+"star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-o\"></i>"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:446
+#: includes/filters/display_widget.php:499
+msgid ""
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-"
+"star\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:445
+#: includes/filters/display_widget.php:498
+msgid ""
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-"
+"star-o\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>"
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:444
+#: includes/filters/display_widget.php:497
+msgid ""
+"<i class=\"fa fa-star\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-"
+"star-o\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:11
+msgid ""
+"<span style=\"color: red;\">IT WILL BE REMOVED IN THE FUTURE</span><br>"
+"Temporary compatibility with older filters"
+msgstr ""
+
+#: templates/groups_information.php:8
+msgid "<strong>AND</strong> uses between condition in one section"
+msgstr ""
+
+#: templates/groups_information.php:9
+msgid "<strong>OR</strong> uses between different sections with conditions"
+msgstr ""
+
+#: main.php:349
+msgid ""
+"<strong>Please update all BeRocket plugins to the most recent version. "
+"WooCommerce AJAX Products Filter is not working correctly with older "
+"versions.</strong>"
+msgstr ""
+
+#: main.php:1095
+msgid "[4]"
+msgstr ""
+
+#: main.php:925
+msgid ""
+"[attribute 1 values] {title} with [attribute] [values] and [attribute] "
+"[values]"
+msgstr ""
+
+#: main.php:927
+msgid "[attribute]:[values];[attribute]:[values] - {title}"
+msgstr ""
+
+#: includes/new_widget.php:149
+msgid "AAPF Filter Single"
+msgstr ""
+
+#: includes/new_widget.php:5
+msgid "AAPF Filters Group"
+msgstr ""
+
+#: main.php:1053
+msgid "Above:"
+msgstr ""
+
+#: main.php:1896
+msgid "Activate WooCommerce plugin before"
+msgstr ""
+
+#: includes/custom_post.php:117
+msgid "Add Filter"
+msgstr ""
+
+#: templates/filters_group.php:22 templates/filters_group_simple.php:16
+msgid "Add filter"
+msgstr ""
+
+#: includes/custom_post.php:642
+msgid "Add Filter Group"
+msgstr ""
+
+#: includes/paid.php:325
+msgid "Add group"
+msgstr ""
+
+#: main.php:1011
+msgid "Add Javascript files to all pages"
+msgstr ""
+
+#: addons/add_classes/add_classes.php:9
+msgid "Add more classes"
+msgstr ""
+
+#: addons/add_classes/add_classes.php:10
+msgid ""
+"Add more CSS classes to filters. Can be using for styling or other things"
+msgstr ""
+
+#: includes/custom_post.php:118
+msgid "Add New Filter"
+msgstr ""
+
+#: includes/custom_post.php:643
+msgid "Add New Filter Group"
+msgstr ""
+
+#: includes/custom_post.php:435
+msgid "Add widget <strong>AAPF Filter Single</strong> on "
+msgstr ""
+
+#: main.php:625
+msgid "Add-ons"
+msgstr ""
+
+#: templates/filters_information.php:5 templates/single_filter/all_steps.php:20
+msgid "Additional"
+msgstr ""
+
+#: addons/additional_tables/additional_tables.php:64
+msgid "Additional Tables (BETA)"
+msgstr ""
+
+#: addons/additional_tables/additional_tables.php:142
+#, php-format
+msgid ""
+"Additional tables are generating. They will be used after generation is "
+"completed. Current status is <strong><span "
+"class=\"braapf_additional_table_status\">%d</span>%s</strong>"
+msgstr ""
+
+#: addons/additional_tables/additional_tables.php:111
+msgid ""
+"Additional tables was succesfully generated. They will be used automatically "
+"when needed."
+msgstr ""
+
+#: includes/custom_post.php:116
+msgctxt "Admin menu name"
+msgid "Filters"
+msgstr ""
+
+#: includes/custom_post.php:641
+msgctxt "Admin menu name"
+msgid "Groups"
+msgstr ""
+
+#: main.php:613 templates/single_filter/all_steps.php:51
+msgid "Advanced"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:406
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/paid.php:1888 addons/deprecated_filters/deprecated_filters.php:522
+#: addons/deprecated_filters/filter_post.php:547
+#: addons/deprecated_filters/filter_post.php:553
+msgid "After"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:30
+msgid ""
+"After click on Reset button all selected filters will be unselected and "
+"products updated."
+msgstr ""
+
+#: main.php:1223
+msgid "After Update:"
+msgstr ""
+
+#: main.php:1071
+msgid "After:"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:330
+msgid "after:"
+msgstr ""
+
+#: includes/paid/search_field.php:206
+msgid "AJAX"
+msgstr ""
+
+#: includes/new_widget.php:6
+msgid "AJAX Product Filters. Group of filters"
+msgstr ""
+
+#: includes/new_widget.php:150
+msgid "AJAX Product Filters. Single Filter"
+msgstr ""
+
+#: main.php:686
+msgid "All empty values are removed based on page (categories/tags/ etc.)"
+msgstr ""
+
+#: main.php:688
+msgid ""
+"All empty values are removed based on page (categories/tags/ etc.); filters "
+"are applied in recounting attribute values; all empty values based on "
+"applied filters will be hidden"
+msgstr ""
+
+#: includes/compatibility/divi-theme-builder.php:40
+#: includes/compatibility/elementor-pro.php:15
+msgid ""
+"All Filters will be applied to this module. You need correct unique "
+"selectors to work correct"
+msgstr ""
+
+#: includes/paid.php:113 includes/paid.php:125
+msgid "All levels"
+msgstr ""
+
+#: main.php:687
+msgid ""
+"All non-empty values are displayed; filters are applied in recounting "
+"attribute values"
+msgstr ""
+
+#: main.php:685
+msgid "All non-empty values are displayed; standard recounting is applied"
+msgstr ""
+
+#: main.php:1264
+msgid ""
+"All non-empty values are shown and filters are considered while counting "
+"attribute values"
+msgstr ""
+
+#: main.php:1260
+msgid "All non-empty values are shown and use basic counting"
+msgstr ""
+
+#: templates/filters_information.php:47
+msgid ""
+"All that can be displayed you can select there<h3>Variants:</h3><ul><li>"
+"<strong>Filter</strong>(main type) - filters by attributes, categories, "
+"price etc.</li><li><strong>Update Products button</strong> - button to apply "
+"filters to products. Filter will applies only after click on update "
+"button</li><li><strong>Reset Products button</strong> - button to disable "
+"all selected filters</li><li><strong>Selected Filters area</strong> - "
+"display selected filters and provide possibility to disable it in one "
+"place</li></ul>"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:229
+#: templates/single_filter/single_settings_elements.php:115
+msgid "Alpha"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:40
+msgid "Also has link to reset all filters, that works same as Reset button."
+msgstr ""
+
+#: main.php:1255 includes/paid.php:416
+msgid ""
+"Also it can does not work on WooCommerce pages edited with help of any page "
+"builders (Divi Builder, Elementor Builder etc.)"
+msgstr ""
+
+#: main.php:945
+msgid ""
+"Always displays products, when filters are selected. Use the option when "
+"have categories and subcategories on the pages of your shop, and you want to "
+"display products when filtering."
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:418
+#: templates/single_filter/single_settings_elements.php:346
+msgid "Always hidden"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:417
+#: templates/single_filter/single_settings_elements.php:345
+msgid "Always visible"
+msgstr ""
+
+#: addons/separate_link/separate_vars.php:38
+#: templates/single_filter/single_settings_elements.php:322
+msgid "AND"
+msgstr ""
+
+#: addons/additional_tables/additional_tables.php:150
+msgid "and regenerate it in "
+msgstr ""
+
+#: addons/deprecated_filters/display_widget.php:504
+#: addons/deprecated_filters/filter_post.php:396
+#: includes/filters/display_widget.php:553
+#: templates/single_filter/single_settings_elements.php:329
+msgid "Any"
+msgstr ""
+
+#: main.php:1259
+msgid ""
+"Any option except first will slow down page load, because required some "
+"additional queries to database"
+msgstr ""
+
+#: includes/compatibility/beaver-builder.php:16
+#: includes/compatibility/divi-theme-builder.php:31
+#: includes/compatibility/elementor-pro.php:13
+msgid "Apply BeRocket AJAX Filters"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:237
+#: templates/single_filter/single_settings_elements.php:135
+msgid "Ascending"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:117
+msgid ""
+"ATTENTION! After disabling this addon all filters will be converted to new "
+"version and there is no way to convert them back automatically."
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:15
+msgid "ATTENTION! This filter was created with new styles and settings."
+msgstr ""
+
+#: includes/custom_post.php:462 includes/custom_post.php:549
+#: includes/paid.php:1825 includes/paid.php:1834 includes/paid.php:1840
+#: includes/save_slider_data.php:40 templates/filter_post_simple.php:44
+#: addons/deprecated_filters/display_widget.php:141
+#: addons/deprecated_filters/filter_post.php:97
+#: addons/deprecated_filters/filter_post.php:140
+#: includes/filters/display_widget.php:142
+#: templates/single_filter/single_settings_elements.php:73
+#: templates/single_filter/single_settings_elements.php:654
+msgid "Attribute"
+msgstr ""
+
+#: templates/single_filter/all_steps.php:11
+msgid "Attribute and Values"
+msgstr ""
+
+#: includes/custom_post.php:495
+msgid "Attribute not exists. This filter can work incorrect"
+msgstr ""
+
+#: includes/custom_post.php:471 includes/custom_post.php:493
+msgid "Attribute: "
+msgstr ""
+
+#: includes/paid.php:1787
+msgid "Attributes"
+msgstr ""
+
+#: includes/paid.php:1812
+msgid "Attributes count"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:377
+msgid "Auto"
+msgstr ""
+
+#: main.php:1325
+msgid "Auto-Selectors"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:637
+msgid "Back line color"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:15
+#: addons/deprecated_filters/settings/design.php:154
+msgid "Background"
+msgstr ""
+
+#: includes/paid.php:1897 templates/paid/filters_search_box.php:41
+#: addons/deprecated_filters/settings/design.php:705
+msgid "Background color"
+msgstr ""
+
+#: includes/paid.php:1902 templates/paid/filters_search_box.php:46
+msgid "Background transparency"
+msgstr ""
+
+#: includes/paid.php:144
+msgid "Base Canonical URL"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:11
+msgid "Basic widget type. Other widget types do not work without filters"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:47
+msgid "Beaver Builder"
+msgstr ""
+
+#: includes/paid.php:1887 addons/deprecated_filters/deprecated_filters.php:521
+#: addons/deprecated_filters/filter_post.php:546
+#: addons/deprecated_filters/filter_post.php:552
+msgid "Before"
+msgstr ""
+
+#: includes/paid.php:1889 addons/deprecated_filters/deprecated_filters.php:523
+msgid "Before and after"
+msgstr ""
+
+#: main.php:1209
+msgid "Before Update:"
+msgstr ""
+
+#: main.php:1065
+msgid "Before:"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:4
+msgid "Beginning"
+msgstr ""
+
+#: main.php:1059
+msgid "Below:"
+msgstr ""
+
+#. Author of the plugin
+#: includes/visual-composer.php:21 includes/visual-composer.php:47
+msgid "BeRocket"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:145
+msgid "BeRocket AJAX Filters"
+msgstr ""
+
+#: includes/divi-builder.php:42 includes/divi-builder.php:86
+msgid "BeRocket Filter"
+msgstr ""
+
+#: includes/divi-builder.php:96
+msgid "BeRocket Filter Next Product"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:526
+#: templates/single_filter/single_settings_elements.php:498
+msgid "Blue Shadow"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:10
+#: addons/deprecated_filters/settings/design.php:149
+#: addons/deprecated_filters/settings/design.php:706
+msgid "Border color"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:12
+#: addons/deprecated_filters/settings/design.php:151
+msgid "Border radius"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:11
+#: addons/deprecated_filters/settings/design.php:150
+msgid "Border width"
+msgstr ""
+
+#: includes/paid.php:228 includes/paid.php:291
+msgid "Both URL and Session"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:451
+msgid "Bottom"
+msgstr ""
+
+#: includes/paid.php:1927 addons/deprecated_filters/deprecated_filters.php:531
+msgid "Button background color"
+msgstr ""
+
+#: includes/paid.php:1932 addons/deprecated_filters/deprecated_filters.php:536
+msgid "Button background color on mouse over"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:643
+msgid "Button border color"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:645
+msgid "Button border radius"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:644
+msgid "Button border width"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:642
+msgid "Button color"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:641
+msgid "Button size"
+msgstr ""
+
+#: includes/paid.php:1937 addons/deprecated_filters/deprecated_filters.php:541
+msgid "Button text color"
+msgstr ""
+
+#: includes/paid.php:1942 addons/deprecated_filters/deprecated_filters.php:546
+msgid "Button text color on mouse over"
+msgstr ""
+
+#: main.php:1036
+msgid "Can also work with other hostings if they limit query size."
+msgstr ""
+
+#: includes/paid/search_field.php:197
+msgid "Categories"
+msgstr ""
+
+#: includes/paid.php:1798 templates/paid/filters_search_box.php:17
+msgid "Category"
+msgstr ""
+
+#: includes/paid.php:1793 templates/paid/filters_search_box.php:12
+msgid "Category page"
+msgstr ""
+
+#: includes/paid.php:283
+msgid ""
+"Change image/price on variable products to image/price from variation that "
+"has attribute value of selected filters."
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:711
+msgid "Check Box"
+msgstr ""
+
+#: main.php:390 includes/paid.php:1860
+#: addons/deprecated_filters/deprecated_filters.php:60
+#: addons/deprecated_filters/settings/design.php:161
+msgid "Checkbox"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:146
+msgid "Checkbox / Radio"
+msgstr ""
+
+#: includes/paid.php:1960 includes/paid.php:1996 includes/paid.php:3930
+#: includes/paid.php:3965 includes/paid.php:3969 includes/paid.php:3973
+msgid "Child"
+msgstr ""
+
+#: includes/paid.php:1958 includes/paid.php:3928
+msgid "Child Count"
+msgstr ""
+
+#: includes/paid.php:1980 includes/paid.php:3940
+msgid "Child count"
+msgstr ""
+
+#: includes/paid.php:1964 includes/paid.php:3935
+msgid "Child depth"
+msgstr ""
+
+#: includes/paid.php:4362
+msgid "Child for current page value"
+msgstr ""
+
+#: includes/paid.php:4363
+msgid "Child for value:"
+msgstr ""
+
+#: includes/paid.php:1955 includes/paid.php:3925
+msgid "Child/Parent Limitation"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:29
+msgid "Clear all selected filters."
+msgstr ""
+
+#: main.php:1364
+msgid "Clears the attribute/custom taxonomy cache for plugin"
+msgstr ""
+
+#: main.php:1080
+msgid "Click"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:164
+msgid "Close &#10005;"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:713
+msgid "Close button font color"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:714
+msgid "Close button font color on mouse over"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:712
+msgid "Close button size"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:91
+#: templates/paid/filters_group.php:85
+msgid "Collapse Button Icon style"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:71
+#: templates/paid/filters_group.php:68
+msgid "Collapse Button style"
+msgstr ""
+
+#: templates/paid/filters_group.php:64
+msgid ""
+"Collapse group on page load and show icon instead. When icon is clicked "
+"filters will be shown"
+msgstr ""
+
+#: templates/paid/filters_group.php:61
+msgid "Collapsed on page load"
+msgstr ""
+
+#: main.php:393 includes/paid.php:1862
+#: addons/deprecated_filters/deprecated_filters.php:63
+#: templates/single_filter/single_settings_elements.php:712
+#: addons/deprecated_filters/settings/design.php:12
+#: addons/deprecated_filters/settings/design.php:27
+msgid "Color"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:500
+msgid "Color Change(EXPERIMENTAL)"
+msgstr ""
+
+#: main.php:1162
+msgid "Color/Image Tooltip Name"
+msgstr ""
+
+#: includes/custom_post.php:196 includes/custom_post.php:685
+#: templates/groups_information.php:5
+msgid "Conditions"
+msgstr ""
+
+#: templates/groups_information.php:7
+msgid "Connection between condition can be AND and OR"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:18
+msgid "CONTACT US"
+msgstr ""
+
+#: main.php:731
+msgid "Controlled by \"Out of stock\" filter"
+msgstr ""
+
+#: addons/additional_tables/additional_tables.php:65
+msgid ""
+"Create 4 additional tables.<ul><li>Table to speed up hierarchical taxonomies "
+"recount: <strong>Product categories</strong>, <strong>Brands</strong> "
+"etc</li><li>3 tables to speed up functions for variation filtering</li></ul>"
+msgstr ""
+
+#: includes/new_widget.php:321 templates/filters_group_simple.php:17
+msgid "Create Filter"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:10
+msgid "Create filters by price, attributes, categories, tags etc."
+msgstr ""
+
+#: includes/new_widget.php:142
+msgid "Create Group"
+msgstr ""
+
+#: includes/paid.php:4466
+msgid "Create search input field for products."
+msgstr ""
+
+#: main.php:1317 main.php:1328
+msgid "Creating products"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:715
+#: templates/single_filter/single_settings_elements.php:366
+msgid "CSS Class"
+msgstr ""
+
+#: includes/paid.php:4141
+#: templates/single_filter/single_settings_elements.php:558
+msgid "currency code(USD)"
+msgstr ""
+
+#: includes/paid.php:4140
+#: templates/single_filter/single_settings_elements.php:557
+msgid "currency symbol($)"
+msgstr ""
+
+#: includes/paid.php:4056
+msgid "Current attribute/taxonomy values"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:527
+#: templates/single_filter/single_settings_elements.php:501
+msgid "Custom CSS"
+msgstr ""
+
+#: templates/filters_group.php:4
+msgid "Custom CSS class"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:535
+#: templates/single_filter/single_settings_elements.php:510
+msgid "Custom CSS for Checked block"
+msgstr ""
+
+#: main.php:1385
+msgid "Custom CSS Style:"
+msgstr ""
+
+#: addons/custom_sidebar/custom_sidebar.php:9
+#: templates/settings/tutorial_tab.php:22
+msgid "Custom Sidebar"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:52
+msgid "Custom Sidebar Styles"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:504
+#: templates/single_filter/single_settings_elements.php:471
+msgid "Custom size"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:512
+msgid "Custom size(Height x Width)"
+msgstr ""
+
+#: includes/paid.php:1848 templates/filter_post_simple.php:52
+#: addons/deprecated_filters/filter_post.php:149
+#: templates/single_filter/single_settings_elements.php:90
+msgid "Custom Taxonomies"
+msgstr ""
+
+#: includes/custom_post.php:464 includes/paid.php:1677 includes/paid.php:1836
+msgid "Custom Taxonomy"
+msgstr ""
+
+#: includes/custom_post.php:500
+msgid "Custom taxonomy not exists. This filter can work incorrect"
+msgstr ""
+
+#: includes/custom_post.php:473 includes/custom_post.php:498
+msgid "Custom Taxonomy: "
+msgstr ""
+
+#: main.php:1146 main.php:1169 includes/paid.php:260
+#: addons/custom_sidebar/sidebar_include.php:118
+msgid "Dark"
+msgstr ""
+
+#: includes/custom_post.php:441
+msgid "Data"
+msgstr ""
+
+#: includes/paid.php:185
+msgid "Data cache"
+msgstr ""
+
+#: includes/custom_post.php:486 includes/paid.php:1689 includes/paid.php:3416
+msgid "Date"
+msgstr ""
+
+#: includes/paid.php:4094
+msgid "Date detected"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:719
+msgid "Date Picker"
+msgstr ""
+
+#: includes/paid.php:2033 includes/paid.php:4015
+msgid "Date visual style"
+msgstr ""
+
+#: includes/paid.php:4052
+msgid "Datepicker required specific slug for attribute/taxonomy values"
+msgstr ""
+
+#: includes/paid.php:2023 includes/paid.php:4002
+msgid "Dates of the month Drop-down list"
+msgstr ""
+
+#: includes/paid.php:2029 includes/paid.php:4009
+msgid "Dates of the year Drop-down list"
+msgstr ""
+
+#: includes/paid.php:4106
+msgid "Day:"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:434
+#: templates/single_filter/single_settings_elements.php:594
+msgid "Decimal separator"
+msgstr ""
+
+#: main.php:883
+msgid "Decode all symbols in URL to prevent errors on server side"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:356
+msgid "Deep level:"
+msgstr ""
+
+#: main.php:963 main.php:1273 includes/paid.php:1957
+#: addons/deprecated_filters/filter_post.php:228
+#: addons/deprecated_filters/filter_post.php:416
+#: addons/deprecated_filters/filter_post.php:523
+#: includes/compatibility/beaver-builder.php:19
+#: includes/compatibility/divi-theme-builder.php:35
+#: includes/compatibility/elementor-pro.php:18
+#: templates/paid/filters_group.php:29
+#: templates/settings/design_title_styles.php:24
+#: templates/settings/design_title_styles.php:38
+#: templates/settings/design_title_styles.php:43
+#: templates/settings/design_title_styles.php:51
+#: templates/settings/design_title_styles.php:65
+#: templates/settings/design_title_styles.php:70
+#: templates/settings/design_title_styles.php:78
+#: templates/settings/design_title_styles.php:92
+#: templates/settings/design_title_styles.php:97
+#: templates/single_filter/single_settings_elements.php:111
+#: templates/single_filter/single_settings_elements.php:344
+#: templates/single_filter/single_settings_elements.php:495
+#: addons/deprecated_filters/settings/design.php:57
+#: addons/deprecated_filters/settings/design.php:165
+#: addons/deprecated_filters/settings/design.php:179
+#: addons/deprecated_filters/settings/design.php:184
+#: addons/deprecated_filters/settings/design.php:421
+#: addons/deprecated_filters/settings/design.php:435
+#: addons/deprecated_filters/settings/design.php:440
+#: addons/deprecated_filters/settings/design.php:653
+#: addons/deprecated_filters/settings/design.php:658
+#: addons/deprecated_filters/settings/design.php:666
+#: addons/deprecated_filters/settings/design.php:677
+#: addons/deprecated_filters/settings/design.php:682
+#: addons/deprecated_filters/settings/design.php:722
+#: addons/deprecated_filters/settings/design.php:727
+#: addons/deprecated_filters/settings/design.php:735
+#: addons/deprecated_filters/settings/design.php:743
+#: addons/deprecated_filters/settings/design.php:748
+#: addons/deprecated_filters/settings/design.php:756
+#: addons/deprecated_filters/settings/design.php:761
+msgid "Default"
+msgstr ""
+
+#: addons/separate_link/separate_vars.php:33
+msgid "Default operator for URLs"
+msgstr ""
+
+#: addons/separate_link/separate_vars.php:41
+msgid "Default operator will not be added to the URL"
+msgstr ""
+
+#: main.php:1254 includes/paid.php:415
+msgid ""
+"Default WooCommerce page are: shop page, category page, tag page, attribute "
+"page etc."
+msgstr ""
+
+#: includes/paid.php:4467
+msgid "Default WordPress functionality for searching is being used."
+msgstr ""
+
+#: main.php:964 main.php:1275
+msgid "Delete value"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:9
+msgid "Deprecated Filters"
+msgstr ""
+
+#: includes/paid.php:4386
+msgid "Depth level"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:237
+#: templates/single_filter/single_settings_elements.php:139
+msgid "Descending"
+msgstr ""
+
+#: main.php:913 addons/deprecated_filters/filter_post.php:559
+#: templates/single_filter/single_settings_elements.php:357
+msgid "Description"
+msgstr ""
+
+#: includes/functions.php:813
+msgid "Description Block"
+msgstr ""
+
+#: includes/functions.php:825
+msgid "Description Block Border"
+msgstr ""
+
+#: includes/functions.php:849
+msgid "Description Block Text"
+msgstr ""
+
+#: includes/functions.php:837
+msgid "Description Block Title"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:358
+msgid "Description do not displayed"
+msgstr ""
+
+#: main.php:617
+msgid "Design"
+msgstr ""
+
+#: main.php:667 includes/custom_post.php:405 includes/custom_post.php:741
+msgid "Desktop"
+msgstr ""
+
+#: main.php:664 addons/deprecated_filters/filter_post.php:685
+#: includes/compatibility/beaver-builder.php:21
+#: includes/compatibility/divi-theme-builder.php:37
+#: includes/compatibility/elementor-pro.php:20
+msgid "Disable"
+msgstr ""
+
+#: main.php:982
+msgid "Disable admin bar"
+msgstr ""
+
+#: main.php:788
+msgid "Disable AJAX loading"
+msgstr ""
+
+#: main.php:854
+msgid "Disable AJAX Pagination"
+msgstr ""
+
+#: main.php:975
+msgid "Disable all filters"
+msgstr ""
+
+#: main.php:1191
+msgid "Disable Font Awesome"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:320
+#: addons/deprecated_filters/filter_post.php:486
+msgid "Disable multiple selection?"
+msgstr ""
+
+#: main.php:986
+msgid "Disable panel in WordPress Admin Bar"
+msgstr ""
+
+#: main.php:1019
+msgid "Disable redirection, when a search returns only one product"
+msgstr ""
+
+#: main.php:729 includes/paid.php:111 includes/paid.php:123
+#: includes/paid.php:189 includes/paid.php:225 includes/paid.php:2073
+#: includes/paid.php:3677 includes/paid.php:3927
+#: includes/paid/search_field.php:195
+#: templates/single_filter/single_settings_elements.php:280
+#: templates/single_filter/single_settings_elements.php:293
+#: templates/single_filter/single_settings_elements.php:447
+msgid "Disabled"
+msgstr ""
+
+#: includes/paid.php:4360
+msgid "Display All"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:38
+msgid "Display all selected filters."
+msgstr ""
+
+#: main.php:1274
+msgid "Display filter same as it is displayed on any other page"
+msgstr ""
+
+#: templates/paid/filters_group.php:20
+msgid "Display filters in line"
+msgstr ""
+
+#: templates/paid/filters_group.php:26
+msgid "Display filters in line max count"
+msgstr ""
+
+#: templates/paid/filters_group.php:54
+msgid "Display filters on mouse over"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:281
+msgid "Display hierarchical"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:282
+msgid "Display hierarchical and hide child"
+msgstr ""
+
+#: includes/paid/search_field.php:87
+#, php-format
+msgctxt "display in search suggestions"
+msgid "Category %s"
+msgstr ""
+
+#: templates/paid/filters_group.php:57
+msgid "Display on mouse over and hide on mouse leave"
+msgstr ""
+
+#: includes/paid.php:2074 includes/paid.php:3678
+msgid "Display only"
+msgstr ""
+
+#: includes/paid.php:4351
+msgid "Display only child of"
+msgstr ""
+
+#: includes/paid.php:3675
+msgid "Display only selected values / Remove selected values"
+msgstr ""
+
+#: main.php:941
+msgid "Display products"
+msgstr ""
+
+#: main.php:767
+msgid "Display Selected Filters"
+msgstr ""
+
+#: main.php:999
+msgid "Display styles only for pages with filters"
+msgstr ""
+
+#: includes/paid.php:278
+msgid ""
+"Display tooltip with products count for a page, that will be displayed after "
+"applying filters."
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:482
+#: templates/single_filter/single_settings_elements.php:445
+msgid "Display value next to color/image?"
+msgstr ""
+
+#: includes/paid.php:202
+msgid "Display variation data"
+msgstr ""
+
+#: includes/paid.php:205
+msgid "Display variation image"
+msgstr ""
+
+#: includes/paid.php:212
+msgid "Display variation price"
+msgstr ""
+
+#: includes/paid/search_field.php:86
+#, php-format
+msgctxt "displayed in search input"
+msgid "Category %s"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:37
+#: templates/settings/tutorial_tab.php:52
+msgid "Divi Builder"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:709
+#: templates/single_filter/single_settings_elements.php:619
+msgid "Do not hide"
+msgstr ""
+
+#: main.php:953
+msgid "Do not use (price from regular/sale field)"
+msgstr ""
+
+#: templates/groups_information.php:3
+msgid ""
+"Do not use multiple filters with same attribute on one page! We will not "
+"guarantee normal filters works in that case."
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:133
+msgid "Do you want to disable it anyway?"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:20
+msgid "Do you want to edit anyway?"
+msgstr ""
+
+#: main.php:1195
+msgid ""
+"Don't loading css file for Font Awesome on site front end. Use it only if "
+"you doesn't uses Font Awesome icons in widgets or you have Font Awesome in "
+"your theme."
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:716
+msgid "Drop Down Menu"
+msgstr ""
+
+#: includes/functions.php:789
+msgid "Drop-Down"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:499
+msgid "Drop-shadow(EXPERIMENTAL)"
+msgstr ""
+
+#: main.php:1216
+msgid "During Update:"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:39
+msgid "Each filter can be clicked to reset it."
+msgstr ""
+
+#: includes/custom_post.php:119 includes/custom_post.php:644
+#: includes/new_widget.php:140 includes/new_widget.php:319
+#: templates/filters_group_simple.php:32 templates/filters_group_simple.php:57
+msgid "Edit"
+msgstr ""
+
+#: includes/custom_post.php:120
+msgid "Edit Filter"
+msgstr ""
+
+#: includes/custom_post.php:645
+msgid "Edit Filter Group"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:9
+#: addons/deprecated_filters/settings/design.php:11
+#: addons/deprecated_filters/settings/design.php:26
+#: addons/deprecated_filters/settings/design.php:148
+msgid "Element"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:42
+msgid "Elementor Builder"
+msgstr ""
+
+#: main.php:601
+msgid "Elements"
+msgstr ""
+
+#: includes/paid.php:300
+msgid "Elements over products"
+msgstr ""
+
+#: includes/paid.php:152 includes/paid.php:1878
+#: templates/paid/filters_search_box.php:34
+msgid "Elements position"
+msgstr ""
+
+#: templates/single_filter/all_steps.php:32
+msgid "Empty"
+msgstr ""
+
+#: includes/paid.php:4115
+msgid "Empty attribute/taxonomy"
+msgstr ""
+
+#: includes/compatibility/beaver-builder.php:20
+#: includes/compatibility/divi-theme-builder.php:36
+#: includes/compatibility/elementor-pro.php:19
+msgid "Enable"
+msgstr ""
+
+#: templates/filters_information.php:5
+#, php-format
+msgid ""
+"Enable in <strong>%s</strong> step option <strong>%s</strong> and <strong>"
+"%s</strong>"
+msgstr ""
+
+#: templates/filters_information.php:5
+#: addons/deprecated_filters/filter_post.php:453
+#: templates/single_filter/single_settings_elements.php:291
+msgid "Enable minimization option"
+msgstr ""
+
+#: includes/paid.php:4451 addons/deprecated_filters/filter_post.php:337
+msgid "Enable Slider input fields"
+msgstr ""
+
+#: includes/paid.php:244
+msgid ""
+"Enable the setting if the slider has more than 250 values. Hierarchical "
+"taxonomy may not work correctly with sliders."
+msgstr ""
+
+#: includes/paid.php:291
+msgid "enable two previous methods and use them at the same time"
+msgstr ""
+
+#: main.php:730
+msgid "Enabled"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:294
+msgid "Enabled with arrow"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:295
+msgid "Enabled without arrow"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:296
+msgid "Enabled without arrow on mobile"
+msgstr ""
+
+#: main.php:1320
+msgid "Error:"
+msgstr ""
+
+#: includes/paid.php:4054
+msgid "Example:"
+msgstr ""
+
+#: includes/custom_post.php:199
+msgid "FAQ"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:19
+msgid "Features"
+msgstr ""
+
+#: includes/custom_post.php:452 includes/divi-builder.php:27
+#: includes/new_widget.php:299 includes/save_slider_data.php:117
+#: includes/visual-composer.php:26
+#: addons/deprecated_filters/display_widget.php:215
+#: addons/deprecated_filters/filter_post.php:72
+#: includes/filters/display_widget.php:219
+#: templates/settings/design_title_styles.php:74
+#: templates/single_filter/widget_type.php:8
+msgid "Filter"
+msgstr ""
+
+#: templates/filters_information.php:66
+msgid "Filter Additional options. You can add/change some elements for filter"
+msgstr ""
+
+#: includes/paid.php:1832 templates/filter_post_simple.php:18
+#: addons/deprecated_filters/filter_post.php:92
+#: templates/single_filter/single_settings_elements.php:46
+msgid "Filter By"
+msgstr ""
+
+#: templates/filters_information.php:62
+msgid ""
+"Filter required options.<br>Those options must be setuped, because filter "
+"can work incorrect without it."
+msgstr ""
+
+#: templates/filters_information.php:57
+msgid "Filter style. This option change how filter will be look like."
+msgstr ""
+
+#: templates/single_filter/all_steps.php:30
+msgid "Filter Title"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:181
+msgid ""
+"Filter will be displayed on same pages, but values that is displayed in "
+"filter will be limited by products that is inside selected category."
+msgstr ""
+
+#: main.php:634 includes/custom_post.php:767
+msgid "Filters"
+msgstr ""
+
+#: main.php:689
+msgid ""
+"Filters are applied in recounting attribute values; empty values are removed "
+"on the server-side"
+msgstr ""
+
+#: main.php:1268
+msgid ""
+"Filters are considered while counting attribute values. Empty values are "
+"removed server side"
+msgstr ""
+
+#: main.php:1139
+msgid "Filters Description"
+msgstr ""
+
+#: main.php:1278
+msgid ""
+"filters for same taxonomy will be displayed with single value, that same as "
+"current page (Example: On page of Product category \"Jeans\" the filter for "
+"Product category will be displayed only with the value \"Jeans\")"
+msgstr ""
+
+#: main.php:1276
+msgid ""
+"filters for same taxonomy will be removed from page (Example: On page of "
+"Product category \"Jeans\" the filter for Product category will be removed)"
+msgstr ""
+
+#: templates/admin.php:3
+msgid "Filters group"
+msgstr ""
+
+#: templates/filters_group.php:12 templates/filters_group_simple.php:6
+msgid "Filters In Group"
+msgstr ""
+
+#: includes/admin/admin_bar.php:73
+msgid "Filters not detected on page"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:121
+msgid ""
+"Filters on Front-end, how they looks and works. Some styles can differ in "
+"new version."
+msgstr ""
+
+#: templates/filters_group.php:49 templates/filters_group.php:55
+msgid "FILTERS PAGE"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:20
+msgid ""
+"Filters will be applied to the products only after this button will be "
+"clicked."
+msgstr ""
+
+#: includes/paid.php:4138
+msgid "first value, from this price"
+msgstr ""
+
+#: main.php:1015
+msgid "Fix for search page"
+msgstr ""
+
+#: main.php:1007
+msgid "Fix for site with AJAX"
+msgstr ""
+
+#: main.php:1031
+msgid "Fix WPEngine query issue"
+msgstr ""
+
+#: main.php:1028
+msgid ""
+"Fixed CSS styles for Select2 (do not enable if Select2 work correct. Option "
+"can break Select2 in other plugins or themes)"
+msgstr ""
+
+#: main.php:1202
+msgid "Font Awesome 4"
+msgstr ""
+
+#: main.php:1203
+msgid "Font Awesome 5"
+msgstr ""
+
+#: main.php:1198
+msgid "Font Awesome Version"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:14
+#: addons/deprecated_filters/settings/design.php:153
+#: addons/deprecated_filters/settings/design.php:708
+msgid "Font color"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:13
+#: addons/deprecated_filters/settings/design.php:28
+msgid "Font Family"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:707
+msgid "Font size"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:15
+#: addons/deprecated_filters/settings/design.php:30
+msgid "Font-Size"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:14
+#: addons/deprecated_filters/settings/design.php:29
+msgid "Font-Weight"
+msgstr ""
+
+#: includes/paid.php:4055
+msgid "For date"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:531
+#: templates/single_filter/single_settings_elements.php:536
+msgid "From Products List"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:413
+#: templates/single_filter/single_settings_elements.php:338
+msgid "From settings"
+msgstr ""
+
+#: main.php:1157 main.php:1180 includes/paid.php:270
+msgid "From Theme"
+msgstr ""
+
+#: main.php:938
+msgid "From WooCommerce"
+msgstr ""
+
+#: main.php:597
+msgid "General"
+msgstr ""
+
+#: templates/filters_information.php:3 templates/groups_information.php:2
+msgid "Get more information on BeRocket Documentation"
+msgstr ""
+
+#: main.php:1333
+msgid "Get selectors automatically"
+msgstr ""
+
+#: main.php:1318 main.php:1329
+msgid "Gettings selectors"
+msgstr ""
+
+#: includes/divi-builder.php:71 includes/new_widget.php:120
+#: includes/paid.php:321
+msgid "Group"
+msgstr ""
+
+#: templates/filters_group.php:52
+msgid "Group do not have filters. Please add filters before save it."
+msgstr ""
+
+#: includes/divi-builder.php:52 includes/visual-composer.php:45
+msgid "Group Filter"
+msgstr ""
+
+#: includes/custom_post.php:686
+msgid "Group Settings"
+msgstr ""
+
+#: templates/groups_information.php:6
+msgid "Group without any condition will be displayed on all pages"
+msgstr ""
+
+#: main.php:907
+msgid "Header"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:376
+msgid "Height of the Filter Block"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:603
+msgid "Height of the Filter Block:"
+msgstr ""
+
+#: includes/paid.php:582
+msgid "Hide \"Show/Hide value(s)\" button"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:707
+#: templates/single_filter/single_settings_elements.php:617
+msgid "Hide button"
+msgstr ""
+
+#: main.php:713
+msgid "Hide empty widgets"
+msgstr ""
+
+#: includes/paid.php:3818 addons/deprecated_filters/filter_post.php:296
+msgid "Hide first and last ranges without products"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:465
+#: addons/deprecated_filters/filter_post.php:632
+msgid "Hide minimization arrow?"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:710
+#: templates/single_filter/single_settings_elements.php:620
+msgid "Hide only when no filters on page"
+msgstr ""
+
+#: main.php:722
+msgid "Hide out of stock <br>variations"
+msgstr ""
+
+#: main.php:781
+msgid ""
+"Hide selected filters area if nothing selected(affect only area above "
+"products)"
+msgstr ""
+
+#: main.php:707
+msgid "Hide selected values"
+msgstr ""
+
+#: includes/paid.php:92
+msgid "Hide the Show/Hide value(s) button in filters"
+msgstr ""
+
+#: includes/custom_post.php:393
+msgid "Hide this filter on:"
+msgstr ""
+
+#: includes/custom_post.php:729
+msgid "Hide this group on:"
+msgstr ""
+
+#: main.php:1798 includes/filters/dynamic_data_template.php:185
+msgid "Hide value(s)"
+msgstr ""
+
+#: main.php:695 main.php:1265
+msgid "Hide values"
+msgstr ""
+
+#: main.php:701
+msgid "Hide values without products"
+msgstr ""
+
+#: main.php:735
+msgid ""
+"Hide variable products, if variations with selected filters are out of stock"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:711
+#: templates/single_filter/single_settings_elements.php:621
+msgid "Hide when no filters on page or page not filtered"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:278
+msgid "Hierarchical"
+msgstr ""
+
+#: includes/paid.php:1881 templates/paid/filters_search_box.php:37
+msgid "Horizontal"
+msgstr ""
+
+#: main.php:1081
+msgid "Hovering over the icon"
+msgstr ""
+
+#: includes/admin/admin_bar.php:49
+msgid "How do I check filter problems?"
+msgstr ""
+
+#: main.php:1335
+msgid "How it work:"
+msgstr ""
+
+#: templates/filters_information.php:6
+msgid "How to add reset filters button?"
+msgstr ""
+
+#: templates/filters_information.php:8
+msgid ""
+"How to add update products button? (to filter products only after click on "
+"button)"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:7
+msgid "How to configure the plugin"
+msgstr ""
+
+#: templates/filters_information.php:4
+msgid "How to hide filter on page load?"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://berocket.com/product/woocommerce-ajax-products-filter?"
+"utm_source=paid_plugin&utm_medium=plugins&utm_campaign=ajax_filters"
+msgstr ""
+
+#. Author URI of the plugin
+msgid ""
+"https://berocket.com?"
+"utm_source=paid_plugin&utm_medium=plugins&utm_campaign=ajax_filters"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:155
+msgid "Icon"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:426
+msgid "Icon After Title"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:436
+msgid "Icon After Value"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:422
+msgid "Icon Before Title"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:432
+msgid "Icon Before Value"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:542
+msgid "Icons"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:21
+msgid ""
+"If at least one update button displayed on the page, then all filters will "
+"be applied only after button clicked."
+msgstr ""
+
+#: main.php:1249
+msgid ""
+"If product do not have variation, then it cannot be detected as out of "
+"stock/in stock and will be displayed as without this option"
+msgstr ""
+
+#: main.php:867
+msgid ""
+"If this option is on URL will be changed when filter is selected/changed"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:17
+msgid ""
+"If you enabled old(DEPRECATED) filters addon because you have some issues "
+"with new version, then please "
+msgstr ""
+
+#: includes/paid.php:285
+msgid ""
+"If you have this issue, then please contact theme developer with this issue"
+msgstr ""
+
+#: main.php:1227
+msgid "If you want to add own actions after products updated, eg: alert('1');"
+msgstr ""
+
+#: main.php:1213
+msgid "If you want to add own actions on filter activation, eg: alert('1');"
+msgstr ""
+
+#: main.php:1220
+msgid ""
+"If you want to add own actions right on products update. You can manipulate "
+"data here, try: data.products = 'Ha!';"
+msgstr ""
+
+#: main.php:979
+msgid ""
+"If you want to hide filters without losing current configuration just turn "
+"them off"
+msgstr ""
+
+#: main.php:394 includes/paid.php:209 includes/paid.php:1863
+#: addons/deprecated_filters/deprecated_filters.php:64
+#: templates/single_filter/single_settings_elements.php:713
+msgid "Image"
+msgstr ""
+
+#: includes/paid.php:284
+msgid ""
+"Image replace can do not work on some theme. Our plugin uses default "
+"WooCommerce functionality to replace image, but some theme do not use it."
+msgstr ""
+
+#: includes/paid.php:4051
+msgid "IMPORTANT FOR DATEPICKER"
+msgstr ""
+
+#: main.php:1323
+msgid ""
+"IMPORTANT: It will generate some products on your site. Please disable all "
+"SEO plugins and plugins, that doing anything on product creating."
+msgstr ""
+
+#: includes/paid.php:2262 includes/paid.php:3189
+#: includes/widget_functions.php:411
+msgid "In stock"
+msgstr ""
+
+#: templates/include_exclude_list.php:3
+msgid "Include / Exclude List"
+msgstr ""
+
+#: addons/filtering_conditions/add_conditions.php:14
+msgid "Include sub-attributes"
+msgstr ""
+
+#: main.php:995
+msgid "Incompatibility Fixes"
+msgstr ""
+
+#: main.php:1123
+msgid "Indent for hierarchy in Drop-Down"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:305
+msgid "Infinity text"
+msgstr ""
+
+#: includes/custom_post.php:688
+msgid "Information"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:12
+msgid "Installation and Activation"
+msgstr ""
+
+#: includes/paid/search_field.php:205
+msgid "JavaScript"
+msgstr ""
+
+#: main.php:621
+msgid "JavaScript/CSS"
+msgstr ""
+
+#: includes/functions.php:777
+msgid "Label(checkbox/radio)"
+msgstr ""
+
+#: main.php:965 main.php:1277
+msgid "Leave only one value"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:449
+msgid "Left"
+msgstr ""
+
+#: main.php:639
+msgid "License"
+msgstr ""
+
+#: main.php:1145 main.php:1168 includes/paid.php:259
+msgid "Light"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:168
+msgid "Limit by category:"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:164
+msgid "Limit filter values by products from the selected category"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:639
+msgid "Line border color"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:640
+msgid "Line border width"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:636
+msgid "Line color"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:638
+msgid "Line height"
+msgstr ""
+
+#: addons/separate_link/separate_link.php:9
+msgid "Link like WooCommerce (BETA)"
+msgstr ""
+
+#: addons/separate_link/separate_link.php:10
+msgid ""
+"Links after filtering will look like Woocommerce.<br>\n"
+"            <i>Example:</i><br><span style=\"color: #aaf;\">https://example."
+"com/shop/?pa-color=bronze,green&pa-product_cat_operator=or&pa-"
+"product_cat=dress</span>\n"
+"            <a class=\"button\" href=\"https://docs.berocket."
+"com/docs_section/link-like-woocommerce-beta\" target=\"_blank\">Read more</a>"
+msgstr ""
+
+#: main.php:1041
+msgid "Loading icon"
+msgstr ""
+
+#: main.php:1047
+msgid "Loading icon text"
+msgstr ""
+
+#: includes/functions.php:2662
+msgid "Loading..."
+msgstr ""
+
+#: includes/new_widget.php:296 templates/filters_group.php:23
+#: templates/filter_post_simple.php:132
+msgid "Manage filters"
+msgstr ""
+
+#: includes/new_widget.php:113 templates/filters_group_simple.php:43
+msgid "Manage groups"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:573
+msgid "Max Font Size:"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:577
+msgid "Max Tags Count:"
+msgstr ""
+
+#: main.php:891
+msgid "Meta Description, Page title and Page Header with filters"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:569
+msgid "Min Font Size:"
+msgstr ""
+
+#: templates/paid/filters_group.php:41
+msgid "Min Width for Filter"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:459
+#: addons/deprecated_filters/filter_post.php:638
+#: templates/single_filter/single_settings_elements.php:303
+msgid "Minimize the widget on load?"
+msgstr ""
+
+#: templates/filters_information.php:5
+msgid "Minimize this widget on load?"
+msgstr ""
+
+#: main.php:666 includes/custom_post.php:397 includes/custom_post.php:733
+msgid "Mobile"
+msgstr ""
+
+#: main.php:665
+msgid "Mobile and Desktop"
+msgstr ""
+
+#: includes/paid.php:4105
+msgid "Month:"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:401
+msgid "Multiple select"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:59
+#: addons/deprecated_filters/settings/design.php:71
+#: addons/deprecated_filters/settings/design.php:112
+#: addons/deprecated_filters/settings/design.php:119
+#: addons/deprecated_filters/settings/design.php:134
+msgid "N/A"
+msgstr ""
+
+#: includes/paid.php:4092
+msgid "Name"
+msgstr ""
+
+#: templates/filters_group_simple.php:42 templates/filter_post_simple.php:131
+msgid "Need more options? Create it on "
+msgstr ""
+
+#: addons/filtering_conditions/add_conditions.php:50
+#: addons/filtering_conditions/filtering_conditions.php:9
+msgid "Nested Filters (BETA)"
+msgstr ""
+
+#: includes/custom_post.php:121
+msgid "New Filter"
+msgstr ""
+
+#: includes/custom_post.php:646
+msgid "New Filter Group"
+msgstr ""
+
+#: includes/paid.php:136
+msgid "Nice URLs"
+msgstr ""
+
+#: includes/paid.php:4479
+msgid "Nice URLs settings"
+msgstr ""
+
+#: templates/filters_group.php:48
+msgid "No one filters was created. Please create filters first"
+msgstr ""
+
+#: includes/custom_post.php:650
+msgid "No Product Filter Groups found"
+msgstr ""
+
+#: includes/custom_post.php:651
+msgid "No Product Filter Groups found in trash"
+msgstr ""
+
+#: includes/custom_post.php:125
+msgid "No Product Filters found"
+msgstr ""
+
+#: includes/custom_post.php:126
+msgid "No Product Filters found in trash"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:121
+msgid "No Shadow"
+msgstr ""
+
+#: includes/paid/search_field.php:235
+msgid "No, exclude other filters and disable after search"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:26
+msgid "No, return back"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:140
+msgid "No, turn it back"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:370
+msgid "None"
+msgstr ""
+
+#: main.php:1103 main.php:1114
+msgid "Normal"
+msgstr ""
+
+#: includes/paid.php:2299 includes/paid.php:3194
+msgid "Not on sale"
+msgstr ""
+
+#: main.php:1800
+msgid "Nothing is selected"
+msgstr ""
+
+#: includes/custom_post.php:434
+msgid "Now you can use saved filters in widgets"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:412
+#: templates/single_filter/single_settings_elements.php:337
+msgid "Number of Attribute values"
+msgstr ""
+
+#: main.php:653
+msgid ""
+"Number of Attribute values that will be displayed. Other values will be "
+"hidden and can be displayed by pressing the button. Option <strong>Hide the "
+"Show/Hide value(s) button in the filters</strong> must be disabled"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:438
+#: templates/single_filter/single_settings_elements.php:597
+msgid "Number of digits after decimal point"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:229
+#: templates/single_filter/single_settings_elements.php:119
+msgid "Numeric"
+msgstr ""
+
+#: includes/paid.php:4091
+msgid "OK"
+msgstr ""
+
+#: main.php:968
+msgid ""
+"On Category, Tag, Attribute page filter for it will remove value or leave "
+"only one value"
+msgstr ""
+
+#: main.php:1272
+msgid ""
+"On products archive page (attribute/category/tag pages) change how filters "
+"for the same taxonomy (attribute/category/tag) are displayed."
+msgstr ""
+
+#: includes/paid.php:2291 includes/paid.php:3193
+msgid "On sale"
+msgstr ""
+
+#: main.php:1003
+msgid "On some sites it can cause visual problems on page load"
+msgstr ""
+
+#: main.php:949
+msgid "Only Standard tax rates will be applied for prices"
+msgstr ""
+
+#: templates/paid/filters_group.php:50
+msgid ""
+"Only title will be visible. Filter will be displayed after click on title "
+"and hide after click everywhere else"
+msgstr ""
+
+#: templates/filter_post_simple.php:121
+#: addons/deprecated_filters/filter_post.php:219
+#: templates/single_filter/single_settings_elements.php:319
+msgid "Operator"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:180
+msgid "Option does not hide filters on pages."
+msgstr ""
+
+#: includes/paid.php:280
+msgid ""
+"Option uses Tippy script. It may not be compatible with some other plugins "
+"that also use Tippy script."
+msgstr ""
+
+#: addons/separate_link/separate_vars.php:37
+#: templates/single_filter/single_settings_elements.php:321
+msgid "OR"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:235
+msgid "Order Type"
+msgstr ""
+
+#: includes/paid.php:2270 includes/paid.php:3190
+#: includes/widget_functions.php:412
+msgid "Out of stock"
+msgstr ""
+
+#: templates/groups_information.php:4
+msgid ""
+"P.S. No, using sub-categories for different filters is not normal. Please "
+"use attributes instead"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:34
+msgid "Page Builders Compatibility"
+msgstr ""
+
+#: main.php:959
+msgid "Page same as filter"
+msgstr ""
+
+#: includes/paid.php:1959 includes/paid.php:3929
+msgid "Parent"
+msgstr ""
+
+#: includes/paid.php:191
+msgid "Persistent Cache Plugins"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:328
+msgid "Placeholder Text"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:119
+msgid ""
+"Please check this on addon deactivation (it will be deactivated when "
+"settings saved)."
+msgstr ""
+
+#: main.php:1258
+msgid "Please read this before asking support."
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:16
+msgid ""
+"Plugin do not have feature to move it back to old(DEPRECATED) version "
+"automatically."
+msgstr ""
+
+#: main.php:1261
+msgid ""
+"plugin do not recount anything. Only attribute values, that do not have "
+"products for full shop will be removed (fastest variant)"
+msgstr ""
+
+#: main.php:1263
+msgid ""
+"plugin recount products for attribute values based on page where displayed. "
+"Attribute values, that do not have products for current page will be removed"
+msgstr ""
+
+#: main.php:1269
+msgid ""
+"plugin recount products on page load and after filtering. All empty values "
+"will be removed based on page and selected filters"
+msgstr ""
+
+#: main.php:1265
+msgid ""
+"plugin recount products only after filtering. Only attribute values, that do "
+"not have products for full shop will be removed. You can hide other empty "
+"values after filtering with help of option"
+msgstr ""
+
+#: main.php:1118
+msgid "Position on Image:"
+msgstr ""
+
+#: main.php:1108
+msgid "Position:"
+msgstr ""
+
+#: includes/custom_post.php:482 includes/paid.php:216
+#: addons/deprecated_filters/filter_post.php:142
+#: includes/filters/display_widget.php:448
+#: templates/single_filter/single_settings_elements.php:646
+msgid "Price"
+msgstr ""
+
+#: includes/custom_post.php:484 includes/custom_post.php:557
+#: includes/paid.php:430 includes/save_slider_data.php:48
+#: addons/deprecated_filters/display_widget.php:149
+#: addons/deprecated_filters/filter_post.php:105
+#: includes/filters/display_widget.php:150
+#: templates/single_filter/single_settings_elements.php:671
+msgid "Product Category"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:680
+msgid "Product Category Value Limitation"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:362
+msgid "Product Category:"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:703
+msgid "Product count description before filtering with Apply Filters button"
+msgstr ""
+
+#: includes/custom_post.php:112 includes/custom_post.php:114
+#: includes/custom_post.php:115
+msgid "Product Filter"
+msgstr ""
+
+#: includes/custom_post.php:637 includes/custom_post.php:639
+#: includes/custom_post.php:640
+msgid "Product Filter Group"
+msgstr ""
+
+#: includes/custom_post.php:197
+msgid "Product Filter Settings"
+msgstr ""
+
+#: main.php:69
+msgid "Product Filters"
+msgstr ""
+
+#: includes/custom_post.php:489
+#: addons/deprecated_filters/deprecated_filters.php:160
+msgid "Product sub-categories"
+msgstr ""
+
+#: includes/paid/search_field.php:196
+msgid "Products"
+msgstr ""
+
+#: main.php:1801
+msgid "products"
+msgstr ""
+
+#: includes/paid/search_field.php:198
+msgid "Products and Categories"
+msgstr ""
+
+#: includes/paid.php:253
+msgid "Products Count Before Update"
+msgstr ""
+
+#: includes/paid.php:3857
+msgid "Products count per attribute value style"
+msgstr ""
+
+#: main.php:841
+msgid "Products Pagination Selector"
+msgstr ""
+
+#: main.php:934
+msgid "Products per page"
+msgstr ""
+
+#: main.php:809
+msgid "Products Quantity Selector"
+msgstr ""
+
+#: main.php:800
+msgid "Products Selector"
+msgstr ""
+
+#: main.php:822
+msgid "Products Sorting Selector"
+msgstr ""
+
+#: main.php:1348 main.php:1362
+msgid "Purge Cache"
+msgstr ""
+
+#: includes/paid/search_field.php:216
+msgid "px"
+msgstr ""
+
+#: main.php:676
+msgid "px from products top."
+msgstr ""
+
+#: main.php:391 includes/paid.php:1861
+#: addons/deprecated_filters/deprecated_filters.php:61
+#: addons/deprecated_filters/settings/design.php:417
+msgid "Radio"
+msgstr ""
+
+#: includes/paid.php:502 includes/paid.php:1707
+msgid "Ranges"
+msgstr ""
+
+#: includes/paid.php:3807 addons/deprecated_filters/filter_post.php:279
+msgid "Ranges: 1,100,200,1000"
+msgstr ""
+
+#: includes/custom_post.php:488 includes/custom_post.php:564
+#: includes/save_slider_data.php:55
+#: addons/deprecated_filters/display_widget.php:156
+#: addons/deprecated_filters/filter_post.php:112
+#: includes/filters/display_widget.php:157
+#: templates/single_filter/single_settings_elements.php:682
+msgid "Rating"
+msgstr ""
+
+#: main.php:862
+msgid "Refresh URL when filtering"
+msgstr ""
+
+#: includes/paid.php:221
+msgid "Remember variation<br>options"
+msgstr ""
+
+#: includes/paid.php:2075 includes/paid.php:3679
+msgid "Remove"
+msgstr ""
+
+#: main.php:1262
+msgid "Remove empty values based on page(category/tag/etc)"
+msgstr ""
+
+#: main.php:1266
+msgid ""
+"Remove empty values based on page(category/tag/etc). Filters are considered "
+"while counting attribute values and empty values based on filters are hidden"
+msgstr ""
+
+#: main.php:1319 main.php:1330
+msgid "Removing products"
+msgstr ""
+
+#: includes/paid.php:226 includes/paid.php:289
+msgid "Replace Product URL"
+msgstr ""
+
+#: includes/paid.php:3827 addons/deprecated_filters/filter_post.php:301
+msgid "Replace the last range value with the infinity symbol"
+msgstr ""
+
+#: templates/single_filter/all_steps.php:17
+msgid "Required Options"
+msgstr ""
+
+#: includes/custom_post.php:454 templates/filters_information.php:7
+#: includes/display_filter/reset_button.php:10
+#: templates/single_filter/widget_type.php:25
+#: addons/deprecated_filters/display_filter/reset_button.php:10
+msgid "Reset Products button"
+msgstr ""
+
+#: main.php:1104 main.php:1115
+#: templates/single_filter/single_settings_elements.php:450
+msgid "Right"
+msgstr ""
+
+#: main.php:1105
+msgid "Right from name"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:524
+#: templates/single_filter/single_settings_elements.php:496
+msgid "Rotate"
+msgstr ""
+
+#: main.php:1337
+msgid "Run Auto-selector"
+msgstr ""
+
+#: main.php:1308
+msgid "Run it to setup plugin options step by step"
+msgstr ""
+
+#: main.php:1306
+msgid "RUN SETUP WIZARD"
+msgstr ""
+
+#: includes/custom_post.php:487 includes/paid.php:1695
+msgid "Sale"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:627
+msgid "SAVE FILTER"
+msgstr ""
+
+#: templates/single_filter/all_steps.php:23
+msgid "Save Filter"
+msgstr ""
+
+#: templates/filters_information.php:74
+msgid "Save filter after setup to use it in widgets"
+msgstr ""
+
+#: main.php:1339
+msgid "Save settings with new selectors"
+msgstr ""
+
+#: includes/custom_post.php:364
+msgid "Save widget and check it on shop page"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:525
+#: templates/single_filter/single_settings_elements.php:497
+msgid "Scale"
+msgstr ""
+
+#: main.php:1324
+msgid ""
+"Script was runned, but page closed until end. Please stop it to prevent any "
+"problems on your site"
+msgstr ""
+
+#: main.php:656
+msgid "Scroll top"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:381
+msgid "Scrollbar theme"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:607
+msgid "Scrollbar theme:"
+msgstr ""
+
+#: includes/display_filter/input_field.php:25
+#: includes/paid/search_field.php:253 includes/paid/search_field.php:255
+msgid "Search"
+msgstr ""
+
+#: includes/paid.php:488
+msgid "Search Box"
+msgstr ""
+
+#: includes/custom_post.php:456 includes/paid.php:1716
+msgid "Search Box (DEPRECATED)"
+msgstr ""
+
+#: includes/paid.php:1885 addons/deprecated_filters/deprecated_filters.php:519
+msgid "Search button position"
+msgstr ""
+
+#: includes/paid.php:1893 addons/deprecated_filters/deprecated_filters.php:527
+#: includes/paid/search_field.php:254
+msgid "Search button text"
+msgstr ""
+
+#: includes/paid.php:4462
+msgid "Search Field"
+msgstr ""
+
+#: includes/display_filter/input_field.php:14
+msgid "Search field"
+msgstr ""
+
+#: includes/paid/search_field.php:249
+msgid "Search Field placeholder"
+msgstr ""
+
+#: includes/custom_post.php:649
+msgid "Search Product Filter Groups"
+msgstr ""
+
+#: includes/custom_post.php:124
+msgid "Search Product Filters"
+msgstr ""
+
+#: includes/paid/search_field.php:232
+msgid "Search products with filters"
+msgstr ""
+
+#: main.php:747
+msgid "Search variation price"
+msgstr ""
+
+#: includes/paid.php:4139
+msgid "second value, to this price"
+msgstr ""
+
+#: includes/paid.php:112 includes/paid.php:124
+msgid "Second+ levels"
+msgstr ""
+
+#: addons/additional_tables/additional_tables.php:150
+msgid ""
+"Seems you have some issue with Product lookup tables. Please try to remove "
+"all data from table"
+msgstr ""
+
+#: main.php:392 includes/paid.php:1859
+#: addons/deprecated_filters/deprecated_filters.php:62
+msgid "Select"
+msgstr ""
+
+#: templates/filters_information.php:7 templates/filters_information.php:9
+#, php-format
+msgid "Select <strong>%s</strong> in step <strong>%s</strong>"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:8
+#: addons/deprecated_filters/settings/design.php:23
+msgid "Select All"
+msgstr ""
+
+#: templates/filters_information.php:53
+msgid ""
+"Select attribute that you need to filter by.<br>You can use for filtering "
+"price, attributes, categories, tags etc"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:48
+msgid "Select Element"
+msgstr ""
+
+#: includes/custom_post.php:359
+msgid "Select filter that must be displayed in sidebar"
+msgstr ""
+
+#: includes/paid.php:288
+msgid "Select variation on variable product page is based on selected filters"
+msgstr ""
+
+#: templates/single_filter/widget_type.php:43
+msgid "Select widget type that you need to create"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:173
+msgid "Select2"
+msgstr ""
+
+#: main.php:1023
+msgid "Select2 CSS"
+msgstr ""
+
+#: includes/custom_post.php:455 includes/display_filter/selected_area.php:14
+#: templates/single_filter/widget_type.php:34
+#: addons/deprecated_filters/display_filter/selected_area.php:14
+msgid "Selected Filters area"
+msgstr ""
+
+#: includes/functions.php:885
+msgid "Selected filters area link background"
+msgstr ""
+
+#: includes/functions.php:897
+msgid "Selected filters area link border"
+msgstr ""
+
+#: includes/functions.php:873
+msgid "Selected filters area mouse over the text"
+msgstr ""
+
+#: includes/functions.php:861
+msgid "Selected filters area text"
+msgstr ""
+
+#: main.php:659 main.php:756
+msgid "Selected filters position"
+msgstr ""
+
+#: includes/paid.php:289
+msgid ""
+"selected filters will be added to product URL on products archive page (may "
+"not work with some themes)"
+msgstr ""
+
+#: includes/paid.php:290
+msgid ""
+"selected filters will be stored in PHP session. PHP session stores the "
+"filters for all products that will be opened after filtering"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:519
+#: templates/single_filter/single_settings_elements.php:492
+msgid "Selected value style"
+msgstr ""
+
+#: templates/color_ajax.php:3
+msgid "Selection of color"
+msgstr ""
+
+#: templates/color_ajax.php:3
+msgid "Selection of Image"
+msgstr ""
+
+#: main.php:828
+msgid ""
+"Selector for order by form with drop down menu. Don't change this if you "
+"don't know what it is"
+msgstr ""
+
+#: main.php:806 main.php:848
+msgid ""
+"Selector for tag that is holding products. Don't change this if you don't "
+"know what it is"
+msgstr ""
+
+#: main.php:816
+msgid ""
+"Selector for tag with product result count(\"Showing 1–8 of 61 results\"). "
+"Don't change this if you don't know what it is"
+msgstr ""
+
+#: main.php:605
+msgid "Selectors"
+msgstr ""
+
+#: main.php:609
+msgid "SEO"
+msgstr ""
+
+#: main.php:894
+msgid "SEO Elements"
+msgstr ""
+
+#: main.php:918
+msgid "SEO elements structure"
+msgstr ""
+
+#: main.php:886
+msgid "SEO Meta, Title"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:104
+#: addons/deprecated_filters/settings/design.php:35
+#: addons/deprecated_filters/settings/design.php:626
+#: addons/deprecated_filters/settings/design.php:695
+#: addons/deprecated_filters/settings/design.php:768
+msgid "Set all to theme default"
+msgstr ""
+
+#: includes/paid.php:227 includes/paid.php:290
+msgid "Set in PHP Session"
+msgstr ""
+
+#: templates/settings/tutorial_tab.php:27
+msgid "Setup filtering by variation"
+msgstr ""
+
+#: includes/custom_post.php:205
+msgid "Setup Widget"
+msgstr ""
+
+#: main.php:1304 templates/filters_information.php:2
+msgid "SETUP WIZARD"
+msgstr ""
+
+#: includes/paid.php:1792 templates/paid/filters_search_box.php:11
+msgid "Shop page"
+msgstr ""
+
+#: includes/custom_post.php:198 includes/custom_post.php:442
+#: includes/custom_post.php:687 includes/custom_post.php:768
+msgid "Shortcode"
+msgstr ""
+
+#: templates/filters_information.php:70 templates/filters_information.php:93
+msgid ""
+"Shortcode to use this filters in any place of your site will be displayed "
+"there<br><strong>Please use widgets if you do not know how shortcode "
+"works</strong>"
+msgstr ""
+
+#: main.php:1076
+msgid "Show and hide description"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:710
+msgid "Show button font color"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:711
+msgid "Show button font color on mouse over"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:709
+msgid "Show button font size"
+msgstr ""
+
+#: includes/paid.php:626 includes/paid.php:661
+#: addons/custom_sidebar/sidebar_include.php:41
+msgid "SHOW FILTERS"
+msgstr ""
+
+#: templates/paid/filters_group.php:3
+msgid "Show filters above products"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:472
+msgid "Show hierarchical values as a tree with hidden child values on load?"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:626
+#: templates/single_filter/single_settings_elements.php:608
+msgid "Show if nothing is selected"
+msgstr ""
+
+#: includes/paid.php:3832
+msgid "Show last range to the infinity"
+msgstr ""
+
+#: includes/paid.php:160
+msgid "Show products count before filtering, when using update button"
+msgstr ""
+
+#: includes/paid.php:2112 includes/paid.php:3853
+msgid "Show products count per attribute value?"
+msgstr ""
+
+#: main.php:774
+msgid "Show selected filters above products"
+msgstr ""
+
+#: includes/paid.php:154
+msgid "Show the number of products before filtering"
+msgstr ""
+
+#: main.php:1516 templates/paid/filters_group.php:47
+msgid "Show title only"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:6
+msgid "Show title only Styles"
+msgstr ""
+
+#: main.php:1797 includes/filters/dynamic_data_template.php:184
+#: templates/disabled/checkbox.php:130 templates/disabled/color.php:197
+#: templates/old_templates/checkbox.php:140
+#: templates/old_templates/color.php:206
+msgid "Show value(s)"
+msgstr ""
+
+#: main.php:1084
+msgid "Show when user:"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:414
+#: templates/single_filter/single_settings_elements.php:342
+msgid "Show/Hide button"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:147
+msgid "Sidebar for BeRocket AJAX Filters"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:111
+msgid "Sidebar Shadow"
+msgstr ""
+
+#: includes/divi-builder.php:7 includes/visual-composer.php:19
+msgid "Single Filter"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:314
+msgid "Single Selection. Only one value can be selected at a time"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:13
+#: addons/deprecated_filters/settings/design.php:152
+msgid "Size"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:489
+#: templates/single_filter/single_settings_elements.php:457
+msgid "Size of blocks(Height x Width)"
+msgstr ""
+
+#: main.php:395 addons/deprecated_filters/deprecated_filters.php:65
+#: addons/deprecated_filters/settings/design.php:634
+msgid "Slider"
+msgstr ""
+
+#: includes/paid.php:240
+msgid "Slider has many values"
+msgstr ""
+
+#: includes/functions.php:801
+msgid "Slider Inputs"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:725
+msgid "Slider New"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:722
+msgid "Slider Old"
+msgstr ""
+
+#: main.php:1250
+msgid "Slow down filtering."
+msgstr ""
+
+#: includes/paid.php:4093
+msgid "Slug"
+msgstr ""
+
+#: includes/paid.php:4108
+msgid "Slug is incorrect"
+msgstr ""
+
+#: includes/paid.php:4055
+msgid "slug must be"
+msgstr ""
+
+#: includes/paid.php:4053
+msgid "Slug must be like"
+msgstr ""
+
+#: main.php:831
+msgid "Sorting drop-down control"
+msgstr ""
+
+#: main.php:1128
+msgid "space"
+msgstr ""
+
+#: includes/paid.php:4361
+msgid "Start from parent values"
+msgstr ""
+
+#: main.php:1327
+msgid "Steps:"
+msgstr ""
+
+#: includes/custom_post.php:483 includes/paid.php:1683
+msgid "Stock status"
+msgstr ""
+
+#: main.php:1326
+msgid "Stop"
+msgstr ""
+
+#: templates/single_filter/all_steps.php:14
+msgid "Style"
+msgstr ""
+
+#: main.php:1087
+msgid "Style for number of products"
+msgstr ""
+
+#: includes/paid.php:1875 templates/paid/filters_search_box.php:31
+msgid "Styles"
+msgstr ""
+
+#: includes/paid/search_field.php:193
+msgid "Suggestions"
+msgstr ""
+
+#: includes/paid/search_field.php:213
+msgid "Suggestions Max Height"
+msgstr ""
+
+#: includes/paid/search_field.php:203
+msgid "Suggestions Search"
+msgstr ""
+
+#: main.php:1130
+msgid "tab"
+msgstr ""
+
+#: includes/custom_post.php:401 includes/custom_post.php:737
+msgid "Tablet"
+msgstr ""
+
+#: includes/custom_post.php:463 includes/custom_post.php:475
+#: includes/custom_post.php:485 includes/custom_post.php:553
+#: includes/paid.php:1835 includes/save_slider_data.php:44
+#: addons/deprecated_filters/display_widget.php:145
+#: addons/deprecated_filters/filter_post.php:101
+#: includes/filters/display_widget.php:146
+#: templates/single_filter/single_settings_elements.php:662
+msgid "Tag"
+msgstr ""
+
+#: main.php:396 addons/deprecated_filters/deprecated_filters.php:66
+msgid "Tag cloud"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:565
+msgid "Tags Cloud Height:"
+msgstr ""
+
+#: main.php:835
+msgid "Take control over WooCommerce's sorting selectbox?"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:550
+msgid "Text after Slider value"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:326
+msgid "Text before price:"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:544
+msgid "Text before Slider value"
+msgstr ""
+
+#: includes/paid.php:172
+msgid "Text for show button"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:395
+#: templates/single_filter/single_settings_elements.php:327
+msgid "Text of the first element"
+msgstr ""
+
+#: templates/single_filter/all_steps.php:31
+msgid "Text on Button"
+msgstr ""
+
+#: includes/paid.php:166
+msgid "Text that means products"
+msgstr ""
+
+#: includes/paid.php:4131
+msgid "Text will be used for Price Ranges"
+msgstr ""
+
+#: addons/filtering_conditions/filtering_conditions.php:10
+msgid ""
+"The ability to set conditions for the filters based on other filters status"
+msgstr ""
+
+#: main.php:649
+msgid "The number of Attribute Values"
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:16
+#: addons/deprecated_filters/settings/design.php:31
+#: addons/deprecated_filters/settings/design.php:156
+msgid "Theme"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:27
+#: templates/settings/design_title_styles.php:30
+#: templates/settings/design_title_styles.php:33
+#: templates/settings/design_title_styles.php:54
+#: templates/settings/design_title_styles.php:57
+#: templates/settings/design_title_styles.php:60
+#: templates/settings/design_title_styles.php:81
+#: templates/settings/design_title_styles.php:84
+#: templates/settings/design_title_styles.php:87
+#: addons/deprecated_filters/settings/design.php:65
+#: addons/deprecated_filters/settings/design.php:80
+#: addons/deprecated_filters/settings/design.php:117
+#: addons/deprecated_filters/settings/design.php:168
+#: addons/deprecated_filters/settings/design.php:171
+#: addons/deprecated_filters/settings/design.php:174
+#: addons/deprecated_filters/settings/design.php:424
+#: addons/deprecated_filters/settings/design.php:427
+#: addons/deprecated_filters/settings/design.php:430
+#: addons/deprecated_filters/settings/design.php:661
+#: addons/deprecated_filters/settings/design.php:669
+#: addons/deprecated_filters/settings/design.php:672
+#: addons/deprecated_filters/settings/design.php:685
+#: addons/deprecated_filters/settings/design.php:688
+#: addons/deprecated_filters/settings/design.php:730
+#: addons/deprecated_filters/settings/design.php:738
+#: addons/deprecated_filters/settings/design.php:751
+msgid "Theme Default"
+msgstr ""
+
+#: templates/single_filter/all_steps.php:75
+msgid "There are required steps not filled in. Please select <b>Style</b>"
+msgstr ""
+
+#: templates/single_filter/all_steps.php:67
+msgid ""
+"There are required steps not filled in. Please select <b>Widget Type</b>"
+msgstr ""
+
+#: includes/custom_post.php:653
+msgid "This is where you can add Product Filter Groups."
+msgstr ""
+
+#: includes/custom_post.php:128
+msgid "This is where you can add Product Filters."
+msgstr ""
+
+#: main.php:1516
+msgid ""
+"Those design settings change only the styles for filters inside a Group with "
+"enabled option"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:430
+#: templates/single_filter/single_settings_elements.php:591
+msgid "Thousands separator"
+msgstr ""
+
+#: main.php:901 includes/paid.php:1828 includes/paid.php:1998
+#: includes/paid.php:3965 templates/filters_group_simple.php:2
+#: templates/filter_post_simple.php:11
+#: templates/settings/design_title_styles.php:20
+msgid "Title"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:544
+msgid "Title Icons"
+msgstr ""
+
+#: templates/settings/design_title_styles.php:47
+msgid "Title when opened"
+msgstr ""
+
+#: templates/filters_information.php:40
+msgid ""
+"Title will be displayed as widget title.<br>You can write text, that want to "
+"display above filter"
+msgstr ""
+
+#: templates/filters_information.php:26
+msgid ""
+"Title will be displayed only on admin side.<br>You can write text, that want "
+"to mark it for admin side"
+msgstr ""
+
+#: templates/groups_information.php:10
+msgid "To display one group on different pages use OR condition"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:182
+msgid "To limit pages where filters are displayed use \"Conditions\" meta box."
+msgstr ""
+
+#: main.php:972
+msgid "Tools"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:452
+msgid "Tooltip"
+msgstr ""
+
+#: main.php:1156 main.php:1179 includes/paid.php:271
+msgid "Tooltip Font Size"
+msgstr ""
+
+#: main.php:1150 main.php:1173 includes/paid.php:264
+msgid "Tooltip Theme"
+msgstr ""
+
+#: main.php:1136
+msgid "Tooltips Options"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:448
+msgid "Top"
+msgstr ""
+
+#: main.php:1147 main.php:1170 includes/paid.php:261
+msgid "Translucent"
+msgstr ""
+
+#: main.php:629
+msgid "Tutorials"
+msgstr ""
+
+#: includes/paid.php:1857 templates/filter_post_simple.php:75
+#: addons/deprecated_filters/filter_post.php:172
+msgid "Type"
+msgstr ""
+
+#. Description of the plugin
+msgid "Unlimited AJAX products filters to make your shop perfect"
+msgstr ""
+
+#: main.php:1799
+msgid "Unselect all"
+msgstr ""
+
+#: includes/custom_post.php:453 templates/filters_information.php:9
+#: includes/display_filter/update_button.php:10
+#: templates/single_filter/widget_type.php:16
+#: addons/deprecated_filters/display_filter/update_button.php:10
+msgid "Update Products button"
+msgstr ""
+
+#: main.php:1902
+msgid "Update WooCommerce plugin"
+msgstr ""
+
+#: includes/paid.php:1794 templates/paid/filters_search_box.php:13
+msgid "URL"
+msgstr ""
+
+#: main.php:878
+msgid "URL decoding"
+msgstr ""
+
+#: includes/paid.php:1808 templates/paid/filters_search_box.php:27
+msgid "URL for search"
+msgstr ""
+
+#: includes/paid.php:1790 templates/paid/filters_search_box.php:9
+msgid "URL to search"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:167
+msgid "Use all attribute values"
+msgstr ""
+
+#: includes/paid.php:2099 includes/paid.php:3887
+msgid "Use as numeric"
+msgstr ""
+
+#: main.php:875
+msgid "Use attribute slug instead ID"
+msgstr ""
+
+#: includes/paid.php:148
+msgid "Use canonical tag without filters on WooCommerce pages"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:351
+msgid "Use current product category to get child"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:535
+msgid "Use custom maximum price"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:530
+msgid "Use custom minimum price"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:520
+msgid "Use custom values(comma separated)"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:341
+msgid "Use custom values(comma separated):"
+msgstr ""
+
+#: templates/single_filter/single_settings_elements.php:521
+msgid "Use default price values"
+msgstr ""
+
+#: templates/paid/filters_search_box.php:4
+msgid "Use Group as Search Box"
+msgstr ""
+
+#: main.php:742
+msgid "Use it for attributes values to display more correct count"
+msgstr ""
+
+#: includes/paid.php:99
+msgid "Use links for checkboxes and radio filter"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:594
+msgid "Use max price"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:585
+msgid "Use min price"
+msgstr ""
+
+#: includes/paid.php:118
+msgid "Use nofollow for links"
+msgstr ""
+
+#: includes/paid.php:106
+msgid "Use noindex for links"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:178
+msgid "Use Select2 script for dropdown menu"
+msgstr ""
+
+#: main.php:870
+msgid "Use slug in URL"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:426
+#: templates/single_filter/single_settings_elements.php:586
+msgid "Use specific number style"
+msgstr ""
+
+#: includes/paid.php:4126
+msgid "Use specific Price Ranges text"
+msgstr ""
+
+#: main.php:954
+msgid "Use taxes"
+msgstr ""
+
+#: main.php:948
+msgid "Use Taxes in Price Filters"
+msgstr ""
+
+#: addons/filtering_conditions/add_conditions.php:58
+msgid ""
+"Use this to display products only after filtering by some attribute and value"
+msgstr ""
+
+#: main.php:676
+msgid "Use this to fix top scroll."
+msgstr ""
+
+#: main.php:751
+msgid ""
+"Use variation price instead of product price. IMPORTANT! It can slow down "
+"filtering by price"
+msgstr ""
+
+#: templates/filters_group.php:7
+msgid "use white space for multiple classes"
+msgstr ""
+
+#: main.php:1267
+msgid ""
+"uses previous two option together. Works slower, because recounts twice for "
+"each attribute values (not recommended)"
+msgstr ""
+
+#: includes/paid.php:3862
+msgid "Value ( 5 )"
+msgstr ""
+
+#: includes/paid.php:3860
+msgid "Value (5)"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:550
+msgid "Value Icons"
+msgstr ""
+
+#: includes/paid.php:3861
+msgid "Value( 5 )"
+msgstr ""
+
+#: includes/paid.php:3859
+msgid "Value(5)"
+msgstr ""
+
+#: main.php:681
+msgid "Values count and output"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:226
+#: templates/single_filter/single_settings_elements.php:124
+#: templates/single_filter/single_settings_elements.php:144
+msgid "Values Order"
+msgstr ""
+
+#: includes/paid.php:2123 includes/paid.php:3902
+msgid "Values per row"
+msgstr ""
+
+#: includes/paid.php:2077
+msgid "values selected in Include / Exclude List"
+msgstr ""
+
+#: main.php:719
+msgid "Variable Products and Variations options"
+msgstr ""
+
+#: main.php:1248
+msgid "Variation must be added to product with stock status out of stock."
+msgstr ""
+
+#: main.php:1206
+msgid ""
+"Version of Font Awesome that will be used on front end. Please select "
+"version that you have in your theme"
+msgstr ""
+
+#: includes/paid.php:1880 templates/paid/filters_search_box.php:36
+msgid "Vertical"
+msgstr ""
+
+#: includes/custom_post.php:123
+msgid "View Filter"
+msgstr ""
+
+#: includes/custom_post.php:648
+msgid "View Filter Group"
+msgstr ""
+
+#: includes/custom_post.php:647
+msgid "View Filter Groups"
+msgstr ""
+
+#: includes/custom_post.php:122
+msgid "View Filters"
+msgstr ""
+
+#: main.php:1338
+msgid ""
+"Wait until end <strong style=\"color:red;\">do not close this page</strong>"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:118
+msgid "We recommend you to try it on a staging/dev/local site first."
+msgstr ""
+
+#: templates/filters_information.php:33
+msgid ""
+"Where filters must be displayed.<br>Filter will be displayed on all pages if "
+"do not have conditions.<br><strong>Please first try to add filter without "
+"any condition to check that it works</strong>"
+msgstr ""
+
+#: addons/custom_sidebar/sidebar_include.php:122
+msgid "White"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:678
+msgid "Widget Output Limitations"
+msgstr ""
+
+#: includes/custom_post.php:436
+msgid "WIDGET PAGE"
+msgstr ""
+
+#: includes/functions.php:765
+msgid "Widget Title"
+msgstr ""
+
+#: includes/custom_post.php:325
+msgid ""
+"Widget to display single filter in your sidebar. Add it to needed sidebar"
+msgstr ""
+
+#: templates/filters_information.php:7 templates/filters_information.php:9
+#: addons/deprecated_filters/filter_post.php:68
+#: templates/single_filter/all_steps.php:7
+msgid "Widget Type"
+msgstr ""
+
+#: includes/custom_post.php:458
+msgid "Widget type: "
+msgstr ""
+
+#: templates/admin.php:2
+msgid ""
+"Widget will be removed in future please use <strong>AAPF Filters "
+"Group</strong> instead."
+msgstr ""
+
+#: templates/filters_group.php:39
+msgid "Width"
+msgstr ""
+
+#: main.php:1253 includes/paid.php:414
+msgid "Will be displayed only on default WooCommerce page."
+msgstr ""
+
+#: addons/deprecated_filters/settings/design.php:125
+msgid "Without Theme"
+msgstr ""
+
+#: addons/additional_tables/additional_tables.php:139
+msgid ""
+"WooCommerce <strong>Product lookup tables</strong> right now regenerating"
+msgstr ""
+
+#: main.php:762
+msgid "WooCommerce After Shop Loop"
+msgstr ""
+
+#. Name of the plugin
+#: main.php:68
+msgid "WooCommerce AJAX Products Filter"
+msgstr ""
+
+#: main.php:761
+msgid "WooCommerce Before Shop Loop"
+msgstr ""
+
+#: main.php:760
+msgid "WooCommerce Description(in header)"
+msgstr ""
+
+#: addons/additional_tables/additional_tables.php:137
+msgid ""
+"WooCommerce do not have needed table for Additional Table add-on. Add-on "
+"required WooCommerce 3.6 or newer"
+msgstr ""
+
+#: includes/paid.php:190
+msgid "WordPress Cache"
+msgstr ""
+
+#: includes/paid.php:279
+msgid "Works only if filters are displayed with \"Update Products button\"."
+msgstr ""
+
+#: includes/paid.php:141
+msgid ""
+"Works only with SEO friendly urls. WordPress permalinks must be set to Post "
+"name(Custom structure: /%postname%/ )"
+msgstr ""
+
+#: includes/paid.php:4104
+msgid "Year:"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:139
+msgid "Yes, disable add-on"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:25
+msgid "Yes, edit filter"
+msgstr ""
+
+#: includes/paid/search_field.php:234
+msgid "Yes, use other filters"
+msgstr ""
+
+#: templates/admin.php:3
+#, php-format
+msgid "You can add filter to %s that has limitation"
+msgstr ""
+
+#: templates/filters_group.php:54
+msgid "You can create new filters or edit it on"
+msgstr ""
+
+#: includes/paid.php:4136
+#: templates/single_filter/single_settings_elements.php:556
+msgid "You can use some replacements"
+msgstr ""
+
+#: templates/filters_information.php:80 templates/filters_information.php:89
+msgid ""
+"You can use widget to display filters on your shop page.<br><strong>Use "
+"sidebar, that displayed on shop page</strong>"
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:123
+msgid ""
+"You have Custom CSS. Most likely it won't work without this addon. You will "
+"need to update it as CSS classes were changed."
+msgstr ""
+
+#: addons/deprecated_filters/deprecated_filters.php:130
+msgid ""
+"You have Custom Javascript. You need to check it after turning off this "
+"addon. It can work correctly same as stop working."
+msgstr ""
+
+#: includes/custom_post.php:416 includes/custom_post.php:760
+msgid "You need save it to get shortcode"
+msgstr ""
+
+#: addons/deprecated_filters/filter_post.php:19
+msgid ""
+"You will need to re-create the filter while moving from new to old version."
+msgstr ""
+
+#: main.php:926
+msgid "{title} - [values] / [values]"
+msgstr ""
+
+#: main.php:924
+msgid "{title} [attribute]:[values];[attribute]:[values]"
+msgstr ""
+
+#: main.php:923
+msgid "{title} with [attribute] [values] and [attribute] [values]"
+msgstr ""

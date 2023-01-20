@@ -1,0 +1,100 @@
+2023-01-20T18:33:04+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 3
+2023-01-20T18:33:15+00:00 NOTICE member.sync :: infinityworld0111@gmail.com is Pending Double OptIn
+2023-01-20T18:41:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 7ba00595400eff1e3064fdece69e3a96
+2023-01-20T18:41:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 7ba00595400eff1e3064fdece69e3a96
+2023-01-20T18:41:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 3
+2023-01-20T18:41:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 2780
+2023-01-20T18:41:25+00:00 NOTICE debug :: Order ID 2780 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => http://localhost/nova_ecom/nova_ecom/home/
+        )
+
+)
+
+2023-01-20T18:44:09+00:00 NOTICE abandoned_cart.success :: email: infinityworld0111@gmail.com :: checkout_url: http://localhost/nova_ecom/checkout/?mc_cart_id=7ba00595400eff1e3064fdece69e3a96
+2023-01-20T18:44:10+00:00 NOTICE cart.member.updated :: Updated infinityworld0111@gmail.com subscriber status to transactional and language to en
+2023-01-20T18:44:11+00:00 NOTICE abandoned_cart.success :: email: infinityworld0111@gmail.com :: checkout_url: http://localhost/nova_ecom/checkout/?mc_cart_id=7ba00595400eff1e3064fdece69e3a96
+2023-01-20T18:44:13+00:00 NOTICE member.sync :: Updated Member infinityworld0111@gmail.com :: Array
+(
+    [previous_status] => transactional
+    [status] => 
+    [language] => 
+    [merge_fields] => Array
+        (
+            [FNAME] => NOvas
+            [LNAME] => Primes
+        )
+
+    [gdpr_fields] => 
+)
+
+2023-01-20T18:44:18+00:00 ERROR order_submit.error :: addStoreOrder :: #2780 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost/nova_ecom/account/view-order/2780/</p> on 2426 in C:\xampp\htdocs\nova_ecom\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2023-01-20T18:44:47+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2023-01-20T18:46:07+00:00 NOTICE member.sync :: Updated Member novaprime143@gmail.com :: Array
+(
+    [previous_status] => transactional
+    [status] => 
+    [language] => 
+    [merge_fields] => Array
+        (
+            [FNAME] => Joshua
+            [LNAME] => Coffey
+        )
+
+    [gdpr_fields] => 
+)
+
+2023-01-20T18:59:36+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 6397809a018ef
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 541a8eaa52
+            [name] => NOvas Primes
+            [domain] => http://localhost/nova_ecom
+            [email_address] => infinityworld0111@gmail.com
+            [currency_code] => NPR
+            [money_format] => ₨
+            [primary_locale] => en_US
+            [timezone] => Asia/Kathmandu
+            [phone] => +9779818334440
+            [address] => Array
+                (
+                    [address1] => 30 Cowley Drive
+                    [city] => Deserunt magni ex ma
+                    [province] => BAG
+                    [postal_code] => 70988
+                    [country] => NP
+                    [country_code] => NP
+                    [phone] => +9779818334440
+                    [company] => NOvas Primes
+                )
+
+        )
+
+)
+
+2023-01-20T18:59:40+00:00 NOTICE admin :: updated GDPR fields :: Array
+(
+    [fields] => Array
+        (
+        )
+
+)
+
+2023-01-20T19:03:48+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 2780
+2023-01-20T19:03:50+00:00 NOTICE debug :: Order ID 2780 was processing and is now cancelled :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2023-01-20T19:05:25+00:00 NOTICE order_submit :: #2780 has a financial status of cancelled and was skipped.
+2023-01-20T19:06:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 4
+2023-01-20T19:07:02+00:00 NOTICE member.sync :: infinityworld0333@gmail.com is Pending Double OptIn

@@ -1,0 +1,57 @@
+// ------------------------------------
+// EXPANSIBLE SECTIONS
+// ------------------------------------
+
+div.woocommerce .fc-expansible-form-section {
+	background-color: transparent;
+	box-shadow: none;
+}
+
+
+
+div.woocommerce .fc-expansible-form-section .expansible-section__toggle-plus {
+	position: relative;
+	display: inline-block;
+	width: auto;
+	padding: 0;
+	padding-#{ $alignment-left }: #{ $checkout-expansible-section-icon-size + $checkout-expansible-section-icon-spacing-left + $checkout-expansible-section-icon-spacing-right };
+	cursor: pointer;
+	text-decoration: $checkout-expansible-section-text-decoration;
+	line-height: 1.2;
+	font-size: $font-size-small;
+	text-align: $alignment-left;
+
+	@media (#{$bp-larger-than_tablet}) {
+		font-size: $font-size-small--large-screen;
+	}
+
+	&:before {
+		@include icon( $checkout-expansible-section-icon );
+		@include icon-size( $checkout-expansible-section-icon-size );
+		
+		position: absolute;
+		top: 50%;
+		#{ $alignment-left }: $checkout-expansible-section-icon-spacing-left;
+		transform: translateY( -50% );
+	}
+
+	&:focus {
+		outline: $focus-outline-link;
+		outline-offset: $focus-outline-offset-link;
+	}
+}
+
+
+
+
+
+div.woocommerce .fc-expansible-form-section.form-row .form-row {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+div.woocommerce form .fc-expansible-form-section.form-row,
+div.woocommerce form .fc-expansible-form-section.form-row + .form-row {
+	clear: left;
+}

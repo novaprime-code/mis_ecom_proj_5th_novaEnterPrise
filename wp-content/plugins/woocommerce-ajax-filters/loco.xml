@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle>
+  <domain name="BeRocket_AJAX_domain">
+    <project>
+      <source>
+        <exclude>
+            <directory>berocket</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+      </template>
+    </project>
+  </domain>
+  <domain name="BeRocket_domain">
+    <project name="BeRocket framework">
+      <source>
+        <directory>berocket</directory>
+      </source>
+      <target>
+        <directory>berocket/languages</directory>
+      </target>
+      <template>
+      </template>
+    </project>
+  </domain>
+</bundle>

@@ -1,0 +1,1617 @@
+.br_framework_settings{
+    position: relative;
+    padding-bottom: 30px;
+}
+.br_framework_settings .nav-block{
+    display: none;
+}
+.br_framework_settings .nav-block.nav-block-active{
+    display: block;
+}
+.br_framework_settings textarea{
+    width: 100%;
+    resize: vertical;
+    min-height: 200px;
+}
+.br_framework_settings textarea.small {
+    min-height: 100px;
+}
+.br_framework_settings .br_line_delimiter {
+    display: inline;
+    margin-right: 2em;
+}
+.br_saved,
+.br_not_saved{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 9999999;
+    color: #333333;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: br_saved_anim;
+    animation-duration: 0.2s;
+    transition: background-color 0.6s;
+    transition: box-shadow 0.6s;
+}
+@keyframes br_saved_anim {
+    from {
+        right: -50px;
+    }
+
+    to {
+        right: 50px;
+    }
+}
+.br_saved_remove {
+    animation-name: br_saved_remove_anim;
+    animation-duration: 0.2s;
+}
+@keyframes br_saved_remove_anim {
+    from {
+        right: 50px;
+    }
+
+    to {
+        right: -50px;
+    }
+}
+.br_saved{
+    box-shadow: 1px 1px 3px 1px #55ff55 inset, 0 0 5px 0;
+    background-color: #33bb33;
+}
+.br_not_saved{
+    box-shadow: 1px 1px 3px 1px #ff5555 inset, 0 0 5px 0;
+    background-color: #bb3333!important;
+}
+.br_saving {
+    box-shadow: 1px 1px 3px 1px #cfcfcf inset, 0 0 5px 0;
+    background-color: #bbbbbb!important;
+}
+.br_saved .fa,
+.br_not_saved .fa{
+    width: 50px;
+    display: block;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 32px;
+}
+.br_saved .fa-check,
+.br_not_saved .fa-times{
+    animation-name: br_saved_anim_fa;
+    animation-duration: 0.4s;
+}
+@keyframes br_saved_anim_fa {
+    0% {
+        font-size: 0px;
+    }
+
+    50% {
+        font-size: 0px;
+    }
+
+    100% {
+        font-size: 32px;
+    }
+}
+
+.berocket_framework_sidebar_save_button {
+    height: 50px;
+}
+.berocket_framework_sidebar_save_button .button-primary.button:not(.not_berocket_button) {
+    display: none;
+    padding: 9px 0;
+    margin: 0;
+    position: absolute;
+    width: 150px;
+    border-radius: 0;
+    min-width: initial;
+    z-index: 100;
+    transition: 0.2s bottom;
+}
+.br_framework_settings .body ul.side li.berocket_framework_sidebar_save_button {
+    position: initial;
+}
+
+/* New Design */
+
+.br_framework_settings h2 {
+    padding: 20px 0 30px!important;
+}
+
+.br_framework_settings header {
+    background-color: #2c3b48;
+    height: 80px;
+    position: relative;
+    z-index: 1000;
+}
+
+.br_framework_settings header .br_logo_white {
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.br_framework_settings header .br_logo_white img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.br_framework_settings header .br_plugin_name {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 14px 40px 14px 150px;
+}
+
+.br_framework_settings header .br_plugin_name h1,
+.br_framework_settings header .br_plugin_name h3 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.br_framework_settings header .br_plugin_name h3 {
+    font-size: 13px;
+    font-weight: normal;
+    color: #B8B8B8;
+}
+
+.br_framework_settings header nav.premium {
+    float: right;
+}
+
+.br_framework_settings header nav.premium a {
+    color: white;
+    font-size: 42px;
+    line-height: 80px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.br_framework_settings .body {
+    position: relative;
+    background-color: #f0f0f0;
+    display: table;
+    width: 100%;
+}
+
+.br_framework_settings .body ul.side {
+    width: 150px;
+    display: table-cell;
+    background-color: #2c3b48;
+    box-shadow: 4px 0 6px #ddd;
+    margin: 0;
+    padding: 0 0 60px;
+    list-style-type: none;
+    position: relative;
+}
+
+.br_framework_settings .body .content {
+    box-sizing: border-box;
+    display: table-cell;
+    min-height: 400px;
+    padding: 0 30px 20px 30px;
+    width: 90%;
+}
+
+.br_framework_settings .body ul.side li {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    background-color: #2c3b48;
+}
+
+.br_framework_settings .body ul.side li a {
+    display: block;
+    color: #B8B8B8;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px 5px;
+    transition: 0.5s background;
+}
+.br_framework_settings .body ul.side li a.redirect_link.default {
+    background-color: #0085ba;
+}
+
+.br_framework_settings .body ul.side li a,
+.br_framework_settings .body ul.side li a:hover,
+.br_framework_settings .body ul.side li a:active,
+.br_framework_settings .body ul.side li a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.br_framework_settings .body ul.side li:hover a {
+    color: white;
+}
+
+.br_framework_settings .body ul.side li a.active {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    border-left: 3px solid #009688;
+    border-right: 3px solid #2c3b48;
+    color: white;
+}
+
+.br_framework_settings .body ul.side li span {
+    display: block;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+.br_framework_settings .body .content .title {
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-left: 40px;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    color: #777;
+    font-size: 18px;
+    position: relative;
+    box-shadow: -5px 0 8px #ddd;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.br_framework_settings .body .content .title:after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    left: 20px;
+    position: absolute;
+}
+
+.br_framework_settings .body .content .title span {
+    margin-right: 5px;
+}
+
+.br_framework_settings .body .content .framework-form-table {
+    margin-top: 0;
+    width: 100%;
+}
+
+.br_framework_settings .framework-form-table h2{
+    padding: 0 !important
+}
+
+
+.br_framework_settings form.show_premium {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.br_framework_settings .paid_features,
+.br_framework_settings .berocket_subscribe {
+    float: right;
+    clear: right;
+    width: 28%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.br_framework_settings .paid_features .berocket_paid_features_support {
+    line-height: 1.7em;
+}
+
+.br_framework_settings .paid_features h3 {
+    background: linear-gradient(45deg, #b500f7 , #f22932);
+    background: -webkit-linear-gradient(45deg, #b500f7 , #f22932);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.br_framework_settings .paid_features ul li {
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 10px;
+}
+.br_framework_settings .paid_features ul li:before {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 4px;
+    border-left: 1px solid #45991e;
+    border-bottom: 1px solid #45991e;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 5px;
+    left: -12px;
+    margin-right: 0;
+}
+
+.br_framework_settings .button:not(.not_berocket_button) {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    text-shadow: none;
+    border: 0 none;
+    min-width: 120px;
+    -moz-user-select: none;
+    background: #009688 none repeat scroll 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    outline: 0 none;
+    padding: 8px 32px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s, background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    white-space: nowrap;
+    height: auto;
+}
+
+.br_framework_settings .button.tiny-button:not(.not_berocket_button) {
+    padding: 0 13px;
+    min-width: 40px;
+    font-size: 13px;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+.br_framework_settings .br_colorpicker {
+    width: 2em; 
+    height: 2em; 
+    border: 2px solid #009688; 
+    position: relative; 
+    display: inline-block;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.br_framework_settings .berocket_color {
+    display: inline-block;
+}
+
+.br_framework_settings .br_colorpicker:hover {
+    border: 2px solid #00beb0; 
+}
+
+.br_framework_settings .br_colorpicker ~ .br_colorpicker_default {
+    margin: 0 0 0 10px;
+    padding: 0;
+    height: 42px;
+    box-shadow: none;
+}
+
+.berocket_selected_image {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    line-height: 55px;
+    padding: 5px;
+    vertical-align: bottom;
+}
+.berocket_selected_image img {
+    max-width: 60px;
+    max-height: 60px;
+    vertical-align: middle;
+}
+.br_framework_settings .button.berocket_upload_image,
+.br_framework_settings .button.berocket_remove_image,
+.br_framework_settings .button.berocket_select_fa {
+    margin-top: 10px!important;
+    margin-bottom: 0!important;
+}
+
+/* FONT AWESOME SELECTOR */
+
+.berocket_select_fontawesome {
+    margin: 0.5em 0;
+}
+
+.br_framework_settings .berocket_select_fontawesome .button:not(.not_berocket_button) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.br_framework_settings .berocket_select_fontawesome .berocket_selected_fa {
+    font-size: 32px;
+    line-height: 62px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.br_framework_settings .berocket_select_fontawesome .berocket_selected_image.berocket_selected_fa {
+    font-size: 62px;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+}
+
+.br_framework_settings .berocket_select_fontawesome.berocket_select_image .button:not(.not_berocket_button) {
+    margin: 29px 0.5em 29px 0;
+}
+
+.berocket_select_fontawesome .berocket_fa_dark {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.berocket_select_fontawesome .berocket_fa_popup {
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    z-index: 50100;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.berocket_select_fontawesome .berocket_fa_search {
+    height: 30px;
+    box-sizing: border-box;
+    margin: 5px 15%;
+    width: 70%;
+}
+
+.berocket_select_fontawesome .berocket_fa_close {
+    font-size: 32px;
+    color: #555;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 500;
+}
+
+.berocket_select_fontawesome .berocket_fa_close:hover {
+    color: #338;
+}
+
+.berocket_select_fontawesome .berocket_fa_list {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon {
+    font-size: 32px;
+    display: inline-block;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 0.5em;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .fa {
+    font-size: 32px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    color: #555;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_preview {
+    position: absolute;
+    height: 50px;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover:hover ~ .berocket_fa_preview {
+    background-color: #CCC;
+    z-index: 50;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_preview span {
+    display: none;
+    font-size: 18px;
+    white-space: nowrap;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 50px;
+    vertical-align: top;
+    color: #555;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover:hover ~ .berocket_fa_preview span {
+    display: inline-block;
+}
+
+/* PRODUCTS SELECTOR */
+
+.br_framework_settings .berocket_search_box {
+    position: relative;
+}
+.br_framework_settings .berocket_products_search {
+    border: 1px solid #777;
+    background: #ffffff;
+    padding: 0.3em 0.3em 0 0.3em;
+    cursor: text;
+    margin: 0;
+    position: relative;
+    top: 1px;
+}
+.br_framework_settings .berocket_products_search * {
+    font-size: 1em;
+}
+.br_framework_settings .berocket_products_search li {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    margin-right: 0.3em!important;
+    margin-bottom: 0.3em!important;
+}
+.br_framework_settings .berocket_products_search li .berocket_loads {
+    position: absolute;
+    right: 0.3em;
+    bottom: 0.3em;
+    font-size: 28px;
+}
+.br_framework_settings .berocket_products_search .berocket_search_input {
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0.1em;
+    border: 0;
+    outline: 0;
+    min-width: 250px;
+    height: 28px;
+    box-shadow: none;
+}
+.br_framework_settings .berocket_products_search .berocket_search_input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.berocket_search_result {
+    border: 1px solid #999;
+    border-top: 0;
+    background: #f7f7f7;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    max-height: 200px;
+    overflow: auto;
+    padding: 0.3em;
+    z-index: 1000;
+}
+.berocket_search_result li {
+    cursor: pointer;
+    padding: 0.3em;
+}
+.berocket_search_result li:hover {
+    background: #efefef;
+}
+
+.br_framework_settings .berocket_products_search li.button:not(.not_berocket_button) {
+    line-height: 26px;
+    padding: 0 10px;
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0;
+}
+.br_framework_settings .single_product .berocket_products_search li.button:not(.not_berocket_button) {
+    max-width: initial;
+    width: 100%;
+}
+
+/* ----------------- */
+
+.br_framework_settings .button:not(.not_berocket_button):hover,
+.br_framework_settings .button:not(.not_berocket_button):focus,
+.br_framework_settings .button:not(.not_berocket_button):active{
+    background: #00beb0 none repeat scroll 0 0;
+    color: white;
+}
+
+.br_framework_settings form .framework-form-table > tbody > tr > th,
+.br_framework_settings form .framework-form-table > thead > tr > th,
+.br_framework_settings form .framework-form-table > tfoot > tr > th,
+.br_framework_settings form .framework-form-table > tr > th {
+    width: 210px;
+    padding: 10px 10px 10px 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.br_framework_settings .framework-form-table > tbody > tr > td,
+.br_framework_settings .framework-form-table > thead > tr > td,
+.br_framework_settings .framework-form-table > tfoot > tr > td,
+.br_framework_settings .framework-form-table > tr > td {
+    padding: 10px;
+}
+
+.br_framework_settings form .nav-block,
+.br_framework_settings .paid_features,
+.br_framework_settings .berocket_subscribe {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    overflow: auto;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
+    padding: 0 25px;
+}
+.br_framework_settings .berocket_subscribe {
+    background-color: #2c3644;
+    background-image: url(mail.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    color: #aaa;
+    font-size: 16px;
+    overflow: hidden;
+}
+.br_framework_settings .berocket_subscribe h3 {
+    color: white;
+}
+.br_framework_settings .berocket_subscribe p {
+    font-size: 12px;
+    text-align: left;
+}
+.br_framework_settings .berocket_subscribe .error {
+    color: #d02c21;
+}
+.br_framework_settings .berocket_subscribe .berocket_subscribe_email {
+    background-color: #404c5d;
+    border: 0;
+    outline: 0;
+    color: #aaa;
+    width: 100%;
+    line-height: 2em;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.br_framework_settings .berocket_subscribe .berocket_notice_submit,
+.br_framework_settings .get_premium_version,
+.br_framework_settings .buy_premium_version {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    text-shadow: none;
+    border: 0 none;
+    min-width: 120px;
+    -moz-user-select: none;
+    background: linear-gradient(45deg, #d359ff , #ff7f7f);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    outline: 0 none;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s, background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    white-space: nowrap;
+    height: auto;
+    vertical-align: top;
+    line-height: 25px;
+    border-radius: 3px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: bold;
+}
+.br_framework_settings .berocket_subscribe .berocket_notice_submit {
+    width: 100%;
+    margin-top: 15px;
+}
+.br_framework_settings .get_premium_version,
+.br_framework_settings .buy_premium_version {
+    width: 90%;
+}
+.br_framework_settings .get_premium_version {
+    margin: 5px 0;
+    background: transparent;
+    border: 2px solid #97b9cf;
+    color: #7496ad;
+}
+.br_framework_settings .buy_premium_version {
+    margin: 5px 0 15px;
+    padding: 10px;
+}
+.br_framework_settings .premium_buttons {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.br_framework_settings .premium_buttons span {
+    display: block;
+    color: #7496ad;
+}
+.br_framework_settings .premium_buttons span.divider {
+    line-height: 2.4em;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.br_framework_settings .premium_buttons span.divider:before,
+.br_framework_settings .premium_buttons span.divider:after{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 60%;
+    height: 1px;
+    background: #97b9cf;
+    content: "";
+}
+.br_framework_settings .premium_buttons span.divider:after{
+    left: 60%;
+    right: 5%;
+}
+.br_framework_settings .premium_buttons span:last-child b{
+    font-size: 16px;
+}
+.br_framework_settings .berocket_subscribe .berocket_notice_submit:hover,
+.br_framework_settings .berocket_subscribe .berocket_notice_submit:focus,
+.br_framework_settings .berocket_subscribe .berocket_notice_submit:active,
+.br_framework_settings .buy_premium_version:hover,
+.br_framework_settings .buy_premium_version:focus,
+.br_framework_settings .buy_premium_version:active {
+    background: linear-gradient(45deg, #d871fe, #fc9292);;
+    color: white;
+}
+.br_framework_settings .get_premium_version:hover,
+.br_framework_settings .get_premium_version:focus,
+.br_framework_settings .get_premium_version:active{
+    background: #97b9cf;
+    color: white;
+}
+.br_framework_settings form .nav-block {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#berocket_product_key {
+    width: 80%;
+    min-width: 100px;
+}
+
+.br_settings_footer {
+    margin-right: 20px;
+}
+
+.br_settings_footer a {
+    color: #009688;
+    text-decoration: none;
+}
+
+.br_framework_settings .button.accent:not(.not_berocket_button) {
+    background: #ff5252 none repeat scroll 0 0;
+}
+
+.br_framework_settings .button.accent:not(.not_berocket_button):hover,
+.br_framework_settings .button.accent:not(.not_berocket_button):focus,
+.br_framework_settings .button.accent:not(.not_berocket_button):active {
+    background: #ff6e68 none repeat scroll 0 0;
+    color: white;
+}
+
+.paid_features ul li{
+    list-style: initial;
+    margin-left: 2em;
+}
+
+#footer-thankyou, #footer-upgrade{
+    display: none;
+}
+
+.clear-both {
+    clear: both;
+}
+
+
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 900px) {
+    .br_framework_settings form.show_premium,
+    .br_framework_settings .paid_features,
+    .br_framework_settings .berocket_subscribe {
+        float: none;
+        width: 100%;
+    }
+
+    .br_framework_settings .paid_features,
+    .br_framework_settings .berocket_subscribe {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .br_framework_settings header .br_logo_white {
+        width: 60px;
+    }
+
+    .br_framework_settings header .br_plugin_name {
+        padding-left: 80px;
+    }
+
+    .br_framework_settings .body ul.side {
+        width: 100px;
+    }
+
+    .br_framework_settings .body .content {
+        padding-left: 20px;
+    }
+
+    .br_framework_settings .body .content .title {
+        margin-left: -20px;
+    }
+
+    .br_framework_settings .framework-form-table > tbody > tr > td,
+    .br_framework_settings .framework-form-table > thead > tr > td,
+    .br_framework_settings .framework-form-table > tfoot > tr > td,
+    .br_framework_settings .framework-form-table > tr > td,
+    .br_framework_settings .framework-form-table > tbody > tr > th,
+    .br_framework_settings .framework-form-table > thead > tr > th,
+    .br_framework_settings .framework-form-table > tfoot > tr > th,
+    .br_framework_settings .framework-form-table > tr > th {
+        display: table-cell;
+        padding: 5px 10px;
+    }
+
+    .br_framework_settings .framework-form-table > tbody > tr > td,
+    .br_framework_settings .framework-form-table > thead > tr > td,
+    .br_framework_settings .framework-form-table > tfoot > tr > td,
+    .br_framework_settings .framework-form-table > tr > td {
+        padding: 10px 10px 10px 0;
+    }
+
+    .br_framework_settings header nav.premium a {
+        font-size: 32px;
+    }
+
+    .br_framework_settings header .br_plugin_name h1 {
+        font-size: 14px;
+    }
+
+    .br_framework_settings header .br_plugin_name h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .br_framework_settings header .br_plugin_name {
+        display: none;
+    }
+
+    .br_framework_settings .body .content .title {
+        padding-left: 20px;
+    }
+
+    .br_framework_settings .framework-form-table > tbody > tr > td,
+    .br_framework_settings .framework-form-table > thead > tr > td,
+    .br_framework_settings .framework-form-table > tfoot > tr > td,
+    .br_framework_settings .framework-form-table > tr > td,
+    .br_framework_settings .framework-form-table > tbody > tr > th,
+    .br_framework_settings .framework-form-table > thead > tr > th,
+    .br_framework_settings .framework-form-table > tfoot > tr > th,
+    .br_framework_settings .framework-form-table > tr > th {
+        display: block;
+        padding: 10px 10px 0 0;
+    }
+
+    .br_framework_settings .framework-form-table > tbody > tr > td,
+    .br_framework_settings .framework-form-table > thead > tr > td,
+    .br_framework_settings .framework-form-table > tfoot > tr > td,
+    .br_framework_settings .framework-form-table > tr > td {
+        margin-bottom: 0;
+        padding: 4px 10px 6px 0;
+    }
+    .br_framework_settings {
+        margin-right: 0;
+        margin-left: -10px;
+    }
+    .br_framework_settings .body .content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .br_framework_settings .body .content .title {
+        padding-left: 40px;
+        margin-left: -10px;
+        margin-right: 0;
+    }
+    .br_framework_settings form .nav-block {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+.berocket_display_block_messages_hide {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    z-index:999999997;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.berocket_display_block_messages_hide.inside {
+    background-color: transparent;
+}
+.berocket_display_block_messages_hide.top span{
+    position: absolute;
+    bottom: 20px;
+}
+.berocket_display_block_messages_close_button {
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+    z-index:999999999;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black;
+}
+.berocket_display_block_messages_next_button {
+    position: absolute;
+    bottom: -25px;
+    right: 10px;
+    z-index:999999999;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black;
+}
+.berocket_display_tooltip {
+    position: absolute;
+    z-index:999999998;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #23282d;
+    box-shadow: 0 0 5px #23282d;
+    border-radius: 5px;
+    min-width: 150px;
+    max-width: 500px
+}
+.berocket_display_tooltip .br_add1 {
+    background-color: #f1f1f1;
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-color:#23282d;
+    border-style: solid;
+    border-width: 0;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    box-shadow: -2px -2px 1px -2px #23282d;
+}
+.berocket_display_tooltip.position_left .br_add1 {
+    right: -11px;
+    top: 10px;
+    transform: rotate(135deg);
+}
+.berocket_display_tooltip.position_right .br_add1 {
+    left: -11px;
+    top: 10px;
+    transform: rotate(-45deg);
+}
+.berocket_display_tooltip.position_element .br_add1 {
+    left: 50%;
+    top: -11px;
+    margin-left: -10px;
+    transform: rotate(45deg);
+}
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+    .br_framework_settings form .nav-block,
+    .br_framework_settings .paid_features,
+    .br_framework_settings .berocket_subscribe {
+        padding: 0 10px;
+    }
+}
+/* SORTABLE CUSTOM POST */
+.column-berocket_sortable {
+    width: 120px;
+    text-align: right;
+}
+.berocket_post_set_new_sortable_input {
+    position: relative;
+}
+.berocket_post_set_new_sortable_input input {
+    width: 80px;
+    padding-right: 20px;
+}
+.berocket_post_set_new_sortable_input .fa{
+    position: absolute;
+    right: 5px;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 1.4em;
+    top: -0.1em;
+}
+
+/* -------------- */
+/* ADDON LIST */
+.berocket_addons_list .berocket_addon_is_active {
+    display: none;
+}
+.berocket_addons_list .berocket_addon_label {
+    position: relative;
+    display: inline-block;
+    font-size: 6px;
+    width: 250px;
+}
+.berocket_addons_list.col8-addons .berocket_addon_label {
+    width: 12.4%;
+}
+.berocket_addons_list.col7-addons .berocket_addon_label {
+    width: 14.2%;
+}
+.berocket_addons_list.col6-addons .berocket_addon_label {
+    width: 16.6%;
+}
+.berocket_addons_list.col5-addons .berocket_addon_label {
+    width: 19.9%;
+}
+.berocket_addons_list.col4-addons .berocket_addon_label {
+    width: 24.9%;
+}
+.berocket_addons_list.col3-addons .berocket_addon_label {
+    width: 33%;
+}
+.berocket_addons_list.col2-addons .berocket_addon_label {
+    width: 49.9%;
+}
+.berocket_addons_list.col-addons .berocket_addon_label {
+    width: 100%;
+}
+.berocket_addons_list .berocket_addon_block {
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    padding-bottom: 70px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.berocket_addons_list .berocket_addon_block .berocket_addon_active {
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 17.5px);
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    display: block;
+    z-index: 100;
+    background-color: #009688;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 2em solid #a4d2ce;
+    line-height: 14em;
+    color: white;
+    transition: 0.3s;
+    opacity: 0;
+}
+.berocket_addons_list .berocket_addon_block .berocket_addon_active i {
+    font-size: 6em;
+}
+.berocket_addons_list .berocket_addon_block img {
+    display: block;
+    width: 100%;
+    opacity: 0.7;
+}
+.berocket_addons_list .berocket_addon_block .berocket_addon_name {
+    font-size: 24px;
+    margin-top: 15px;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    line-height: 1em;
+}
+.berocket_addons_list .berocket_addon_is_active:checked ~ span .berocket_addon_active {
+    opacity: 1;
+}
+.berocket_addons_list .berocket_addon_is_active:checked ~ span img {
+    opacity: 1;
+}
+.berocket_addons_list .berocket_addon_paid_sign {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1em;
+    z-index: 200;
+}
+.berocket_addons_list .berocket_addon_paid_sign:before {
+    font-size: 4em;
+}
+.berocket_addons_list .berocket_addon_paid_get {
+    transition: all 0.2s ease-out 0s;
+    position: absolute;
+    text-align: center;
+    z-index: 150;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2c3b48;
+    color: white;
+    border-radius:10px;
+    opacity: 0;
+}
+.berocket_addons_list .berocket_addon_label:hover .berocket_addon_paid_get {
+    opacity: 1;
+}
+.berocket_addons_list .berocket_addon_paid_get a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+}
+.berocket_addons_list .berocket_addon_paid_get a span {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.6em;
+    line-height: 1em;
+    display: block;
+    color: gold;
+}
+.br_framework_settings .berocket_addon_paid_sign {
+    color: #f16543;
+}
+.br_framework_settings .berocket_addon_label:hover .berocket_addon_paid_sign {
+    color: gold;
+}
+/* -------------- */
+/* TEMPLATES LIST */
+.berocket_templates_list .berocket_template_is_active {
+    display: none;
+}
+.berocket_templates_list .berocket_template_label {
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    font-size: 10px;
+}
+.berocket_templates_list .berocket_template_block {
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 50px;
+}
+.berocket_templates_list .berocket_template_block .berocket_template_active {
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 17.5px);
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    display: block;
+    z-index: 100;
+    background-color: #009688;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 2em solid #a4d2ce;
+    line-height: 14em;
+    color: white;
+    transition: 0.3s;
+    opacity: 0;
+}
+.berocket_templates_list .berocket_template_block .berocket_template_active i {
+    font-size: 6em;
+}
+.berocket_templates_list .berocket_template_block img {
+    display: block;
+    width: 100%;
+    opacity: 1;
+    height: auto;
+    transition: 0.3s;
+}
+.berocket_templates_list .berocket_template_block:hover img {
+    box-shadow: 0 0 15px 0 #5b9691;
+}
+.berocket_templates_list .berocket_template_block .berocket_template_name {
+    font-size: 24px;
+    margin-top: 15px;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    line-height: 1em;
+}
+.berocket_templates_list .berocket_template_is_active:checked ~ span .berocket_template_active {
+    opacity: 1;
+}
+.berocket_templates_list .berocket_template_is_active:checked ~ span img {
+    opacity: 1;
+}
+.berocket_templates_list .berocket_template_paid_sign {
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    font-size: 1em;
+    z-index: 200;
+}
+.berocket_templates_list .berocket_template_paid_sign:before {
+    font-size: 4em;
+}
+.berocket_templates_list .berocket_template_paid_get {
+    transition: all 0.2s ease-out 0s;
+    position: absolute;
+    text-align: center;
+    z-index: 150;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2c3b48;
+    color: white;
+    border-radius:10px;
+    opacity: 0;
+}
+.berocket_templates_list .berocket_template_label:hover .berocket_template_paid_get {
+    opacity: 1;
+}
+.berocket_templates_list .berocket_template_paid_get a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+}
+.berocket_templates_list .berocket_template_paid_get a span {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.6em;
+    line-height: 1em;
+    display: block;
+    color: gold;
+}
+.berocket_templates_list .berocket_template_paid_get a span i {
+    font-size: 0.8em;
+}
+.berocket_templates_list .berocket_template_paid_get a span i:first-child,
+.berocket_templates_list .berocket_template_paid_get a span i:last-child {
+    font-size: 0.4em;
+}
+.berocket_templates_list .berocket_template_paid_get a span i:nth-child(2),
+.berocket_templates_list .berocket_template_paid_get a span i:nth-child(5){
+    font-size: 0.6em;
+}
+.br_framework_settings .berocket_template_paid_sign {
+    color: #f16543;
+}
+.br_framework_settings .berocket_template_label:hover .berocket_template_paid_sign {
+    color: gold;
+}
+@media screen and (min-width: 1450px) and (max-width: 1600px) {
+    .berocket_templates_list .berocket_template_label {
+        font-size: 9px;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1450px) {
+    .berocket_templates_list .berocket_template_label {
+        font-size: 8px;
+    }
+}
+@media screen and (min-width: 901px)  and (max-width: 1300px) {
+    .br_framework_submit_form .berocket_templates_list .berocket_template_label {
+        width: 49%;
+    }
+    .berocket_templates_list .berocket_template_label {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .berocket_templates_list .berocket_template_paid_sign {
+        top: 20px;
+        right: 20px;
+    }
+    .br_framework_submit_form .berocket_templates_list .berocket_template_label {
+        width: 100%;
+    }
+    .berocket_templates_list .berocket_template_label {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .berocket_templates_list .berocket_template_block {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .berocket_templates_list .berocket_template_block .berocket_template_active {
+        width: 5em;
+        height: 5em;
+        line-height: 6.2em;
+        border-width: 1.5em;
+    }
+    .berocket_templates_list .berocket_template_block .berocket_template_active i {
+        font-size: 3em;
+    }
+    .berocket_templates_list .berocket_template_block .berocket_template_name {
+        font-size: 18px;
+    }
+    .berocket_templates_list .berocket_template_paid_sign {
+        font-size: 9px;
+    }
+    .berocket_templates_list .berocket_template_paid_get a span {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .berocket_templates_list .berocket_template_block .berocket_template_active {
+        width: 3em;
+        height: 3em;
+        line-height: 3.3em;
+        border-width: 1em;
+    }
+    .berocket_templates_list .berocket_template_block .berocket_template_active i {
+        font-size: 1.5em;
+    }
+    .berocket_templates_list .berocket_template_block .berocket_template_name {
+        font-size: 14px;
+    }
+    .berocket_templates_list .berocket_template_paid_sign {
+        font-size: 8px;
+    }
+    .berocket_templates_list .berocket_template_paid_get a span {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .berocket_templates_list .berocket_template_block .berocket_template_active {
+        width: 2em;
+        height: 2em;
+        line-height: 2em;
+        border-width: 0.5em;
+    }
+    .berocket_templates_list .berocket_template_block .berocket_template_active i {
+        font-size: 1em;
+    }
+    .berocket_templates_list .berocket_template_block .berocket_template_name {
+        font-size: 13px;
+    }
+    .berocket_templates_list .berocket_template_paid_sign {
+        font-size: 6px;
+    }
+    .berocket_templates_list .berocket_template_paid_get a span {
+        font-size: 14px;
+    }
+}
+
+/* TEMPLATE FREE ONLY */
+.show_premium .berocket_templates_list .berocket_template_label {
+    width: 49%;
+}
+@media screen and (max-width: 1300px) {
+    .show_premium.br_framework_submit_form .berocket_templates_list .berocket_template_label {
+        width: 100%;
+    }
+    .show_premium .berocket_templates_list .berocket_template_label {
+        font-size: 10px;
+    }
+}
+/* -------------- */
+/* CONDITIONS */
+.br_conditions .br_html_condition {
+    margin-top: 40px;
+}
+.br_conditions .br_html_condition:first-child {
+    margin-top: 0;
+}
+.br_conditions .br_html_condition:before {
+    content: "OR";
+    display: block;
+    position: absolute;
+    top: -30px;
+    font-size: 30px;
+    line-height: 18px;
+}
+.br_conditions .br_html_condition:first-child:before {
+    display: none;
+}
+.br_html_condition label {
+    margin-right: 15px;
+}
+.br_html_condition .br_cond_select {
+    margin-top: 40px;
+    position: relative;
+}
+.br_html_condition .br_cond_select:first-child {
+    margin-top: 0;
+}
+.br_html_condition .br_cond_select:before {
+    content: "AND";
+    display: block;
+    position: absolute;
+    top: -30px;
+    font-size: 30px;
+    line-height: 18px;
+}
+.br_html_condition .br_cond_select:first-child:before {
+    display: none;
+}
+.br_html_condition .br_cond_one .br_cond_select:first-child .berocket_remove_condition {
+    display: none;
+}
+.br_html_condition {
+    border: 1px solid #999;
+    background-color: #fafafa;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    position: relative;
+}
+.br_html_condition .br_remove_group {
+    position: absolute!important;
+    top:-10px;
+    right: -10px;
+}
+.br_cond_select {
+    padding-bottom: 1em;
+}
+.br_cond_select {
+    border: 1px solid #999;
+    padding: 1em 0.7em;
+    margin-bottom: 0.5em;
+    background-color: #eee;
+}
+.br_html_condition .br_current_cond,
+.br_cond.br_cond_product .br_framework_settings {
+    margin-top: 10px;
+}
+.br_cond.br_cond_category > select {
+    margin-right: 15px;
+}
+.br_cond.br_cond_category > div,
+.br_cond.br_cond_page_id > div {
+    margin-top: 10px;
+}
+.br_cond.br_cond_category > div ul {
+    margin: 0;
+}
+.br_cond.br_cond_category > div ul ul {
+    margin-left: 10px;
+}
+.br_cond.br_cond_sale select,
+.br_cond.br_cond_bestsellers input,
+.br_cond.br_cond_price input,
+.br_cond.br_cond_totalsales input,
+.br_cond.br_cond_product_rating select,
+.br_cond.br_cond_saleprice input,
+.br_cond.br_cond_regularprice input,
+.br_cond.br_cond_stockquantity input,
+.br_cond.br_cond_stockquantity label select{
+    margin-left: 10px;
+}
+.br_cond.br_cond_price input,
+.br_cond.br_cond_price select,
+.br_cond.br_cond_totalsales select,
+.br_cond.br_cond_age select ,
+.br_cond.br_cond_age input,
+.br_cond.br_cond_product_type select,
+.br_cond.br_cond_attribute select,
+.br_cond.br_cond_saleprice select,
+.br_cond.br_cond_saleprice input,
+.br_cond.br_cond_regularprice select,
+.br_cond.br_cond_regularprice input,
+.br_cond.br_cond_stockquantity select,
+.br_cond.br_cond_stockquantity input {
+    margin-right: 10px;
+}
+.br_cond.br_cond_product .br_framework_settings {
+    padding-bottom: 0;
+}
+.br_framework_settings .button.berocket_remove_condition:not(.not_berocket_button),
+.br_framework_settings .button.berocket_add_condition:not(.not_berocket_button),
+.br_framework_settings .button.br_remove_group:not(.not_berocket_button),
+.br_framework_settings .button.br_add_group:not(.not_berocket_button) {
+    padding: 0 10px;
+    margin: 0;
+    width: initial;
+    min-width: initial;
+}
+/* ---------- */
+#the-list .fa-bars {
+    padding: 2px 10px;
+    cursor: move;
+}
+
+.account_key_send.br_framework_settings .button.tiny-button {
+    margin: 0;
+}
+.wp-list-table .berocket_disabled_post {
+    opacity:0.5;
+}
+.wp-list-table .berocket_disabled_post:hover {
+    opacity: 0.8;
+}
+/*WORDPRESS 5.3 FIX*/
+.br_framework_settings input[type=date],
+.br_framework_settings input[type=datetime-local],
+.br_framework_settings input[type=datetime],
+.br_framework_settings input[type=email],
+.br_framework_settings input[type=month],
+.br_framework_settings input[type=number],
+.br_framework_settings input[type=password],
+.br_framework_settings input[type=search],
+.br_framework_settings input[type=tel],
+.br_framework_settings input[type=text],
+.br_framework_settings input[type=time],
+.br_framework_settings input[type=url],
+.br_framework_settings input[type=week]{
+    padding: 0 0 0 8px;
+}
+.br_label_for {
+    display: inline-block;
+    margin-left: 10px;
+}
+.br_cond_woo_category li {
+    margin: 0;
+}
+.br_cond_woo_category ul ul {
+    margin-left: 10px;
+    margin-top: 5px;
+}

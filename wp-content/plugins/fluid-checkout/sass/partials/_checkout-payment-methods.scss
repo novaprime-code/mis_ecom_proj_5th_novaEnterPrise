@@ -1,0 +1,245 @@
+// ------------------------------------
+// CHECKOUT PAYMENT METHODS
+// ------------------------------------
+
+.fc-wrapper .fc-payment-methods__wrapper {
+	position: relative;
+}
+
+
+body#{ $_body-page-selector } div.woocommerce .fc-wrapper #payment,
+body#{ $_body-page-selector } div.woocommerce #add_payment_method .fc-wrapper #payment {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+
+
+body#{ $_body-page-selector } div.woocommerce .fc-wrapper #payment ul.payment_methods,
+body#{ $_body-page-selector } div.woocommerce #add_payment_method .fc-wrapper #payment ul.payment_methods {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	border: $payment-method-border;
+	border-radius: $payment-method-border-radius;
+	overflow: visible;
+}
+
+
+
+.fc-wrapper #payment .payment_methods > .wc_payment_method,
+#add_payment_method .fc-wrapper #payment .payment_methods > .wc_payment_method {
+	width: 100%;
+	margin: $payment-method-margin;
+	padding: 0;
+	border: 0;
+	line-height: 1.6;
+}
+
+
+
+// Hide default radio elements with opacity to allow for keyboard navigation
+.fc-wrapper #payment .payment_methods > .wc_payment_method > input[name="payment_method"] {
+	position: absolute;
+	display: block;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+}
+
+
+
+.fc-wrapper #payment ul.wc_payment_methods > li.wc_payment_method > label {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: $payment-method-padding-vertical $payment-method-padding-horizontal;
+	padding-#{ $alignment-left }: #{ $payment-method-radio-size + $payment-method-padding-horizontal };
+	width: 100%;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: $payment-method-border;
+	background-color: $payment-method-background-color;
+	font-weight: $payment-method-font-weight;
+	line-height: $payment-method-radio-size;
+	cursor: pointer;
+	transition: all $global-animation-duration-fast linear;
+
+	&:active,
+	&:hover,
+	&:focus {
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+	}
+}
+.fc-wrapper #payment .payment_methods > .wc_payment_method:first-of-type > label,
+#add_payment_method .fc-wrapper #payment .payment_methods > .wc_payment_method:first-of-type > label {
+	border-top-#{ $alignment-left}-radius: $payment-method-border-radius;
+	border-top-#{ $alignment-right}-radius: $payment-method-border-radius;
+}
+.fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name="payment_method"]:not( :checked ) ~ label,
+#add_payment_method .fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name="payment_method"]:not( :checked ) ~ label,
+.fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name="payment_method"]:checked ~ .payment_box,
+#add_payment_method .fc-wrapper #payment .payment_methods > .wc_payment_method:last-of-type input[name="payment_method"]:checked ~ .payment_box {
+	border-bottom: 0;
+	border-bottom-#{ $alignment-left}-radius: $payment-method-border-radius;
+	border-bottom-#{ $alignment-right}-radius: $payment-method-border-radius;
+}
+
+.fc-wrapper #payment .payment_methods > li.wc_payment_method:not( .woocommerce-notice ) {
+	background-color: transparent;
+}
+
+.fc-wrapper #payment ul.wc_payment_methods > li.wc_payment_method > input[name="payment_method"]:checked + label {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	background-color: $payment-method-checked-background-color;
+	color: $payment-method-checked-color;
+}
+
+
+
+.fc-wrapper #payment .payment_methods > .wc_payment_method > input[name="payment_method"] + label:before {
+	box-sizing: border-box;
+	content: '';
+	position: absolute;
+	top: $payment-method-padding-vertical;
+	#{ $alignment-left }: $global-spacing-extra-small;
+	#{ $alignment-right }: auto;
+	display: block;
+	margin: 0;
+	width: $payment-method-radio-size;
+	height: $payment-method-radio-size;
+	border: $payment-method-radio-border;
+	border-radius: 100%;
+	background-color: transparent;
+	box-shadow: none;
+	transition: all $global-animation-duration-fast linear;
+	transform: none;
+}
+.fc-wrapper #payment .payment_methods > .wc_payment_method > input[name="payment_method"]:focus + label:before {
+	outline: $focus-outline-field;
+	outline-offset: $focus-outline-offset-field;
+}
+
+.fc-wrapper #payment .payment_methods > .wc_payment_method > input[name="payment_method"]:checked + label:before {
+	content: '';
+	border-color: $success-color !important; // Needed to override inline styles added by some themes
+	background-color: $success-color !important; // Needed to override inline styles added by some themes
+}
+
+.fc-wrapper #payment .payment_methods > .wc_payment_method > label:hover {
+	background-color: $payment-method-checked-background-color;
+}
+.fc-wrapper #payment .payment_methods > .wc_payment_method > label:hover:before,
+.fc-wrapper #payment .payment_methods > .wc_payment_method > label:focus:before {
+	border-color: darken( $payment-method-border-color, 15% );
+}
+
+body#{ $_body-page-selector } .fc-wrapper #payment ul.payment_methods > .wc_payment_method > input[name="payment_method"]:checked + label:before {
+	content: '';
+}
+
+
+
+.fc-wrapper #payment ul.payment_methods > .wc_payment_method > input[name="payment_method"] + label:after {
+	@include icon-styles();
+	@include icon( 'i-check-small' );
+	@include icon-size( $payment-method-radio-size );
+
+	position: absolute;
+	top: $payment-method-padding-vertical;
+	#{ $alignment-left }: $global-spacing-extra-small;
+	#{ $alignment-right }: auto;
+	color: transparent;
+	background-color: transparent;
+	transition: all $global-animation-duration-fast linear;
+	transform: none;
+}
+.fc-wrapper #payment ul.payment_methods > .wc_payment_method > input[name="payment_method"]:checked + label:after {
+	color: $white;
+}
+
+
+
+
+
+.fc-wrapper #payment ul.payment_methods > li.wc_payment_method > label .payment-method__label-text {
+	display: inline-block;
+	margin-#{ $alignment-right }: $global-spacing-extra-small;
+}
+
+.fc-wrapper #payment ul.payment_methods > li.wc_payment_method > label img {
+	float: none;
+	display: inline-block;
+	height: $payment-method-radio-size;
+	vertical-align: middle;
+}
+
+
+
+
+
+.fc-wrapper #payment ul.payment_methods > li.wc_payment_method .payment_box,
+#add_payment_method .fc-wrapper #payment ul.payment_methods > li.wc_payment_method .payment_box {
+	margin: 0;
+	padding: $global-spacing-small;
+	border-bottom: $payment-method-border;
+	background-color: $lighter-grey;
+
+	@media (#{$bp-larger-than-tablet}) { padding: $global-spacing-small #{ $payment-method-radio-size + $payment-method-padding-horizontal }; }
+
+	// Make fields background white
+	textarea,
+	select,
+	input[type="email"],
+	input[type="number"],
+	input[type="date"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"] {
+		background-color: $white;
+	}
+}
+.fc-wrapper #payment .payment_methods > li .payment_box:before,
+#add_payment_method .fc-wrapper #payment .payment_methods > li .payment_box:before {
+	display: none;
+}
+
+
+
+.fc-wrapper .payment_box > p:last-child {
+	margin-bottom: 0;
+}
+
+
+
+.fc-wrapper #payment ul.payment_methods > li.wc_payment_method .payment_box a:focus {
+	outline: $focus-outline-link;
+	outline-offset: $focus-outline-offset-link;
+}
+
+
+
+.fc-wrapper #payment ul.payment_methods > li.wc_payment_method .payment_box fieldset {
+	background-color: transparent;
+}
+
+
+
+.fc-wrapper #payment .payment_methods > .woocommerce-notice {
+	margin-bottom: 0;
+}

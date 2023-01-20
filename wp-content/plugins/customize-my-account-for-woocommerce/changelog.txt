@@ -1,0 +1,18 @@
+***CHANGELOG***
+
+
+
+
+Version 1.0.7 - 15 May 2021
+              - Fixed query errors.
+
+Version 1.0.5 - 29 April 2021
+              - shortcodes not working inside content.
+
+Version 1.0.4 - 24 April 2021
+              - Make accordion visible after pageload.
+
+Version 1.0.3 - added hook to override default endpoint url 
+              - fixed issue with accordion tab not loading on backend.
+* Initial release
+

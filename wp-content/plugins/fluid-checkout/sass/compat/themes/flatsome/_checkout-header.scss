@@ -1,0 +1,12 @@
+// ------------------------------------
+// CHECKOUT HEADER
+// ------------------------------------
+
+// Checkout header, With admin bar
+body#{ $_body-theme-selector }.admin-bar .fc-checkout-header {
+	top: 0;
+}
+
+body#{ $_body-theme-selector }.admin-bar .fc-progress-bar[data-sticky-states].is-sticky--top .fc-progress-bar__inner {
+	transform: translateY(0);
+}

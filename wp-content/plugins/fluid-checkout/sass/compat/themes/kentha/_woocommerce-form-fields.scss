@@ -1,0 +1,24 @@
+// ------------------------------------
+// WOOCOMMERCE FORM-ROW
+// ------------------------------------
+
+body#{ $_body-theme-selector } div.woocommerce form .form-row input[type="checkbox"] {
+	position: initial;
+}
+
+body#{ $_body-theme-selector } div.woocommerce form .form-row [type="radio"]:not(:checked) + label, 
+body#{ $_body-theme-selector } div.woocommerce form .form-row [type="radio"]:checked + label {
+	height: auto;
+}
+
+body#{ $_body-theme-selector } div.woocommerce form .form-row [type="radio"] + label:before, 
+body#{ $_body-theme-selector } div.woocommerce form .form-row [type="radio"] + label:after {
+	margin: auto;
+	transition: none;
+}
+
+body#{ $_body-theme-selector } div.woocommerce form .form-row [type="radio"]:checked + label:after, 
+body#{ $_body-theme-selector } div.woocommerce form .form-row .with-gap[type="radio"]:checked + label:before, 
+body#{ $_body-theme-selector } div.woocommerce form .form-row .with-gap[type="radio"]:checked + label:after {
+	border: remsize( .2rem ) solid transparent;
+}

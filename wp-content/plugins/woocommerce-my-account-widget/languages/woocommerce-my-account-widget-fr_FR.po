@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce My Account Widget\n"
+"POT-Creation-Date: 2014-04-06 12:36+0100\n"
+"PO-Revision-Date: 2014-11-24 10:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: Geev vormgeeving <info@geev.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_n:1,2;_nx_noop:1,2;"
+"_n_noop:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../woocommerce-my-account-widget.php:14
+msgid "WooCommerce My Account Widget shows order & account data"
+msgstr ""
+"WooCommerce My  Account Widget montre les données de compte et commande"
+
+#: ../woocommerce-my-account-widget.php:15
+msgid "WooCommerce My Account Widget"
+msgstr ""
+
+#: ../woocommerce-my-account-widget.php:29
+msgid "Logged out title:"
+msgstr "titre de déconnexon"
+
+#: ../woocommerce-my-account-widget.php:30
+#: ../woocommerce-my-account-widget.php:102
+msgid "Customer Login"
+msgstr "Connexion Client"
+
+#: ../woocommerce-my-account-widget.php:32
+msgid "Logged in title:"
+msgstr "Titre Connecté :"
+
+#: ../woocommerce-my-account-widget.php:33
+#: ../woocommerce-my-account-widget.php:104
+#, php-format
+msgid "Welcome %s"
+msgstr "Bienvenue %s"
+
+#: ../woocommerce-my-account-widget.php:36
+msgid "Show link to shopping cart"
+msgstr "Montrer lien vers le panier"
+
+#: ../woocommerce-my-account-widget.php:38
+msgid "Show number of items in cart"
+msgstr "Montrer nb d'article dans le panier"
+
+#: ../woocommerce-my-account-widget.php:43
+msgid "Show number of uploads left"
+msgstr "Montrer nombre de téléchargement restant"
+
+#: ../woocommerce-my-account-widget.php:46
+msgid "Show number of unpaid orders"
+msgstr "Montrer nombre de commandes de téléchargement non payé"
+
+#: ../woocommerce-my-account-widget.php:48
+msgid "Show number of uncompleted orders"
+msgstr "Montrer nombre de de commandes non achevées"
+
+#: ../woocommerce-my-account-widget.php:50
+msgid "Show logout link"
+msgstr "Montrer de lien de déconnexion"
+
+#: ../woocommerce-my-account-widget.php:52
+msgid "Redirect to page after login:"
+msgstr "Après identification, Rediriger vers page :"
+
+#: ../woocommerce-my-account-widget.php:55
+msgid "Select page"
+msgstr "Choisir la page"
+
+#: ../woocommerce-my-account-widget.php:67
+msgid "Other options"
+msgstr "Autres options"
+
+#: ../woocommerce-my-account-widget.php:69
+msgid "Login with email address"
+msgstr "Identification avec adresse email"
+
+#: ../woocommerce-my-account-widget.php:128
+#: ../woocommerce-my-account-widget.php:180
+#: ../woocommerce-my-account-widget.php:251
+msgid "View your shopping cart"
+msgstr "Voir votre panier"
+
+#: ../woocommerce-my-account-widget.php:182
+msgid "product in your shopping cart"
+msgid_plural "products in your shopping cart"
+msgstr[0] "poduit dans votre panier"
+msgstr[1] "produits dans votre panier"
+
+#: ../woocommerce-my-account-widget.php:189
+msgid "Upload files"
+msgstr "Charger des fichiers"
+
+#: ../woocommerce-my-account-widget.php:191
+msgid "file to upload"
+msgid_plural "files to upload"
+msgstr[0] "fichier à charger"
+msgstr[1] "fichiers à charger"
+
+#: ../woocommerce-my-account-widget.php:197
+msgid "Pay orders"
+msgstr "Payer commandes"
+
+#: ../woocommerce-my-account-widget.php:199
+msgid "payment required"
+msgid_plural "payments required"
+msgstr[0] "paiement recquis"
+msgstr[1] "paiements recquis"
+
+#: ../woocommerce-my-account-widget.php:205
+msgid "View uncompleted orders"
+msgstr "Voir les commandes non achevées"
+
+#: ../woocommerce-my-account-widget.php:207
+msgid "order pending"
+msgid_plural "orders pending"
+msgstr[0] "commande en attente"
+msgstr[1] "commandes en attente"
+
+#: ../woocommerce-my-account-widget.php:212
+msgid "My Account"
+msgstr "Mon compte"
+
+#: ../woocommerce-my-account-widget.php:213
+msgid "Log out"
+msgstr "Deconnexion"
+
+#: ../woocommerce-my-account-widget.php:221
+msgid "Login failed, please try again"
+msgstr "Identification échouée, merci d'essayer encore"
+
+#: ../woocommerce-my-account-widget.php:228
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ../woocommerce-my-account-widget.php:229
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../woocommerce-my-account-widget.php:230
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: ../woocommerce-my-account-widget.php:231
+msgid "Log In"
+msgstr "S'identifier"
+
+#: ../woocommerce-my-account-widget.php:245
+msgid "Lost password?"
+msgstr "Mot de passe perdu"
+
+#: ../woocommerce-my-account-widget.php:248
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: ../woocommerce-my-account-widget.php:309
+msgid "Username or Email"
+msgstr "Nom d'utilisateur ou email"
+
+msgid "products in your shoppingcart"
+msgstr "<span>%d</span> produits dans le panier"
+
+msgid "<span>%d</span> "
+msgstr "<span>%d</span> commandes suspendues"
+
+msgid "files to upload"
+msgstr "<span>%d</span> fichiers à charger"
+
+msgid "payments required"
+msgstr "<span>%d</span>paiement recquis"
+
+msgid "orders pending"
+msgstr "<span>%d</span> commandes en attente"
+
+msgid "Sorry, no files have been uploaded yet."
+msgstr "Désolé, aucun fichier n'a pu être chargé"

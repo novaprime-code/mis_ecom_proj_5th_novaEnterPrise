@@ -1,0 +1,14 @@
+<% extends 'layout.html' %>
+
+<% block content %>
+<div id="mailpoet_automation_templates"></div>
+
+<script type="text/javascript">
+  var mailpoet_automation_api = <%= json_encode(api) %>;
+  var mailpoet_automation_templates = <%= json_encode(templates) %>;
+</script>
+<% endblock %>
+
+<% block after_css %>
+<%= stylesheet('mailpoet-automation-templates.css') %>
+<% endblock %>

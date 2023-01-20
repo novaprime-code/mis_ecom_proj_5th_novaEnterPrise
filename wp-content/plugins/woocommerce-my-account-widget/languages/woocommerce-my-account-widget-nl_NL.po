@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce My Account Widget v1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 15:45+0100\n"
+"PO-Revision-Date: 2018-12-21 15:45+0100\n"
+"Last-Translator: WP Fortune <info@wpfortune.com>\n"
+"Language-Team: Geev vormgeeving <info@geev.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx_noop:1,2;_n_noop:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:17
+msgid "WooCommerce My Account Widget shows order & account data"
+msgstr "WooCommerce My Account Widget toont bestel & account gegevens"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:18
+msgid "WooCommerce My Account Widget"
+msgstr "WooCommerce My Account Widget"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:35
+msgid "Logged out title:"
+msgstr "Titel uitgelogd:"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:36
+#: ../woocommerce-my-account-widget.php:118
+msgid "Customer Login"
+msgstr "Klant login"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:38
+msgid "Logged in title:"
+msgstr "Titel ingelogd:"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:39
+#: ../woocommerce-my-account-widget.php:119
+#, php-format
+msgid "Welcome %s"
+msgstr "Welkom %s"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:42
+msgid "Show link to shopping cart"
+msgstr "Toon link naar winkelwagen"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:44
+msgid "Show number of items in cart"
+msgstr "Toon aantal items in winkelwagen"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:48
+#: ../woocommerce-my-account-widget.php:51
+msgid "Show number of uploads left"
+msgstr "Toon aantal uploads (WooCommerce Upload My File plugin)"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:54
+msgid "Show number of unpaid orders"
+msgstr "Toon aantal onbetaalde bestellingen"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:56
+msgid "Show number of uncompleted orders"
+msgstr "Toon aantal onvoltooide bestellingen"
+
+#: ../woocommerce-my-account-widget.php:58
+msgid "Show logout link"
+msgstr "Toon log-uit link"
+
+#: ../woocommerce-my-account-widget.php:60
+msgid "Redirect to page after login:"
+msgstr "Redirect pagina na inloggen:"
+
+#: ../woocommerce-my-account-widget.php:63
+msgid "Select page"
+msgstr "Selecteer pagina"
+
+#: ../woocommerce-my-account-widget.php:75
+msgid "Other options"
+msgstr "Andere opties"
+
+#: ../woocommerce-my-account-widget.php:77
+msgid "Login with email address"
+msgstr "Inloggen met e-mail adres"
+
+#: ../woocommerce-my-account-widget.php:81
+msgid "Add basic styling and icons"
+msgstr "Basis styling en icoontjes toevoegen"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:147
+#: ../woocommerce-my-account-widget.php:232
+#: ../woocommerce-my-account-widget.php:312
+msgid "View your shopping cart"
+msgstr "Bekijk winkelwagentje"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:234
+msgid "product in your cart"
+msgid_plural "products in your cart"
+msgstr[0] "product in winkelwagen"
+msgstr[1] "producten in winkelwagen"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:241
+#: ../woocommerce-my-account-widget.php:250
+msgid "Upload files"
+msgstr "Upload bestanden"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:243
+#: ../woocommerce-my-account-widget.php:252
+msgid "file to upload"
+msgid_plural "files to upload"
+msgstr[0] "bestand aan te leveren"
+msgstr[1] "bestanden aan te leveren"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:258
+msgid "Pay orders"
+msgstr "Betaal bestellingen"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:260
+msgid "payment required"
+msgid_plural "payments required"
+msgstr[0] "betaling nodig"
+msgstr[1] "betalingen nodig"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:266
+msgid "View uncompleted orders"
+msgstr "Bekijk bestellingen in verwerking"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:268
+msgid "order pending"
+msgid_plural "orders pending"
+msgstr[0] "bestelling in behandeling"
+msgstr[1] "bestellingen in behandeling"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:273
+msgid "My Account"
+msgstr "Mijn account"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:274
+msgid "Log out"
+msgstr "Uitloggen"
+
+#: ../woocommerce-my-account-widget.php:282
+msgid "Login failed, please try again"
+msgstr "Inloggen mislukt, probeer a.u.b. opnieuw."
+
+# @ default
+#: ../woocommerce-my-account-widget.php:289
+msgid "Username or Email"
+msgstr "Gebruikersnaam of E-mail adres"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:289
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:290
+msgid "Password"
+msgstr "Wachtwoord"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:291
+msgid "Remember Me"
+msgstr "Onthoud mij"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:292
+msgid "Log In"
+msgstr "Inloggen"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:306
+msgid "Lost password?"
+msgstr "Wachtwoord vergeten?"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:309
+msgid "Register"
+msgstr "Nieuwe klant"
+
+#: ../woocommerce-my-account-widget.php:400
+msgid "Please fill in your username and password"
+msgstr "Vul a.u.b. een geldige gebruikersnaam en wachtwoord in."
+
+#~ msgid "Full URL or relative path, for example: /my-account/"
+#~ msgstr "Volledige URL of relatief pad, bijvoorbeeld: /mijn-account/"

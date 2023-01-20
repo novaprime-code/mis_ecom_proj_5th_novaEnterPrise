@@ -1,0 +1,1061 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluid Checkout for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-08 14:39+0000\n"
+"PO-Revision-Date: 2023-01-03 18:38+0000\n"
+"Last-Translator: Diego Versiani\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#: inc/admin/admin-settings-general.php:87
+#| msgid "Use theme's page header and footer for the checkout page"
+msgid "(Experimental) Use theme's page header and footer for the checkout page"
+msgstr ""
+"(Experimental) Use o cabeçalho e rodapé do tema para a página de checkout"
+
+#: inc/checkout-validation.php:260
+msgid "(Required)"
+msgstr "(Obrigatório)"
+
+#: inc/compat/plugins/elementor-pro/widgets/woocommerce/checkout.php:70
+#| msgid ""
+#| "<p>This widget has been replaced by Fluid Checkout. </p><p>When using "
+#| "Fluid Checkout, the checkout page needs to use the original WooCommerce "
+#| "shortcode <code>[woocommerce_checkout]</code>` to work properly.</p><p>"
+#| "For more information, visit the Fluid Checkout documentation.</p>"
+msgid ""
+"<p>This widget has been replaced by Fluid Checkout. </p><p>When using Fluid "
+"Checkout, the checkout page needs to use the original WooCommerce shortcode "
+"<code>[woocommerce_checkout]</code> to work properly.</p><p>For more "
+"information, visit the Fluid Checkout documentation.</p>"
+msgstr ""
+"<p>Este widget foi substituído pelo Fluid Checkout. </p><p>Ao usar o Fluid "
+"Checkout, a página de checkout precisa usar o shortcode original do "
+"WooCommerce <code>[woocommerce_checkout]</code> para funcionar corretamente."
+"</p><p>Para mais informações, visite o Documentação do Fluid Checkout.</p>"
+
+#: fluid-checkout.php:428
+#, php-format
+#| msgid ""
+#| "<strong>%1$s</strong> requires <strong>%2$s</strong> to be installed and "
+#| "activated. <a href=\"%3$s\">Go to Plugin Search</a>"
+msgid ""
+"<strong>%1$s</strong> requires <strong>%2$s</strong> to be installed and "
+"activated. <a href=\"%4$s\">%3$s</a>"
+msgstr ""
+"<strong>%1$s</strong> requer que <strong>%2$s</strong> esteja instalado e "
+"ativado. <a href=\"%4$s\">%3$s</a>"
+
+#: fluid-checkout.php:424
+#, php-format
+msgid "Activate %s"
+msgstr "Ativar %s"
+
+#. %s: Form field label
+#: inc/checkout-coupon-codes.php:199 inc/checkout-hide-optional-fields.php:106
+#, php-format
+msgid "Add %s"
+msgstr "Adicionar %s"
+
+#: inc/admin/admin-settings-general.php:251
+msgid "Add a phone field to the billing address form"
+msgstr "Adicione um campo de telefone ao formulário de faturamento"
+
+#: inc/admin/admin-settings-general.php:277
+msgid "Add a phone field to the shipping address form"
+msgstr "Adicione um campo de telefone ao formulário de endereço de entrega"
+
+#: inc/admin/admin-settings-general.php:351
+msgid "Add widget areas to the checkout page"
+msgstr "Adicione áreas de widget à página de checkout"
+
+#: inc/checkout-steps.php:2170
+msgid "Additional notes"
+msgstr "Notas Adicionais"
+
+#: inc/admin/admin-settings-general.php:307
+msgid "After shipping address"
+msgstr "Após o endereço de entrega"
+
+#: templates/fc/checkout/form-contact-login.php:42
+msgid "Already have an account?"
+msgstr "Já tem uma conta?"
+
+#: inc/checkout-steps.php:1953
+msgid "An account will be created with the information provided."
+msgstr "Sua conta será criada com as informações fornecidas."
+
+#: inc/checkout-fields.php:95
+#| msgid "Appartment, unit, building, floor, etc."
+msgid "Apartment, unit, building, floor, etc."
+msgstr "Apartamento, unidade, prédio, andar, etc."
+
+#: inc/admin/admin-settings-general.php:126
+msgid "Applies only to multi-step layouts."
+msgstr "Aplica-se apenas à layouts multi-passos."
+
+#: inc/admin/admin-settings-general.php:306
+msgid "Before shipping address"
+msgstr "Antes do endereço de entrega"
+
+#: inc/admin/admin-settings-general.php:169
+msgid "Below the order summary"
+msgstr "Abaixo o resumo do pedido"
+
+#: inc/admin/admin-settings-general.php:168
+msgid "Below the payment section"
+msgstr "Abaixo da seção de pagamento"
+
+#: inc/admin/admin-settings-general.php:187
+#: inc/admin/admin-settings-general.php:240
+#: inc/admin/admin-settings-general.php:267
+#| msgid "Billing Address"
+msgid "Billing address"
+msgstr "Endereço de faturamento"
+
+#: inc/admin/admin-settings-general.php:241
+msgid "Billing address same as the shipping address checked by default"
+msgstr ""
+"Endereço de faturamento igual ao endereço de entrega marcado por padrão"
+
+#: inc/admin/admin-settings-general.php:250
+msgid "Billing phone"
+msgstr "Telefone de faturamento"
+
+#: inc/checkout-steps.php:2935
+msgid "Billing to"
+msgstr "Faturamento para"
+
+#: inc/admin/admin-settings-general.php:170
+msgid "Both below the payment section and the order summary"
+msgstr "Ambos abaixo da seção de pagamento e do resumo do pedido"
+
+#: inc/checkout-coupon-codes.php:164
+msgctxt "Button label for applying coupon codes"
+msgid "Apply"
+msgstr "Aplicar"
+
+#: inc/compat/plugins/compat-plugin-captcha-pro.php:69
+msgctxt "Captcha position"
+msgid "Before place order button"
+msgstr "Antes do botão de finalização do pedido"
+
+#: inc/compat/plugins/compat-plugin-captcha-pro.php:68
+msgctxt "Captcha position"
+msgid "Before place order section"
+msgstr "Antes da seção de finalização do pedido"
+
+#: inc/compat/plugins/compat-plugin-captcha-pro.php:63
+msgid "Captcha Pro by BestWebSoft"
+msgstr "Captcha Pro by BestWebSoft"
+
+#: inc/checkout-steps.php:664
+msgid "Cart total:"
+msgstr "Total no carrinho:"
+
+#: inc/checkout-validation.php:115
+msgid "Change email address to: {suggestion-value}"
+msgstr "Alterar o endereço de e-mail para: {suggestion-value}"
+
+#: inc/checkout-steps.php:1633
+#, php-format
+msgid "Change: %s"
+msgstr "Alterar: %s"
+
+#: inc/admin/admin-settings-fluid-checkout.php:39
+msgid "Checkout"
+msgstr "Checkout"
+
+#: inc/checkout-widget-areas.php:91
+msgid "Checkout Below Place Order"
+msgstr "Abaixo do botão de finalização do pedido"
+
+#: inc/checkout-widget-areas.php:106
+msgid "Checkout Footer"
+msgstr "Rodapé de finalização de compra"
+
+#: inc/checkout-widget-areas.php:45
+msgid "Checkout Header - Desktop"
+msgstr "Cabeçalho do checkout - Desktop"
+
+#: inc/checkout-widget-areas.php:55
+msgid "Checkout Header - Mobile"
+msgstr "Cabeçalho do checkout - Celular"
+
+#: inc/admin/admin-settings-general.php:53
+msgid "Checkout Layout"
+msgstr "Opções de Layout"
+
+#: inc/checkout-widget-areas.php:81
+msgid "Checkout Order Summary"
+msgstr "Resumo do pedido no checkout"
+
+#: inc/checkout-widget-areas.php:69
+msgid "Checkout Sidebar"
+msgstr "Barra lateral do checkout"
+
+#: inc/checkout-steps.php:1267
+msgctxt "Checkout step title"
+msgid "Billing"
+msgstr "Cobrança"
+
+#: inc/checkout-steps.php:1248
+msgctxt "Checkout step title"
+msgid "Contact"
+msgstr "Contato"
+
+#: inc/checkout-steps.php:1276
+msgctxt "Checkout step title"
+msgid "Payment"
+msgstr "Pagamento"
+
+#: inc/checkout-steps.php:1257
+msgctxt "Checkout step title"
+msgid "Shipping"
+msgstr "Entrega"
+
+#: inc/checkout-steps.php:1633
+msgctxt "Checkout substep change link label"
+msgid "Change"
+msgstr "Alterar"
+
+#: inc/checkout-steps.php:1634
+msgctxt "Checkout substep save link label"
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: inc/admin/admin-settings-general.php:350
+#| msgid "Checkout Widget Areas"
+msgid "Checkout widget areas"
+msgstr "Áreas de widget de checkout"
+
+#: inc/admin/admin-settings-general.php:115
+msgid ""
+"Choose a background color for the checkout page footer. Only applies when "
+"using the plugin's checkout footer."
+msgstr ""
+"Escolha uma cor de fundo para o rodapé da página de finalização de compra. "
+"Aplica-se apenas quando usando o rodapé de página do plugin na página de "
+"finalização de compra."
+
+#: inc/admin/admin-settings-general.php:95
+msgid ""
+"Choose a background color for the checkout page header. Only applies when "
+"using the plugin's checkout header."
+msgstr ""
+"Escolha uma cor de fundo para o cabeçalho da página de finalização de compra."
+" Aplica-se apenas quando usando o cabeçalho da página do plugin na página de "
+"finalização de compra."
+
+#: inc/admin/admin-settings-general.php:105
+msgid ""
+"Choose a background color for the checkout page. Color is applied to the <em>"
+"body</em> element."
+msgstr ""
+"Escolha uma cor de fundo para a página de checkout. A cor é aplicada ao "
+"elemento <em>body</em>."
+
+#: inc/admin/admin-settings-general.php:146
+msgid "Choose a background color for the order summary section."
+msgstr "Escolha uma cor de fundo para a seção de resumo do pedido."
+
+#: inc/admin/admin-settings-general.php:72
+msgid ""
+"Choose an image to be displayed on the checkout page header. Only applies "
+"when using the plugin's checkout header."
+msgstr ""
+"Escolha uma imagem para ser exibida no cabeçalho da página de finalização de "
+"compra. Aplica-se apenas quando usando o cabeçalho da página do plugin na "
+"página de finalização de compra."
+
+#: inc/admin/admin-settings-general.php:303
+msgid "Choose in which position to display the shipping methods"
+msgstr "Escolha em qual posição exibir os métodos de envio"
+
+#: inc/admin/admin-settings-general.php:264
+#| msgid "Choose in which step to display the billing phone"
+msgid "Choose in which step to display the billing phone field"
+msgstr "Escolha em qual etapa exibir o campo telefone de faturamento"
+
+#: inc/admin/admin-settings-general.php:290
+#| msgid "Choose in which step to display the shipping phone"
+msgid "Choose in which step to display the shipping phone field"
+msgstr "Escolha em qual etapa exibir o campo telefone de entrega"
+
+#: inc/checkout-steps.php:664
+msgid "Click to go to the order summary"
+msgstr "Clique para ir para o resumo do pedido"
+
+#: templates/fc/checkout/review-order-section.php:63
+msgid "Close and continue with checkout"
+msgstr "Feche e continue com a finalização da compra"
+
+#: templates/fc/checkout/form-contact-login-modal.php:25
+msgctxt "Close button aria-label"
+msgid "Close"
+msgstr "Fechar"
+
+#: inc/admin/admin-settings-general.php:268
+#: inc/admin/admin-settings-general.php:294
+msgid "Contact step"
+msgstr "Etapa de contato"
+
+#: templates/fc/checkout/review-order-section.php:63
+msgid "Continue"
+msgstr "Continuar"
+
+#: inc/admin/admin-settings-general.php:82
+#| msgid ""
+#| "Controls whether to use the Fluid Checkout page header and footer of keep "
+#| "the currently active theme's."
+msgid ""
+"Controls whether to use the Fluid Checkout page header and footer or keep "
+"the currently active theme's."
+msgstr ""
+"Controla se o cabeçalho e rodapé do Fluid Checkout deve ser usado na página "
+"de checkout ou se manter o do tema ativo no momento."
+
+#: inc/checkout-coupon-codes.php:140 inc/checkout-coupon-codes.php:162
+msgid "Coupon code"
+msgstr "Código de cupom"
+
+#: inc/admin/admin-settings-general.php:315
+#| msgid "Coupon Codes"
+msgid "Coupon codes"
+msgstr "Código de cupom"
+
+#: templates/fc/checkout/form-account-creation.php:29
+msgid "Create an account"
+msgstr "Criar uma conta"
+
+#: inc/admin/admin-settings-tools.php:92
+msgid "Debug mode"
+msgstr "Modo de depuração"
+
+#: inc/admin/admin-settings-tools.php:91
+msgid "Debug options"
+msgstr "Solução de problemas"
+
+#: inc/admin/admin-settings-general.php:164
+msgid ""
+"Define the position to display \"Place order\" and terms checkbox section."
+msgstr ""
+"Defina a posição para exibir a seção \"Fazer pedido\" e o checkbox de termos "
+"e condições"
+
+#: inc/compat/plugins/compat-plugin-captcha-pro.php:64
+msgid ""
+"Define the position to display the captcha section. Some positions might not "
+"work depending on the captcha type chosen."
+msgstr ""
+"Defina a posição para exibir a seção captcha. Algumas posições podem não "
+"funcionar, dependendo do tipo de captcha escolhido."
+
+#: inc/admin/admin-settings-general.php:338
+msgid "Define the visibility of the additional order notes field."
+msgstr "Define a visibilidade do campo notas adicionais do pedido."
+
+#: inc/compat/plugins/compat-plugin-woo-delivery.php:104
+msgid "Delivery Date"
+msgstr "Data de Entrega"
+
+#: inc/compat/plugins/compat-plugin-woo-delivery.php:96
+msgid "Delivery Options"
+msgstr "Opções de entrega"
+
+#: inc/compat/plugins/compat-plugin-woo-delivery.php:100
+msgid "Delivery or Pickup"
+msgstr "Entrega ou Retirada"
+
+#. %s: html for the email address typo correction suggestion link
+#: inc/checkout-validation.php:115
+#, php-format
+msgid "Did you mean %s?"
+msgstr "Você quis dizer %s?"
+
+#: inc/admin/admin-settings-general.php:219
+msgid "Display the \"Add\" link buttons in lowercase"
+msgstr "Exibir os botões de link \"Adicionar\" em letras minúsculas"
+
+#: inc/admin/admin-settings-general.php:125
+msgid "Display the checkout progress bar"
+msgstr "Mostrar a barra de progresso do checkout"
+
+#: inc/admin/admin-settings-general.php:326
+msgid "Display the coupon codes section title"
+msgstr "Exibir título da seção de código de cupom"
+
+#: inc/checkout-widget-areas.php:57
+#| msgid ""
+#| "Display widgets below the checkout header on mobile devices. Only "
+#| "displayed if using the plugin's checkout header."
+msgid ""
+"Display widgets below the checkout header for mobile devices. Only displayed "
+"if using the plugin's checkout header."
+msgstr ""
+"Exibir widgets abaixo do cabeçalho do checkout em dispositivos móveis. "
+"Exibido apenas se estiver usando o cabeçalho de checkout do plugin."
+
+#: inc/checkout-widget-areas.php:93
+msgid "Display widgets below the place order button at the checkout page."
+msgstr ""
+"Exibir widgets abaixo do botão de finalização do pedido na página de "
+"checkout."
+
+#: inc/checkout-widget-areas.php:83
+msgid "Display widgets inside the order summary at the checkout page."
+msgstr "Exibir widgets dentro do resumo do pedido na página de checkout."
+
+#: inc/checkout-widget-areas.php:108
+msgid ""
+"Display widgets on the checkout footer. Only displayed if using the plugin's "
+"checkout footer."
+msgstr ""
+"Exiba widgets no rodapé da página de finalização de compra. Exibido apenas "
+"se estiver usando o rodapé de checkout do plugin."
+
+#: inc/checkout-widget-areas.php:47
+#| msgid ""
+#| "Display widgets on the checkout header and on large screens. Only "
+#| "displayed if using the plugin's checkout header."
+msgid ""
+"Display widgets on the checkout header for large screens. Only displayed if "
+"using the plugin's checkout header."
+msgstr ""
+"Exibe widgets no cabeçalho do checkout em telas grandes. Exibido apenas se "
+"estiver usando o cabeçalho de checkout do plugin."
+
+#: inc/checkout-widget-areas.php:71
+msgid "Display widgets on the checkout sidebar after the order summary."
+msgstr "Exibir widgets na barra lateral de checkout após o resumo do pedido."
+
+#: inc/admin/admin-settings-general.php:229
+msgid "Do not hide \"Address line 2\" fields behind a link button"
+msgstr "Não esconder os campos \"linha de endereço 2\" atrás de um link"
+
+#: inc/admin/admin-notices.php:45
+msgid "Don't show this again"
+msgstr "Não mostre isso novamente"
+
+#: inc/checkout-steps.php:3902
+#: templates/fc/checkout/review-order-section.php:62
+msgid "Edit cart"
+msgstr "Editar carrinho"
+
+#: inc/admin/admin-settings-general.php:316
+msgid "Enable integrated coupon code section"
+msgstr "Habilitar seção de código de cupom integrado"
+
+#: inc/compat/plugins/compat-plugin-woocommerce-extra-checkout-fields-for-brazil.php:115
+msgid "Enable Mail Check: (disabled feature)"
+msgstr "Habilitar Sugestões de E-mail: (funcionalidade desativada)"
+
+#: inc/checkout-coupon-codes.php:163
+msgid "Enter your code here"
+msgstr "Coloque o seu código aqui"
+
+#: inc/admin/admin-settings-general.php:201
+msgid "Features"
+msgstr "Funções do plugin"
+
+#. Author of the plugin
+#: inc/admin/admin-settings-fluid-checkout.php:25
+msgid "Fluid Checkout"
+msgstr "Fluid Checkout"
+
+#. Name of the plugin
+#| msgid "Fluid Checkout for WooCommerce"
+msgid "Fluid Checkout for WooCommerce - Lite"
+msgstr "Fluid Checkout for WooCommerce - Lite"
+
+#: inc/admin/admin-settings-general.php:114
+msgid "Footer background color"
+msgstr "Cor do fundo do rodapé"
+
+#: inc/admin/admin-notice-germanized-pro-multistep-enabled.php:62
+msgid ""
+"Germanized PRO multistep checkout feature needs to be disabled when using "
+"Fluid Checkout"
+msgstr ""
+"O recurso de check-out em várias etapas do plugin Germanized PRO precisa ser "
+"desativado ao usar o Fluid Checkout"
+
+#: inc/admin/admin-notice-germanized-pro-multistep-enabled.php:67
+msgid "Go to Germanized settings"
+msgstr "Ir para configurações do plugin Germanized"
+
+#: fluid-checkout.php:420
+msgid "Go to Plugin Search"
+msgstr "Ir para Busca de Plugin"
+
+#: templates/fc/checkout/checkout-header.php:27
+msgid "Go to the home page"
+msgstr "Ir para a página inicial"
+
+#: inc/admin/admin-settings-general.php:80
+msgid "Header and Footer"
+msgstr "Cabeçalho e rodapé"
+
+#: inc/admin/admin-settings-general.php:94
+msgid "Header background color"
+msgstr "Cor de fundo do cabeçalho"
+
+#: inc/admin/admin-settings-general.php:254
+#: inc/admin/admin-settings-general.php:280
+#: inc/admin/admin-settings-general.php:341
+msgid "Hidden"
+msgstr "Escondido"
+
+#: inc/admin/admin-settings-general.php:209
+msgid "Hide optional fields behind a link button"
+msgstr "Ocultar campos opcionais atrás de um link"
+
+#: inc/admin/admin-settings-general.php:188
+msgid "Highlight the billing address section in the checkout form"
+msgstr "Destaque a seção de endereço de faturamento no formulário de checkout"
+
+#: inc/admin/admin-settings-general.php:179
+msgid "Highlight the shipping address section in the checkout form"
+msgstr "Destaque a seção de endereço de entrega no formulário de checkout"
+
+#: inc/checkout-fields.php:94
+msgid "House number and street name."
+msgstr "Nome da rua e número do imóvel."
+
+#: inc/admin/admin-settings-general.php:96
+#: inc/admin/admin-settings-general.php:106
+#: inc/admin/admin-settings-general.php:116
+#: inc/admin/admin-settings-general.php:147
+msgid "HTML color value. ie: #f3f3f3"
+msgstr "Valor de cor para HTML. Ex: #f3f3f3"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://fluidcheckout.com/"
+msgstr "https://fluidcheckout.com/"
+
+#: inc/admin/admin-notice-review-request.php:48
+#| msgid "I Need Help!"
+msgid "I need help!"
+msgstr "Eu preciso de ajuda!"
+
+#: inc/compat/plugins/compat-plugin-woocommerce-extra-checkout-fields-for-brazil.php:118
+msgid ""
+"If checked informs typos in email to users. (This feature has been disabled "
+"because Fluid Checkout offers the feature. Changes to this option will not "
+"take effect)"
+msgstr ""
+"Caso esteja marcado exibe dicas quando o usuário digita o e-mail de forma "
+"errada. (Este recurso foi desativado porque o plugin Fluid Checkout oferece "
+"o mesmo recurso. As alterações nesta opção não terão efeito)"
+
+#: inc/admin/admin-setting-type-fc-image-uploader.php:85
+msgctxt "Image uploader."
+msgid "No image selected."
+msgstr "Nenhuma imagem selecionada."
+
+#: inc/admin/admin-settings-integrations.php:51
+msgid "Integrations"
+msgstr "Integrações"
+
+#: inc/admin/admin-settings-general.php:210
+#| msgid ""
+#| "It is recommended to keep this options checked to reduce the number of "
+#| "open input fields, <a href=\"https://baymard.com/blog/checkout-flow-"
+#| "average-form-fields#1-address-line-2--company-name-can-safely-be-"
+#| "collapsed-behind-a-link\" target=\"_blank\">read the research</a>."
+msgid ""
+"It is recommended to keep this option checked to reduce the number of open "
+"input fields, <a href=\"https://baymard.com/blog/checkout-flow-average-form-"
+"fields#1-address-line-2--company-name-can-safely-be-collapsed-behind-a-"
+"link\" target=\"_blank\">read the research</a>."
+msgstr ""
+"Recomenda-se manter esta opção marcada para reduzir o número de campos "
+"abertos, <a href=\"https://baymard.com/blog/checkout-flow-average-form-"
+"fields#1-address-line-2--company-name-can-safely-be-collapsed-behind-a-"
+"link\" target=\"_blank\">leia a pesquisa (em inglês)</a>."
+
+#: inc/admin/admin-settings-general.php:242
+#| msgid ""
+#| "It is recommended to leave this option checked. The billing address at "
+#| "checkout will start with the option \"Billing same as shipping\" checked "
+#| "by default. This will reduce significantly the number of open input "
+#| "fields at the checkout, <a href=\"https://baymard.com/blog/checkout-flow-"
+#| "average-form-fields#3-default-billing--shipping-and-hide-the-fields-"
+#| "entirely\" target=\"_blank\">read the research</a>."
+msgid ""
+"It is recommended to leave this option checked. The billing address at "
+"checkout will start with the option \"Billing same as shipping\" checked by "
+"default. This will significantly reduce the number of open input fields at "
+"the checkout, <a href=\"https://baymard.com/blog/checkout-flow-average-form-"
+"fields#3-default-billing--shipping-and-hide-the-fields-entirely\" "
+"target=\"_blank\">read the research</a>."
+msgstr ""
+"Recomenda-se deixar esta opção marcada. O endereço de cobrança no checkout "
+"começará com a opção &quot;(Faturamento) Igual ao endereço de entrega&quot; "
+"marcada por padrão. Isso irá reduzir significativamente o número de campos "
+"abertos no checkout, <a href=\"https://baymard.com/blog/checkout-flow-"
+"average-form-fields#3-default-billing--shipping-and-hide-the-fields-"
+"entirely\" target=\"_blank\">leia a pesquisa (em inglês)</a>."
+
+#: inc/admin/admin-settings-general.php:60
+msgid "Layout Options"
+msgstr "Opções de Layout"
+
+#: inc/admin/admin-settings-tools.php:102
+msgid "Load unminified assets"
+msgstr "Carregar arquivos não minificados"
+
+#: templates/global/form-login.php:59
+#: templates/fc/checkout/form-contact-login.php:42
+msgctxt "Log in link label at checkout contact step"
+msgid "Log in"
+msgstr "Faça login"
+
+#: templates/fc/checkout/form-contact-login.php:54
+msgctxt "Log in separator label at for when guest checkout is disabled"
+msgid "Or continue as a guest"
+msgstr "Ou continue como convidado"
+
+#: templates/fc/checkout/form-contact-login.php:56
+#| msgid "Or continue checkout below"
+msgctxt "Log in separator label at for when guest checkout is disabled"
+msgid "Or continue below"
+msgstr "Ou continue abaixo"
+
+#: templates/fc/checkout/form-contact-login-modal.php:28
+#| msgid "Sign in to your account"
+msgid "Log in to your account"
+msgstr "Faça login em sua conta"
+
+#. 1: user display name 2: logout url
+#: templates/fc/checkout/form-contact-login.php:32
+#, php-format
+msgid "Logged in as %1$s. <a href=\"%2$s\">Log out</a>"
+msgstr "Conectado como %1$s. <a href=\"%2$s\">Sair</a>"
+
+#: inc/admin/admin-settings-general.php:71
+msgid "Logo image"
+msgstr "Imagem de logo"
+
+#: inc/admin/admin-settings-general.php:135
+msgid "Make the checkout progress bar stay visible while scrolling"
+msgstr ""
+"Faça com que o barra de progresso continue visível enquanto rola-se a página"
+
+#: inc/admin/admin-settings-general.php:220
+#| msgid ""
+#| "Make the labels of optional field \"Add\" link button as <code>"
+#| "lowercase</code>. (ie. \"Add phone number\" instead of \"Add Phone "
+#| "number\")"
+msgid ""
+"Make the labels of optional field \"Add\" link button as <code>"
+"lowercase</code>. (ie. \"Add phone number\" instead of \"Add Phone Number\")"
+msgstr ""
+"Mostre o texto dos botões \"Adicionar\" campos opcionais em letras <code>"
+"minúsculas</code>. (Ex. \"Adicionar número de telefone\" ao invés de "
+"\"Adicionar Número de telefone\")"
+
+#: inc/admin/admin-settings-general.php:155
+msgid "Make the order summary stay visible while scrolling"
+msgstr ""
+"Faça com que o resumo do pedido fique visível enquanto rola-se a página"
+
+#: inc/compat/plugins/compat-plugin-woocommerce-sendinblue-newsletter-subscription.php:98
+msgid "Move the sign up checkbox to the contact step"
+msgstr "Mover a caixa de seleção de inscrição para a etapa de contato"
+
+#: inc/checkout-steps.php:528
+msgid "Multi-step"
+msgstr "Multi-etapas"
+
+#: inc/checkout-steps.php:1890
+msgid "My contact"
+msgstr "Meu contato"
+
+#: inc/admin/admin-settings-integrations.php:95
+msgid ""
+"No integrations available at the moment on this section. The options related "
+"to each plugin will only appear here if that plugin is activated."
+msgstr ""
+"Nenhuma integração disponível no momento nesta seção. As opções relacionadas "
+"a cada plugin só aparecerão aqui se o plugin estiver ativado."
+
+#. %s shipping destination.
+#: templates/fc/checkout/review-order-shipping.php:31
+msgctxt "No shipping method chosen label for the order summary"
+msgid "--"
+msgstr "--"
+
+#: inc/checkout-steps.php:2580
+msgid "Not selected yet."
+msgstr "Não selecionado."
+
+#: inc/compat/plugins/compat-plugin-woo-delivery.php:203
+msgctxt "Notice for no delivery or pickup options provided"
+msgid "None."
+msgstr "Nenhuma."
+
+#: inc/checkout-steps.php:2636
+msgctxt "Notice for no order notes provided"
+msgid "None."
+msgstr "Nenhuma."
+
+#: inc/admin/admin-settings-general.php:317
+msgid ""
+"Only applicable if use of coupon codes are enabled in the WooCommerce "
+"settings."
+msgstr ""
+"Aplicável apenas se o uso de códigos de cupom estiver habilitado nas "
+"configurações do WooCommerce."
+
+#: inc/compat/themes/compat-theme-Impreza.php:54
+msgid ""
+"Only applicable when using the Impreza theme header at the checkout page."
+msgstr ""
+"Aplicável apenas ao usar o cabeçalho do tema Impreza na página de checkout."
+
+#: inc/checkout-shipping-phone-field.php:56
+msgid "Only used for shipping-related questions."
+msgstr "Usado apenas para perguntas relacionadas à entrega."
+
+#: inc/admin/admin-settings-general.php:255
+#: inc/admin/admin-settings-general.php:281
+#: inc/admin/admin-settings-general.php:342
+msgid "Optional"
+msgstr "Opcional"
+
+#: inc/admin/admin-settings-general.php:208
+msgid "Optional fields"
+msgstr "Campos opcionais"
+
+#: inc/admin/admin-settings-general.php:337
+msgid "Order notes"
+msgstr "Notas adicionais do pedido"
+
+#: inc/checkout-fields.php:47
+msgid "Order number and receipt will be sent to this email address."
+msgstr ""
+"O número do pedido e o recibo serão enviados para este endereço de e-mail."
+
+#: inc/checkout-steps.php:3837 inc/admin/admin-settings-general.php:145
+#| msgid "Order Summary"
+msgid "Order summary"
+msgstr "Resumo do pedido"
+
+#: inc/compat/themes/compat-theme-woodmart.php:51
+msgid ""
+"Output the checkout steps section from the Woodmart theme when using Fluid "
+"Checkout header and footer"
+msgstr ""
+"Mostrar a seção de etapas de checkout do tema Woodmart ao usar o cabeçalho e "
+"o rodapé do Fluid Checkout"
+
+#: inc/admin/admin-settings-general.php:104
+msgid "Page background color"
+msgstr "Cor de fundo da página"
+
+#: inc/checkout-steps.php:3654
+msgid "Payment method"
+msgstr "Forma de pagamento"
+
+#: inc/compat/plugins/compat-plugin-woo-delivery.php:108
+msgid "Pickup Date"
+msgstr "Data de Retirada"
+
+#: inc/admin/admin-settings-general.php:163
+msgid "Place order"
+msgstr "Finalizar pedido"
+
+#. Next checkout step title
+#: inc/checkout-steps.php:1146
+#, php-format
+msgid "Proceed to %s"
+msgstr "Prosseguir para %s"
+
+#: inc/admin/admin-settings-general.php:124
+msgid "Progress bar"
+msgstr "Barra de progresso"
+
+#. Description of the plugin
+msgid ""
+"Provides a distraction free checkout experience for any WooCommerce store. "
+"Ask for shipping information before billing in a truly linear multi-step or "
+"one-step checkout and display a coupon code field at the checkout page that "
+"does not distract your customers."
+msgstr ""
+"Proporciona uma experiência de checkout sem distração para qualquer loja "
+"WooCommerce. Solicite informações de envio antes de faturar em uma caixa "
+"verdadeiramente linear de múltiplas etapas ou de uma etapa e exiba um campo "
+"de código de cupom na página de checkout que não distraia seus clientes."
+
+#: inc/admin/admin-notice-review-request.php:47
+msgid "Rate the plugin"
+msgstr "Avalie o plugin"
+
+#: inc/admin/admin-settings-general.php:230
+#| msgid ""
+#| "Recommended only whe most customers actually need the \"Address line 2\" "
+#| "field, or when getting the right shipping address is crucial (ie. if "
+#| "delivering food and other perishable products)."
+msgid ""
+"Recommended only when most customers actually need the \"Address line 2\" "
+"field, or when getting the right shipping address is crucial (ie. if "
+"delivering food and other perishable products)."
+msgstr ""
+"Recomendado apenas quando a maioria dos clientes realmente precisa do campo "
+"\"Linha de endereço 2\", ou quando obter o endereço de entrega correto é "
+"crucial (por exemplo: ao entregar alimentos e outros produtos perecíveis)."
+
+#: inc/checkout-coupon-codes.php:240
+msgid "Remove"
+msgstr "Remover"
+
+#: inc/admin/admin-settings-general.php:256
+#: inc/admin/admin-settings-general.php:282
+msgid "Required"
+msgstr "Obrigatório"
+
+#: inc/checkout-steps.php:3117
+msgid "Same as shipping address"
+msgstr "Igual ao endereço de entrega"
+
+#: inc/admin/admin-setting-type-fc-image-uploader.php:97
+#: inc/admin/admin-setting-type-fc-image-uploader.php:98
+#: inc/admin/admin-setting-type-fc-image-uploader.php:101
+msgid "Select an image"
+msgstr "Selecionar imagem"
+
+#: inc/compat/plugins/compat-plugin-woocommerce-sendinblue-newsletter-subscription.php:97
+msgid "Sendinblue - WooCommerce Email Marketing"
+msgstr "Sendinblue - WooCommerce Email Marketing"
+
+#: inc/admin/admin.php:87
+msgid "Settings"
+msgstr "Configurações"
+
+#: inc/admin/admin-settings-integrations.php:83
+msgctxt "Settings section title"
+msgid "Integrations"
+msgstr "Integrações"
+
+#: inc/admin/admin-settings-general.php:178
+#: inc/admin/admin-settings-general.php:293
+msgid "Shipping address"
+msgstr "Endereço de entrega"
+
+#: inc/checkout-steps.php:2146
+msgid "Shipping method"
+msgstr "Método de entrega"
+
+#: inc/admin/admin-settings-general.php:302
+msgid "Shipping methods"
+msgstr "Métodos de envio"
+
+#: inc/checkout-shipping-phone-field.php:55
+#: inc/admin/admin-settings-general.php:276
+msgid "Shipping phone"
+msgstr "Telefone de entrega"
+
+#: inc/checkout-steps.php:2122
+msgid "Shipping to"
+msgstr "Enviando para"
+
+#: inc/checkout-steps.php:529
+msgid "Single step"
+msgstr "Passo único"
+
+#: templates/fc/header-checkout.php:36
+#: templates/compat/themes/enfold/fc/header-checkout.php:239
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#: inc/admin/admin-settings-general.php:165
+msgid "Some options might not be compatible with some plugins and themes."
+msgstr "Algumas opções podem não ser compatíveis com alguns plugins e temas."
+
+#: inc/compat/themes/compat-theme-Impreza.php:53
+msgid "Spacing for site header at the checkout page (in pixels)"
+msgstr "Espaçamento para cabeçalho do site na página de checkout (em pixels)"
+
+#. %1$s is replaced with html for "current checkout step number", %2$s is replaced with html for "total number of checkout steps".
+#: inc/checkout-steps.php:1396
+#, php-format
+msgid "Step %1$s of %2$s"
+msgstr "Passo %1$s de %2$s"
+
+#. %1$s the selected option text, %2$s the field label.
+#: inc/checkout-steps.php:2319
+#, php-format
+msgctxt "Substep review field format"
+msgid "%1$s"
+msgstr "%1$s"
+
+#. %1$s the selected option text, %2$s the field label.
+#: inc/checkout-steps.php:2324
+#, php-format
+msgctxt "Substep review field format: with label"
+msgid "%2$s: %1$s"
+msgstr "%2$s: %1$s"
+
+#: inc/checkout-steps.php:1747
+msgctxt "Substep review text"
+msgid "None."
+msgstr "Nenhum."
+
+#: inc/admin/admin.php:88
+msgid "Support"
+msgstr "Suporte"
+
+#: inc/admin/admin-notice-review-request.php:44
+#| msgid "Thanks for choosing Fluid Checkout, you rock!"
+msgid "Thanks for choosing Fluid Checkout!"
+msgstr "Obrigado por escolher o Fluid Checkout!"
+
+#: inc/admin/admin-settings-wc-shipping.php:50
+#| msgid ""
+#| "The shipping destination is always set to \"Default to customer shipping "
+#| "address\" when Fluid Checkout is activated. Customers can still provide "
+#| "different shipping and billing addresses during checkout, an option for "
+#| "setting the default billing address to be the same as the shipping "
+#| "address is available at WooCommerce > Settings > Fluid Checkout > Address "
+#| "Fields."
+msgid ""
+"The shipping destination is always set to \"Default to customer shipping "
+"address\" when Fluid Checkout is activated. Customers can still provide "
+"different shipping and billing addresses during checkout, an option for "
+"setting the default billing address to be the same as the shipping address "
+"is available at WooCommerce > Settings > Fluid Checkout."
+msgstr ""
+"O destino de envio é sempre definido como \"Padrão para o endereço de "
+"entrega do cliente\" quando o Fluid Checkout está ativado. Os clientes ainda "
+"podem fornecer endereços de entrega e cobrança diferentes durante o checkout,"
+" uma opção para definir o endereço de cobrança padrão para ser o mesmo que o "
+"endereço de entrega está disponível em WooCommerce > Configurações > Fluid "
+"Checkout."
+
+#: inc/compat/themes/compat-theme-Impreza.php:52
+msgid "Theme Impreza"
+msgstr "Tema Impreza"
+
+#: inc/compat/themes/compat-theme-woodmart.php:50
+msgid "Theme Woodmart"
+msgstr "Tema Woodmart"
+
+#: inc/admin/admin-settings-general.php:352
+msgid "These widget areas are used to add trust symbols on the checkout page."
+msgstr ""
+"Essas áreas de widget são usadas para adicionar símbolos de confiança na "
+"página de checkout."
+
+#: inc/checkout-validation.php:120
+#| msgid "This does not match the related field value."
+msgid "This field does not match the related field value."
+msgstr "Isso não corresponde ao valor do campo relacionado."
+
+#: inc/checkout-validation.php:118
+msgid "This is a required field."
+msgstr "Este é um campo obrigatório."
+
+#: inc/checkout-validation.php:119
+msgid "This is not a valid email address."
+msgstr "Este não é um endereço de e-mail válido."
+
+#: inc/admin/admin-settings-tools.php:51
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: inc/admin/admin-settings-tools.php:84
+msgid "Troubleshooting"
+msgstr "Solução de problemas"
+
+#: inc/admin/admin.php:95
+msgid "Upgrade to PRO"
+msgstr "Atualize para versão PRO"
+
+#: inc/admin/admin-settings-general.php:86
+msgid "Use Fluid Checkout header and footer"
+msgstr "Usar cabeçalho e rodapé do Fluid Checkout"
+
+#: inc/admin/admin-settings-tools.php:93
+#| msgid ""
+#| "Loading unminified assets affects the website performance. Only use this "
+#| "option while troubleshooting."
+msgid ""
+"Using debug mode affects the website performance. Only use this option while "
+"troubleshooting."
+msgstr ""
+"O uso do modo de depuração afeta o desempenho do site. Use esta opção apenas "
+"durante a resolução de problemas."
+
+#: inc/admin/admin-settings-general.php:81
+msgid ""
+"We recommend using the Fluid Checkout header and footer to avoid "
+"distractions at the checkout page. <a href=\"https://baymard.com/blog/cart-"
+"abandonment\" target=\"_blank\">Read the research about cart abandonment</a>."
+msgstr ""
+"Recomendamos usar o cabeçalho e rodapé do Fluid Checkout para evitar "
+"distrações na página de checkout. <a href=\"https://baymard.com/blog/cart-"
+"abandonment\" target=\"_blank\">Leia a pesquisa sobre abandono de carrinhos "
+"de compra (em inglês)</a> ."
+
+#: inc/compat/plugins/compat-plugin-woocommerce-sendinblue-newsletter-subscription.php:99
+msgid ""
+"When enabled, the checkbox will be moved to the contact step independently "
+"of the display location defined in the Sendinblue plugin settings."
+msgstr ""
+"Quando ativada, a caixa de seleção será movida para a etapa de contato "
+"independentemente do local de exibição definido nas configurações do plugin "
+"Sendinblue."
+
+#: inc/admin/admin-notice-germanized-pro-multistep-enabled.php:63
+#| msgid ""
+#| "When using Fluid Checkout, the multistep feature from the Germanized PRO "
+#| "plugin becomes unnecessary and can cause <strong>critical errors while "
+#| "processing new orders</strong>. Please disable the Gemanized PRO "
+#| "multistep checkout feature in the plugin settings."
+msgid ""
+"When using Fluid Checkout, the multistep feature from the Germanized PRO "
+"plugin becomes unnecessary and can cause <strong>critical errors while "
+"processing new orders</strong>. Please disable the Germanized PRO multistep "
+"checkout feature in the plugin settings."
+msgstr ""
+"Ao usar o Fluid Checkout, o recurso de várias etapas do plug-in Germanized "
+"PRO se torna desnecessário e pode causar <strong>erros críticos ao processar "
+"novos pedidos</strong>. Desative o recurso de check-out em várias etapas do "
+"Germanized PRO nas configurações do plug-in."
+
+#: fluid-checkout.php:417
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/admin-notice-review-request.php:45
+#| msgid ""
+#| "You have been using the plugin for a while now. How do you like it so far?"
+#| " <br>Please give us a quick rating, we appreciate every feedback and it "
+#| "encourages us to keep improving the plugin :)"
+msgid ""
+"You have been using the plugin for a while now. How do you like it so far? "
+"<br>Please give us a quick rating, we appreciate every bit of feedback and "
+"it encourages us to keep improving the plugin :)"
+msgstr ""
+"Você tem usado Fluid Checkout há algum tempo. Como foi sua experiência até "
+"agora? <br>Por favor nos dê uma avaliação rápida, apreciamos cada feedback e "
+"isso nos encoraja a continuar melhorando o plugin :)"
+
+#: templates/checkout/payment.php:48
+#, php-format
+#| msgid ""
+#| "Your order has a total amount due of %s. No&nbsp;further payment is "
+#| "needed."
+msgid "Your order has a total amount due of %s. No further payment is needed."
+msgstr ""
+"Seu pedido tem um valor total devido de %s. Nenhum pagamento adicional é "
+"necessário."

@@ -1,0 +1,218 @@
+#adminmenu li#toplevel_page_sysbasics li.wp-first-item {
+    display: none !important;
+}
+#adminmenu li#toplevel_page_woomatrix li.wp-first-item {
+    display: none !important;
+}
+
+#gs_plugins_free { background: #eee; }
+#gs_plugins_free h2.hndle {
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    padding: 15px 10px;
+    background: #00a0d2;
+    color: #fff;
+}
+#gs_plugins_free .inside {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.plugin-div {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.plugin-div-settings {
+    display: inline-block;
+    width: 47.8%;
+    background-color: #FAFAFA;
+    border: 1px solid #dedede;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    /*box-shadow: 0 0 20px rgba(0,0,0,.2);*/
+    margin: 1%;
+}
+
+/*.plugin-div-settings:nth-child(odd) {
+    clear: both;
+    margin-right: 2%;
+}*/
+.plugin-div-top {
+    position: relative;
+    padding: 20px 20px 10px;
+}
+.plugin-div-settings-top {
+    position: relative;
+    padding: 20px 20px 10px;
+    background-color: #fff;
+}
+.plugin-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 128px;
+    height: 128px;
+    margin: 0 20px 20px 0;
+}
+.plugin-icon-custom {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 128px;
+    margin: 0px 20px 20px 0px;
+    text-decoration: none;
+    text-align: center;
+}
+.fluid-layout a {
+    text-decoration: none !important;
+}
+.custom_icon {
+    width: 128px;
+    height: 128px;
+}
+.plugin-div-settings .desc, .plugin-div-settings .name {
+    margin-left: 148px;
+}
+.plugin-div-settings h4 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.fluid-layout a {
+    text-decoration: none !important;
+}
+.plugin-action-buttons, div.action-links {
+    margin: 0;
+}
+.plugin-action-buttons-custom {
+    clear: right;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    text-align: right;
+}
+.plugin-card-bottom_settings {
+    clear: both;
+    padding: 8px 20px;
+    background-color: #fafafa;
+    overflow: hidden;
+    text-align: right;
+    border-top: 1px solid #dedede;
+}
+.gs_team_wrap.gs_team_help {
+    background: #fff;
+    margin: 0 20px 20px 12px;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+@media screen and (min-width: 1920px) {
+    .plugin-div-settings {
+        width: 30.5%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .plugin-div-settings {
+        width: 31%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1220px) {
+    .plugin-div-settings {
+        width: 47.5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .plugin-div-settings {
+        width: 98%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+     .plugin-div-settings {
+        width: 98%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .plugin-div-settings {
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .plugin-div-settings {
+        width: 98%;
+    }
+    #gs_plugins_free h2.hndle { font-size: 25px; }
+}       
+
+@media only screen and (max-width: 320px) {
+  /*  .plugin-div-settings {
+        width: 98%;
+    }*/
+    #gs_plugins_free h2.hndle { font-size: 20px; }
+}       
+
+/*CSS for help menu */
+.gs_team_wrap h1 {
+    font-size: 30px !important;
+    text-align: center;
+    border: none;
+    padding: 15px 10px !important;
+    background: #00a0d2;
+    color: #fff;
+    margin: 15px !important;
+    border-radius: 3px;
+    line-height: 1;
+}
+
+.inside.evnato_inside {
+    height: 1800px;
+}
+
+.single-item {
+    width: 45%;
+    float: left;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+
+.gstm-hlp-btn {
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 12px 16px;
+}
+.gstm-hlp-btn:hover { color: #f1f1f1; }
+
+.gstm-btn-1 { background-color: #00bcd4; }
+.gstm-btn-2 { background-color: #03A9F4; }
+.gstm-btn-3 { background-color: #3F51B5; }
+.gstm-btn-4 { background-color: #009688; }
+.gstm-btn-5 { background-color: #5b9dd9; }
+.gstm-btn-6 { background-color: #FF9800; }
+.gs_team_help .settings-error { display: none !important; }
+.gs_team_help .help-link { padding: 16px; }
+.gs_team_help .video-title { padding: 30px 0 0px;}
+.gs_team_help iframe { margin-bottom: 5px; }
+.gs_team_help .hire-ad {
+    padding: 10px 20px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #ffffe0;
+    border: 1px solid #E6DB55;
+    margin: 30px auto;
+    width: 60%;
+}

@@ -1,0 +1,598 @@
+@use "sass:math" as math;
+
+// ----------------------------------------
+// VARIABLES
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// COLORS
+
+// Greys
+$black:                         #000 !default;
+$darker-grey:                   #1E212B !default;
+$dark-grey:                     #535156 !default;
+$grey:                          #7b7575 !default;
+$light-grey:                    #d8d8d8 !default;
+$lighter-grey:                  #f3f3f3 !default;
+$white:                         #fff !default;
+
+// Utility colors
+$success-color:                 #007a3d !default;
+$error-color:                   #cc1818 !default;
+$alert-color:                   #c95000 !default;
+$info-color:                    #1f01b9 !default;
+
+$border-color:                  $light-grey !default;
+$border-light-color:            $lighter-grey !default;
+
+// Shadows
+$box-shadow-darker:             0 remsize( .2rem ) remsize( 1.5rem ) rgba( 0, 0, 0, .3 ) !default;
+$box-shadow-dark:               0 remsize( .2rem ) remsize( 1.5rem ) rgba( 0, 0, 0, .15 ) !default;
+$box-shadow-light:              0 remsize( .2rem ) remsize( 1.5rem ) rgba( 255, 255, 255, .15 ) !default;
+
+// Outline focus
+$focus-outline-field:           solid remsize( .2rem ) $dark-grey;
+$focus-outline-offset-field:    remsize( .2rem );
+$focus-outline-link:            dotted remsize( .1rem ) $dark-grey;
+$focus-outline-offset-link:     remsize( .1rem );
+$focus-outline-button:          $focus-outline-field;
+$focus-outline-offset-button:   $focus-outline-offset-field;
+
+// END - COLORS
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// ALIGNMENT
+
+$alignment-right:                           right !default;
+$alignment-left:                            left !default;
+
+// END - ALIGNMENT
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// SPACING & BOX SYSTEM
+
+$global-spacing-tiny:                       remsize( .5rem ) !default;
+$global-spacing-extra-small:                remsize( 1rem ) !default;
+$global-spacing-small:                      remsize( 2rem ) !default;
+$global-spacing:                            remsize( 3rem ) !default;
+$global-spacing-medium:                     remsize( 5rem ) !default;
+$global-spacing-large:                      remsize( 8rem ) !default;
+$global-spacing-extra-large:                remsize( 13rem ) !default;
+
+$global-radius-extra-small:                 remsize( .3rem ) !default;
+$global-radius-small:                       remsize( .5rem ) !default;
+$global-radius:                             remsize( .8rem ) !default;
+$global-radius-medium:                      remsize( 1.3rem ) !default;
+$global-radius-large:                       remsize( 2.1rem ) !default;
+$global-radius-extra-large:                 remsize( 3.4rem ) !default;
+
+// END - SPACING & BOX SYSTEM
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// TYPOGRAPHY
+
+// Font sizes
+$font-size-tiny:                            remsize( 1rem ) !default;
+$font-size-extra-small:                     remsize( 1.3rem ) !default;
+$font-size-small:                           remsize( 1.5rem ) !default;
+$font-size:                                 remsize( 1.6rem ) !default; // Should be at least 16px to prevent auto-zoom issues on Safari Mobile
+$font-size-medium:                          remsize( 2rem ) !default;
+$font-size-large:                           remsize( 2.8rem ) !default;
+$font-size-extra-large:                     remsize( 4rem ) !default;
+
+$font-size-tiny--large-screen:              remsize( 1rem ) !default;
+$font-size-extra-small--large-screen:       remsize( 1.3rem ) !default;
+$font-size-small--large-screen:             remsize( 1.5rem ) !default;
+$font-size--large-screen:                   remsize( 1.8rem ) !default;
+$font-size-medium--large-screen:            remsize( 2.4rem ) !default;
+$font-size-large--large-screen:             remsize( 3.2rem ) !default;
+$font-size-extra-large--large-screen:       remsize( 5rem ) !default;
+
+// END - TYPOGRAPHY
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// GRID SYSTEM
+
+// Breakpoints
+$bp-larger-than-mobile:                     'min-width: 400px' !default;
+$bp-larger-than-phablet:                    'min-width: 550px' !default;
+$bp-larger-than-tablet:                     'min-width: 750px' !default;
+$bp-larger-than-desktop:                    'min-width: 1000px' !default;
+$bp-larger-than-desktop-medium:             'min-width: 1280px' !default;
+$bp-larger-than-desktop-large:              'min-width: 1500px' !default;
+$bp-larger-than-desktop-extra-large:        'min-width: 2000px' !default;
+
+$bp-smaller-than-mobile:                    'max-width: 399px' !default;
+$bp-smaller-than-phablet:                   'max-width: 549px' !default;
+$bp-smaller-than-tablet:                    'max-width: 749px' !default;
+$bp-smaller-than-desktop:                   'max-width: 999px' !default;
+$bp-smaller-than-desktop-medium:            'max-width: 1279px' !default;
+$bp-smaller-than-desktop-large:             'max-width: 1499px' !default;
+$bp-smaller-than-desktop-extra-large:       'max-width: 1999px' !default;
+
+// Container spacing
+$container-spacing-mobile:                  $global-spacing-small !default;
+$container-spacing-tablet:                  $global-spacing !default;
+$container-spacing-desktop:                 $global-spacing-medium !default;
+$container-spacing-desktop-medium:          $global-spacing-medium !default;
+$container-spacing-desktop-large:           $global-spacing-medium !default;
+$container-spacing-desktop-extra-large:     $global-spacing-medium !default;
+
+// Container total width
+$container-width-mobile:                    100% !default;
+$container-width-tablet:                    100% !default;
+$container-width-desktop:                   100% !default;
+$container-width-desktop-medium:            80% !default;
+$container-width-desktop-large:             remsize( 140rem ) !default;
+$container-width-desktop-extra-large:       remsize( 140rem ) !default;
+
+// END - GRID SYSTEM
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// ANIMATIONS
+
+$global-animation-duration-slowest:         2.5s !default;
+$global-animation-duration-slower:          1.5s !default;
+$global-animation-duration-slow:            .75s !default;
+$global-animation-duration:                 .3s !default;
+$global-animation-duration-fast:            .15s !default;
+$global-animation-duration-faster:          .1s !default;
+$global-animation-duration-fastest:         .05s !default;
+
+$global-animation-easing:                   ease !default;
+$sliding-animation-easing:                  cubic-bezier(0.25, 0.46, 0.45, 0.94) !default; // ease-out-quadratic
+
+// END - ANIMATIONS
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// Z-INDEX LEVELS
+
+$z-layers: (
+	'above-all':            100000,
+	'modal':                5000,
+	'header-element':       2000,
+	'offside-element':      1500,
+	'sticky-element':       300,
+	'float-element':        200,
+	'above':                10,
+	'default':              1,
+	'below':                -1
+) !default;
+
+// END - Z-INDEX LEVELS
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// ICONS
+
+$icon-font-name:                 'fluid-checkout-icons' !default;
+
+$icon-size-extra-small:          remsize( 1rem ) !default;
+$icon-size-small:                remsize( 1.8rem ) !default;
+$icon-size:                      remsize( 2.4rem ) !default;
+$icon-size-medium:               remsize( 3rem ) !default;
+$icon-size-large:                remsize( 5rem ) !default;
+$icon-size-extra-large:          remsize( 8rem ) !default;
+
+$icons: (
+	'i-alert-octagon': '\e800',
+	'i-alert-triangle': '\e801',
+	'i-arrow-left': '\e802',
+	'i-arrow-right': '\e803',
+	'i-check-small': '\e805',
+	'i-check': '\e806',
+	'i-check-circle': '\e82b',
+	'i-chevron-down-medium': '\e807',
+	'i-chevron-down': '\e808',
+	'i-chevron-left-medium': '\e809',
+	'i-chevron-left': '\e80a',
+	'i-chevron-right-medium': '\e80b',
+	'i-chevron-right': '\e80c',
+	'i-chevron-up-medium': '\e80d',
+	'i-chevron-up': '\e80e',
+	'i-minus': '\e818',
+	'i-plus': '\e81b',
+	'i-plus-circle': '\e82a',
+	'i-trash': '\e822',
+	'i-x': '\e827',
+	'i-x-circle': '\e815',
+	'i-cart': '\e828',
+) !default;
+
+// END - ICONS
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// OPTION BOX
+
+$option-box-padding-vertical:               $global-spacing-extra-small !default;
+$option-box-padding-horizontal:             $global-spacing-extra-small !default;
+
+$option-box-background-color:               $white !default;
+
+$option-box-border-color:                   $border-color !default;
+$option-box-border:                         solid remsize( .1rem ) $option-box-border-color !default;
+$option-box-border-radius:                  $global-radius-medium !default;
+
+$option-box-radio-size:                     $icon-size !default;
+$option-box-radio-border:                   solid remsize( .2rem ) $border-color !default;
+
+$option-box-checked-radio-color:            $success-color !default;
+$option-box-checked-icon-color:             $white !default;
+$option-box-checked-background-color:       $lighter-grey !default;
+$option-box-checked-color:                  $darker-grey !default;
+
+// END - OPTION BOX
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// CHECKOUT HEADER
+
+$checkout-header-background-color:          $white !default;
+$checkout-header-box-shadow:                0 remsize( .2rem ) remsize( 1rem ) rgba( 0, 0, 0, .1 ) !default;
+
+$checkout-header-height:                    remsize( 6rem ) !default;
+$checkout-header-height--large-screen:      remsize( 8rem ) !default;
+
+$checkout-logo-height:                      remsize( 2.5rem ) !default;
+$checkout-logo-height--large-screen:        remsize( 4rem ) !default;
+
+// END - CHECKOUT HEADER
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// CHECKOUT LAYOUT
+
+$checkout-column-gap--large-screen:         $global-spacing-medium !default;
+
+$checkout-steps-width--large-screen:        62.5% !default;
+
+$checkout-overview-width--large-screen:     #{ 100% - $checkout-steps-width--large-screen } !default;
+$checkout-overview-background:              linear-gradient( 90deg, darken( $lighter-grey, 5% ) 0%, $lighter-grey .5%, $lighter-grey 100% ) !default;
+
+// END - CHECKOUT LAYOUT
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// CHECKOUT PROGRESS BAR
+
+$checkout-progress-margin:                            0 #{ - $container-spacing-mobile } !default;
+$checkout-progress-margin--large-screen:              0 !default;
+
+$checkout-progress-padding:                           $global-spacing-extra-small $container-spacing-mobile !default;
+$checkout-progress-padding--large-screen:             $global-spacing-extra-small $container-spacing-mobile !default;
+
+$checkout-progress-bar-height:                        remsize( .5rem ) !default;
+$checkout-progress-bar-border:                        none !default;
+$checkout-progress-bar-border-radius:                 math.div( $checkout-progress-bar-height, 2 ) !default;
+$checkout-progress-bar-color:                         $light-grey !default;
+$checkout-progress-bar-complete-color:                $success-color !default;
+$checkout-progress-bar-current-color:                 $checkout-progress-bar-complete-color !default;
+
+$checkout-step-count-margin:                          0 0 $global-spacing-tiny !default;
+$checkout-step-count-margin--large-screen:            0 0 $global-spacing-tiny !default;
+$checkout-step-count-color:                           $dark-grey !default;
+$checkout-step-count-font-size:                       $font-size-small !default;
+$checkout-step-count-font-size--large-screen:         $font-size-small--large-screen !default;
+$checkout-step-count-font-weight:                     bold !default;
+$checkout-step-count-text-transform:                  uppercase !default;
+$checkout-step-count-text-align:                      center !default;
+
+// END - CHECKOUT PROGRESS BAR
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// CHECKOUT STEPS
+
+$checkout-steps-container-margin:                0 #{ - $container-spacing-mobile } 0 !default;
+$checkout-steps-container-margin--large-screen:  0 !default;
+
+$checkout-step-padding:                          0 !default;
+$checkout-step-padding--large-screen:            0 !default;
+
+$checkout-substep-title-check-icon-size:         $icon-size-small !default;
+$checkout-substep-title-check-icon-spacing:      0 !default;
+
+$checkout-substep-title-margin:                  0 0 $global-spacing-extra-small 0 !default;
+$checkout-substep-title-margin--large-screen:    $checkout-substep-title-margin !default;
+$checkout-substep-title-padding:                 0 !default;
+$checkout-substep-title-padding--large-screen:   0 $global-spacing-tiny 0 0 !default;
+$checkout-substep-complete-title-padding:                       0 $global-spacing-large 0 !default;
+$checkout-substep-complete-title-padding-left:                  #{ $global-spacing-extra-small + $checkout-substep-title-check-icon-spacing + $checkout-substep-title-check-icon-size } !default;
+$checkout-substep-complete-title-padding--large-screen:         0 $global-spacing-tiny 0 !default;
+$checkout-substep-complete-title-padding-left--large-screen:    #{ $global-spacing-extra-small + $checkout-substep-title-check-icon-spacing + $checkout-substep-title-check-icon-size } !default;
+
+$checkout-substep-title-color:                   $dark-grey !default;
+$checkout-substep-title-color--completed:        $grey !default;
+$checkout-substep-title-font-size:               $font-size-small !default;
+$checkout-substep-title-font-size--large-screen: $font-size-small--large-screen !default;
+$checkout-substep-title-font-weight:             bold !default;
+$checkout-substep-title-text-transform:          uppercase !default;
+$checkout-substep-title-text-align:              $alignment-left !default;
+
+$checkout-substep-margin-expand:                 $global-spacing-small #{ - $container-spacing-mobile } !default;
+$checkout-substep-margin-expand--large-screen:   $global-spacing-small #{ - $container-spacing-mobile } !default;
+$checkout-substep-padding:                       $global-spacing-small $container-spacing-mobile !default;
+$checkout-substep-padding--large-screen:         $global-spacing-small $container-spacing-mobile !default;
+$checkout-substep-border-radius:                 $global-radius !default;
+
+$checkout-substep-text-margin:                   0 !default;
+$checkout-substep-text-margin--large-screen:     0 !default;
+$checkout-substep-text-padding:                  0 0 0 #{ $global-spacing-extra-small + $checkout-substep-title-check-icon-spacing + $checkout-substep-title-check-icon-size } !default;
+$checkout-substep-text-color:                    $dark-grey !default;
+$checkout-substep-text-font-size:                $font-size-extra-small !default;
+$checkout-substep-text-font-size--large-screen:  $font-size-extra-small--large-screen !default;
+$checkout-substep-text-font-weight:              normal !default;
+
+$checkout-substep-action-button-top:             remsize( 1.2rem ) !default;
+$checkout-substep-action-button-right:           $global-spacing-extra-small !default;
+$checkout-substep-action-button-margin:          0 !default;
+$checkout-substep-action-button-padding:         $global-spacing-tiny $global-spacing-extra-small !default;
+$checkout-substep-action-button-font-size:       $font-size-small !default;
+$checkout-substep-action-button-font-size--large-screen:  $font-size-small--large-screen !default;
+$checkout-substep-action-button-font-weight:     normal !default;
+$checkout-substep-action-button-text-decoration: underline !default;
+$checkout-substep-action-button-color:           inherit !default;
+$checkout-substep-action-button-background-color: transparent !default;
+
+$checkout-expansible-section-icon:               'i-plus-circle' !default;
+$checkout-expansible-section-icon-size:          $icon-size !default;
+$checkout-expansible-section-icon-spacing-left:  remsize( -.3rem ) !default;
+$checkout-expansible-section-icon-spacing-right: $global-spacing-tiny !default;
+$checkout-expansible-section-text-decoration:    none !default;
+
+// END - CHECKOUT STEPS
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// ORDER SUMMARY
+
+$order-summary-border-color:                     $border-color !default;
+$order-summary-border:                           solid remsize( .1rem ) $order-summary-border-color !default;
+$order-summary-border-radius:                    $checkout-substep-border-radius !default;
+
+$order-summary-container-margin:                 0 !default;
+$order-summary-container-padding:                0 !default;
+$order-summary-container-margin--large-screen:   0 !default;
+$order-summary-container-padding--large-screen:  0 !default;
+
+$order-summary-table-margin:                     0 #{ - $global-spacing-small } !default;
+$order-summary-table-margin--large-screen:       0 #{ - $global-spacing-small } remsize( -.1rem ) !default;
+$order-summary-table-width:                      calc( 100% + #{ $global-spacing-small * 2 } ) !default;
+$order-summary-table-width--large-screen:        calc( 100% + #{ $global-spacing-small * 2 } ) !default;
+
+$order-summary-cell-padding-horizontal:          $global-spacing-small !default;
+$order-summary-cell-padding-vertical:            $global-spacing-extra-small !default;
+$order-summary-cell-padding-vertical--total:     $order-summary-cell-padding-vertical + $global-spacing-tiny !default;
+$order-summary-cell-border:                      solid remsize( .1rem ) darken( $lighter-grey, 5% ) !default;
+$order-summary-cell-border--products:            dashed remsize( .1rem ) $border-color !default;
+
+$order-summary-image-width:                      remsize( 5rem ) !default;
+$order-summary-image-width--large-screen:        remsize( 6rem ) !default;
+$order-summary-image-padding:                    remsize( .3rem ) !default;
+$order-summary-image-background-color:           $white !default;
+$order-summary-image-border:                     solid remsize( .1rem ) $border-color !default;
+$order-summary-image-border-radius:              $global-radius-extra-small !default;
+
+$order-summary-quantity-transform:               translateX( -100% ) translateY( -25% ) !default;
+$order-summary-quantity-background-color:        $dark-grey !default;
+$order-summary-quantity-text-color:              $white !default;
+$order-summary-quantity-font-size:               $font-size-extra-small !default;
+
+$order-summary-font-size:                        $font-size-small !default;
+$order-summary-font-size--large-screen:          $font-size-small--large-screen !default;
+
+$order-summary-edit-cart-button-margin:          0 !default;
+$order-summary-edit-cart-button-right:           #{ - $global-spacing-extra-small } !default;
+$order-summary-edit-cart-button-padding:         $global-spacing-tiny $global-spacing-extra-small !default;
+$order-summary-edit-cart-button-font-size--large-screen:  $checkout-substep-action-button-font-size--large-screen !default;
+$order-summary-edit-cart-button-font-weight:     $checkout-substep-action-button-font-weight !default;
+$order-summary-edit-cart-button-text-decoration: $checkout-substep-action-button-text-decoration !default;
+$order-summary-edit-cart-button-color:           $checkout-substep-action-button-color !default;
+$order-summary-edit-cart-button-background-color:  $checkout-substep-action-button-background-color !default;
+
+// END - ORDER SUMMARY
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// PLACE ORDER
+
+$place-order-padding:                       $global-spacing-small $container-spacing-mobile !default;
+$place-order-padding--large-screen:         $global-spacing-small $global-spacing-small !default;
+$place-order-padding-sidebar:               0 !default;
+$place-order-padding-sidebar--large-screen: 0 !default;
+
+// END - PLACE ORDER
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// SHIPPING METHODS
+
+$shipping-method-padding-vertical:          $option-box-padding-vertical !default;
+$shipping-method-padding-horizontal:        $option-box-padding-horizontal !default;
+$shipping-method-space-between-options:     0 !default;
+
+$shipping-method-font-weight:               normal !default;
+
+$shipping-method-background-color:          $option-box-background-color !default;
+
+$shipping-method-price-font-weight:         bold !default;
+$shipping-method-price-width:               $global-spacing-large !default;
+
+$shipping-method-border-color:              $option-box-border-color !default;
+$shipping-method-border:                    $option-box-border !default;
+$shipping-method-border-radius:             $option-box-border-radius !default;
+
+$shipping-method-radio-size:                $option-box-radio-size !default;
+$shipping-method-radio-border:              $option-box-radio-border !default;
+
+$shipping-method-checked-radio-color:       $option-box-checked-radio-color !default;
+$shipping-method-checked-icon-color:        $option-box-checked-icon-color !default;
+$shipping-method-checked-background-color:  $option-box-checked-background-color !default;
+$shipping-method-checked-color:             $option-box-checked-color !default;
+
+// END - SHIPPING METHODS
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// PAYMENT METHODS
+
+$payment-method-margin:                     0 !default;
+$payment-method-padding-vertical:           $option-box-padding-vertical !default;
+$payment-method-padding-horizontal:         $global-spacing-small !default;
+
+$payment-method-font-weight:                normal !default;
+
+$payment-method-background-color:           $option-box-background-color !default;
+
+$payment-method-border-color:               $option-box-border-color !default;
+$payment-method-border:                     $option-box-border !default;
+$payment-method-border-radius:              $option-box-border-radius !default;
+
+$payment-method-radio-size:                 $option-box-radio-size !default;
+$payment-method-radio-border:               $option-box-radio-border !default;
+
+$payment-method-checked-radio-color:        $option-box-checked-radio-color !default;
+$payment-method-checked-icon-color:         $option-box-checked-icon-color !default;
+$payment-method-checked-background-color:   $option-box-checked-background-color !default;
+$payment-method-checked-color:              $option-box-checked-color !default;
+
+// END - PAYMENT METHODS
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// COUPON CODES
+
+$coupon-code-coupon-margin:                 0 #{ - $global-spacing-extra-small } $global-spacing-tiny !default;
+$coupon-code-coupon-padding:                $global-spacing-tiny $global-spacing-extra-small !default;
+$coupon-code-coupon-border:                 dashed remsize( .1rem ) $border-color !default;
+$coupon-code-coupon-border-radius:          $global-radius-small !default;
+
+$coupon-code-remove-spacing:                $global-spacing-extra-small !default;
+$coupon-code-remove-font-size:              $font-size-small !default;
+$coupon-code-remove-font-weight:            normal !default;
+$coupon-code-remove-text-decoration:        underline !default;
+$coupon-code-remove-color:                  inherit !default;
+$coupon-code-remove-background-color:       transparent !default;
+
+// END - COUPON CODES
+// ----------------------------------------
+
+
+
+
+
+// ----------------------------------------
+// CHECKOUT FIELDS
+
+$checkout-field-description-padding:                  $global-spacing-tiny $global-spacing-extra-small !default;
+$checkout-field-description-color:                    $grey !default;
+$checkout-field-description-background-color:         transparent !default;
+$checkout-field-description-font-size:                $font-size-extra-small !default;
+$checkout-field-description-font-size--large-screen:  $font-size-extra-small !default;
+
+$checkout-message-error-icon:                         'i-alert-octagon' !default;
+$checkout-message-error-icon-size:                    $icon-size-small !default;
+$checkout-message-error-icon-position-top:            remsize( 1.6rem ) !default;
+$checkout-message-error-icon-position-left:           $global-spacing-tiny !default;
+
+$checkout-message-error-padding:                      $global-spacing-tiny $global-spacing-extra-small $global-spacing-tiny !default;
+$checkout-message-error-padding-left:                 #{ $checkout-message-error-icon-position-left + $checkout-message-error-icon-size + $global-spacing-tiny } !default;
+$checkout-message-error-color:                        $error-color !default;
+$checkout-message-error-background-color:             $lighter-grey !default;
+$checkout-message-error-font-size:                    $font-size-extra-small !default;
+$checkout-message-error-font-size--large-screen:      $font-size-extra-small !default;
+
+$checkout-message-suggestion-padding:                 $global-spacing-tiny $global-spacing-extra-small !default;
+
+$checkout-message-success-color:                      $success-color !default;
+$checkout-message-success-icon:                       'i-check-circle' !default;
+$checkout-message-success-icon-size:                  $icon-size-small !default;
+$checkout-message-success-icon-position-top:          remsize( 1.4rem ) !default;
+$checkout-message-success-icon-position-left:         $global-spacing-tiny !default;
+
+$checkout-field-group-margin:                         0 #{ - $global-spacing-small } #{ - $global-spacing-small } !default;
+$checkout-field-group-margin--large-screen:           0 #{ - $global-spacing-small } #{ - $global-spacing-small } !default;
+$checkout-field-group-padding:                        $global-spacing-small !default;
+$checkout-field-group-padding--large-screen:          $global-spacing-small !default;
+
+// END - CHECKOUT FIELDS
+// ----------------------------------------

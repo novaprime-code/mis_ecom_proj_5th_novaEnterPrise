@@ -1,0 +1,18 @@
+// ------------------------------------
+// FUNCTIONS ALL
+//
+// CAUTION:
+//
+// This file is supposed to
+// import all functions ** except **
+// those needed early.
+//
+// @see: _all-early.scss
+// 
+// ------------------------------------
+
+@import
+    "icon-glyph",
+    "str-replace",
+    "strip-unit",
+    "z-index";

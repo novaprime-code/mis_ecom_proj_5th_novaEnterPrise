@@ -1,0 +1,45 @@
+// ------------------------------------
+// WOOCOMMERCE FORM-ROW
+// ------------------------------------
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-first,
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-middle,
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-last {
+	clear: #{ $alignment-left };
+	float: none;
+	width: 100%;
+	padding: 0;
+
+	@media (#{$bp-larger-than-tablet}) {
+		clear: none;
+		float: #{ $alignment-left };
+		width: 48%;
+	}
+}
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-first,
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-wide {
+	clear: #{ $alignment-left };
+	@media (#{$bp-larger-than-tablet}) { clear: #{ $alignment-left }; }
+}
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-one-third {
+	width: 100%;
+	@media (#{$bp-larger-than-tablet}) { width: 30.666%; }
+}
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-two-thirds {
+	width: 100%;
+	@media (#{$bp-larger-than-tablet}) { width: 65.33%; }
+}
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-first,
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.form-row-middle {
+	@media (#{$bp-larger-than-tablet}) { margin-#{ $alignment-right }: 4%; }
+}
+
+
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } div.woocommerce form .form-row.woocommerce-validated:before {
+	display: none;
+}

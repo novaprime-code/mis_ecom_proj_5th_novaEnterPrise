@@ -1,0 +1,222 @@
+body.hide_scroll {
+    overflow: hidden;
+}
+#br_popup * {
+	box-sizing: border-box;
+}
+#br_popup {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99999;
+	animation-duration: 0.3s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+#br_popup .br_popup_wrapper {
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	z-index: 99992;
+	margin: 0 auto;
+	height: 80%;
+    width: 80%;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
+#br_popup .br_popup_wrapper .popup_animation {
+	position: absolute;
+	border: 0 none;
+	background: #f0f0f0;
+	padding: 30px 15px;
+	width: 100%;
+	height: 100%;
+	animation-duration: 0.3s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+#br_popup .br_popup_close {
+	position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 26px;
+    color: #888;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    z-index: 99993;
+    line-height: 28px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0 none;
+}
+#br_popup .br_popup_close:hover {
+	opacity: 0.80;
+}
+#br_popup.counting .br_popup_close,
+#br_popup.cannot_be_closed .br_popup_close {
+	display: none;
+}
+#br_popup .counters.after_close {
+	position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 14px;
+    color: #444;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    z-index: 99993;
+    line-height: 30px;
+    height: 30px;
+    text-align: right;
+    box-sizing: border-box;
+}
+#br_popup .br_popup_overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+	background: black;
+	z-index: 99991;
+}
+#br_popup .br_popup_inner {
+	height: 100%;
+	width: 100%;
+	padding: 0 15px;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+#br_popup .popup_animation.with_yes_no_buttons {
+    padding-bottom: 80px;
+}
+#br_popup .with_yes_no_buttons .br_popup_buttons {
+	padding: 20px 15px;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #444;
+}
+#br_popup .print_button {
+    float: left;
+}
+#br_popup .popup_animation.yes_no_buttons_left .br_popup_buttons {
+	text-align: left;
+}
+#br_popup .popup_animation.yes_no_buttons_left .print_button {
+    float: right;
+}
+#br_popup .popup_animation.yes_no_buttons_right .br_popup_buttons {
+	text-align: right;
+}
+#br_popup .popup_animation.yes_no_buttons_center .br_popup_buttons {
+	text-align: center;
+}
+#br_popup .br_popup_buttons a {
+	margin: 0 15px;
+	padding: 5px 20px;
+	display: inline-block;
+	border: 1px solid #444;
+	border-radius: 5px;
+	color: #444;
+	text-decoration: none;
+    background: transparent;
+    height: auto!important;
+}
+#br_popup .counters {
+	display: none;
+}
+#br_popup.counting .counters {
+	display: block;
+}
+/* HEADER START*/
+#br_popup .popup_animation.with_header {
+    padding-top: 70px;
+}
+#br_popup .br_popup_header {
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 1.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#br_popup .with_header .br_popup_close {
+    top: 8px;
+    right: 8px;
+}
+/* HEADER END*/
+
+@media (max-width: 1200px) {
+	#br_popup .br_popup_wrapper {
+		width: 90%;
+		height: 90%;
+	}
+}
+@media (max-width: 900px) {
+	#br_popup .br_popup_wrapper {
+		width: 97%;
+		height: 97%;
+	}
+}
+@media (max-width: 768px) {
+    html #br_popup.br_popup .br_popup_buttons a {
+        margin: 0 5px;
+        padding: 6px 20px;
+    }
+    #br_popup .br_popup_buttons .print_button {
+        display: none;
+    }
+}
+@media print {
+    body.print > * {
+        visibility: hidden!important;
+        height: 0;
+    }
+    body.print #br_popup,
+    body.print #br_popup .br_popup_wrapper,
+    body.print #br_popup .br_popup_wrapper .popup_animation{
+        height: auto;
+        position: relative;
+    }
+    body.print #br_popup .br_popup_inner {
+        visibility: visible!important;
+        overflow-y: initial;
+    }
+    body.print #br_popup .br_popup_inner * {
+        visibility: visible!important;
+    }
+    body.print #br_popup .br_popup_wrapper {
+        top: 0;
+        left: 0;
+        transform: none;
+        height: auto;
+        width: 100%;
+    }
+    body.print.hide_scroll {
+        overflow: initial;
+    }
+}

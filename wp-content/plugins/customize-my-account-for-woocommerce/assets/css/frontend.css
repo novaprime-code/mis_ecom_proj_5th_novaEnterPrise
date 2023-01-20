@@ -1,0 +1,39 @@
+li.woocommerce-MyAccount-navigation-link.wcmamtx_no_icon a::before {
+    display: none !important;
+}
+li.woocommerce-MyAccount-navigation-link.wcmamtx_custom_icon a::before {
+    display: none !important;
+}
+li.wcmamtx_custom_right i {
+    float: right;
+    margin-left: 4px;
+    margin-top: 4px;
+    opacity: .25;
+}
+li.wcmamtx_custom_left i {
+    float: left;
+    opacity: .25;
+}
+
+li.wcmamtx_custom_right.is-active i, li.wcmamtx_custom_right.is-active i{
+   opacity: 1.0;
+}
+
+ul.wcmamtx_sub_level li{
+	margin-left: 25px;
+}
+
+nav.woocommerce-MyAccount-navigation.wcmamtx_menu_right {
+    float: right;
+    margin-left: 25px;
+    width: 15%;
+}
+
+nav.woocommerce-MyAccount-navigation.wcmamtx_menu_horizontal {
+    width: 100%;
+}
+
+
+.large-9.col .woocommerce-MyAccount-navigation {
+    display:none;
+}

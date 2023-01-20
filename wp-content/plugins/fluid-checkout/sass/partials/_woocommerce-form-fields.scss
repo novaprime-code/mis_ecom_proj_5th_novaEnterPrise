@@ -1,0 +1,235 @@
+// ------------------------------------
+// WOOCOMMERCE FORM-ROW
+// ------------------------------------
+div.woocommerce form .form-row:before,
+div.woocommerce form .form-row:after {
+	@include clearfix();
+}
+
+
+
+div.woocommerce form .form-row:last-child {
+	margin-bottom: 0;
+}
+
+
+
+div.woocommerce form .form-row {
+	display: block;
+	margin-bottom: $global-spacing-small;
+	padding: 0;
+	max-width: 100%;
+}
+div.woocommerce form .form-row.has-description:not( :last-child ) {
+	margin-bottom: remsize( .8rem );
+}
+
+div.woocommerce form .form-row input,
+div.woocommerce form .form-row textarea,
+div.woocommerce form .form-row select,
+div.woocommerce form .form-row .select2-container,
+div.woocommerce form .form-row .select2-container .select2-selection {
+	margin-bottom: 0;
+}
+
+
+
+div.woocommerce form .form-row.form-row-first,
+div.woocommerce form .form-row.form-row-middle,
+div.woocommerce form .form-row.form-row-last {
+	clear: $alignment-left;
+	float: none;
+	width: 100% !important; // Needed to override theme styles
+
+	@media (#{$bp-larger-than-phablet}) {
+		clear: none;
+		float: $alignment-left;
+		width: 48% !important; // Needed to override theme styles
+	}
+}
+
+div.woocommerce form .form-row.form-row-first,
+div.woocommerce form .form-row.form-row-wide {
+	clear: $alignment-left;
+	@media (#{$bp-larger-than-phablet}) { clear: $alignment-left; }
+}
+
+div.woocommerce form .form-row.form-row-one-third {
+	width: 100% !important; // Needed to override theme styles
+	@media (#{$bp-larger-than-phablet}) { width: 30.666% !important; /* Needed to override theme styles */ }
+}
+
+div.woocommerce form .form-row.form-row-two-thirds {
+	width: 100% !important; // Needed to override theme styles
+	@media (#{$bp-larger-than-phablet}) { width: 65.33% !important; /* Needed to override theme styles */ }
+}
+
+div.woocommerce form .form-row.form-row-first,
+div.woocommerce form .form-row.form-row-middle,
+div.woocommerce form #payment .form-row.form-row-first,
+div.woocommerce form #payment .form-row.form-row-middle {
+	@media (#{$bp-larger-than-phablet}) {
+		margin-#{ $alignment-left }: 0;
+		margin-#{ $alignment-right }: 4%;
+	}
+}
+
+
+
+div.woocommerce form .form-row .woocommerce-input-wrapper span.description {
+	position: static;
+	display: block;
+	margin: 0;
+	padding: $checkout-field-description-padding;
+	border: 0;
+	background-color: $checkout-field-description-background-color;
+	color: $checkout-field-description-color;
+	font-size: $checkout-field-description-font-size;
+	line-height: 1.2;
+
+	@media (#{$bp-larger-than-desktop}) { font-size: $checkout-field-description-font-size--large-screen; }
+}
+div.woocommerce form .form-row .woocommerce-input-wrapper span.description:before {
+	display: none;
+}
+
+
+
+
+
+// ------------------------------------
+// WOOCOMMERCE FORM FIELD LABELS
+// ------------------------------------
+div.woocommerce form .form-row label,
+div.woocommerce form #billing_address_2_field > label,
+div.woocommerce form #shipping_address_2_field > label {
+	z-index: z( 'default' ) + 1;
+	margin-top: 0;
+	margin-bottom: $global-spacing-tiny;
+	width: auto;
+	opacity: unset;
+	overflow: unset;
+	white-space: normal;
+	line-height: 1.2;
+	text-align: $alignment-left;
+}
+
+
+
+
+
+// ------------------------------------
+// WOOCOMMERCE FORM FIELD GROUP
+// ------------------------------------
+.fc-content div.woocommerce form .fc-wrapper .fc-field-group {
+	margin: $checkout-field-group-margin;
+	padding: $checkout-field-group-padding;
+	background-color: $lighter-grey;
+
+	@media (#{$bp-larger-than-desktop}) {
+		margin: $checkout-field-group-margin--large-screen;
+		padding: $checkout-field-group-padding--large-screen;
+	}
+}
+
+.fc-content div.woocommerce form .fc-wrapper .fc-field-group:before,
+.fc-content div.woocommerce form .fc-wrapper .fc-field-group:after {
+	@include clearfix();
+}
+
+// Make fields background white
+.fc-content div.woocommerce form .fc-wrapper .fc-field-group {
+	textarea,
+	select,
+	input[type="email"],
+	input[type="number"],
+	input[type="date"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"] {
+		background-color: $white;
+	}
+}
+
+
+
+
+
+// ------------------------------------
+// WOOCOMMERCE FORM FIELDS
+// ------------------------------------
+
+// Position and outline styles
+div.woocommerce form .form-row {
+	textarea,
+	select,
+	input[type="email"],
+	input[type="number"],
+	input[type="date"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	input[type="checkbox"],
+	input[type="radio"],
+	.select2-selection {
+		z-index: z( 'default' );
+		position: relative;
+
+		&:focus {
+			outline: $focus-outline-field;
+			outline-offset: $focus-outline-offset-field;
+		}
+	}
+
+	.woocommerce-input-wrapper {
+		position: relative;
+		display: block;
+		width: 100%;
+	}
+
+	.show-password-input {
+		z-index: z( 'above' );
+	}
+}
+// Add styles for fields not wrapper by a `.form-field` only for detected issues
+div.woocommerce {
+	input[type="number"],
+	input[type="checkbox"],
+	input[type="radio"] {
+		&:focus {
+			outline: $focus-outline-field;
+			outline-offset: $focus-outline-offset-field;
+		}
+	}
+}
+
+
+
+// Field sizes
+div.woocommerce form .form-row {
+	textarea,
+	select,
+	input[type="email"],
+	input[type="number"],
+	input[type="date"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	.select2-selection {
+		width: 100%;
+	}
+
+	.select2-container {
+		width: 100% !important; // Needed to override inline styles
+	}
+
+	textarea {
+		min-height: remsize( 10rem );
+	}
+}

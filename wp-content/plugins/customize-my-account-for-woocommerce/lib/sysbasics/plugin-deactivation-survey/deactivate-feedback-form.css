@@ -1,0 +1,30 @@
+.sysbasics-deactivate-dialog
+{
+	text-align: left;
+	width: auto;
+}
+
+.sysbasics-deactivate-dialog-buttons
+{
+	text-align: right;
+}
+
+.sysbasics-deactivate-dialog
+{
+	width: auto !important;
+}
+
+.sysbasics-deactivate-dialog h2
+{
+	color: gray;
+	font-variant: small-caps;
+	font-size: 1.2em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid lightgray;
+	
+}
+
+.sysbasics-deactivate-dialog input[name="comments"]
+{
+	width: 380px;
+}

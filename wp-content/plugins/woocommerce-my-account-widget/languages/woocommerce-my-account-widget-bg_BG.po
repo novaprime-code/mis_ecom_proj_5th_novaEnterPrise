@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce My Account Widget v0.2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-06 12:37+0100\n"
+"PO-Revision-Date: 2016-05-06 04:02+0300\n"
+"Last-Translator: Bart Pluijms <info@geev.nl>\n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:14
+msgid "WooCommerce My Account Widget shows order & account data"
+msgstr ""
+"WooCommerce My Account Widget показва поръчките и подробности за "
+"потребителя"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:15
+msgid "WooCommerce My Account Widget"
+msgstr ""
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:29
+msgid "Logged out title:"
+msgstr "Име за външни потребители:"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:30
+#: ../woocommerce-my-account-widget.php:102
+msgid "Customer Login"
+msgstr "Вход за потребители"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:32
+msgid "Logged in title:"
+msgstr "Име за вътрешни потребители:"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:33
+#: ../woocommerce-my-account-widget.php:104
+#, php-format
+msgid "Welcome %s"
+msgstr "Здравей, %s"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:36
+msgid "Show link to shopping cart"
+msgstr "Покажи линк към количката"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:38
+msgid "Show number of items in cart"
+msgstr "Покажи броя на продуктите в количката"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:43
+msgid "Show number of uploads left"
+msgstr "Покажи броя на оставащите качвания"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:46
+msgid "Show number of unpaid orders"
+msgstr "Покажи броя на неплатените поръчки"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:48
+msgid "Show number of uncompleted orders"
+msgstr "Покажи броя на незавършените поръчки"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:50
+msgid "Show logout link"
+msgstr "Покажи \"Изход\""
+
+#: ../woocommerce-my-account-widget.php:52
+msgid "Redirect to page after login:"
+msgstr "Пренасочване към страница след влизане:"
+
+#: ../woocommerce-my-account-widget.php:55
+msgid "Select page"
+msgstr "Избери страница"
+
+#: ../woocommerce-my-account-widget.php:67
+msgid "Other options"
+msgstr "Други Опции"
+
+#: ../woocommerce-my-account-widget.php:69
+msgid "Login with email address"
+msgstr "Вход с имейл адрес"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:128
+#: ../woocommerce-my-account-widget.php:180
+#: ../woocommerce-my-account-widget.php:251
+msgid "View your shopping cart"
+msgstr "Виж количката"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:182
+msgid "product in your shopping cart"
+msgid_plural "products in your shopping cart"
+msgstr[0] "продукт в количката"
+msgstr[1] "продукта в количката"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:189
+msgid "Upload files"
+msgstr "Качи файл"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:191
+msgid "file to upload"
+msgid_plural "files to upload"
+msgstr[0] "файл за качване"
+msgstr[1] "файлове за качване"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:197
+msgid "Pay orders"
+msgstr "Плащане на поръчките"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:199
+msgid "payment required"
+msgid_plural "payments required"
+msgstr[0] "плащане в изчакване"
+msgstr[1] "плащания в изчакване"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:205
+msgid "View uncompleted orders"
+msgstr "Виж незавършените поръчки"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:207
+msgid "order pending"
+msgid_plural "orders pending"
+msgstr[0] "поръчка в изчакване"
+msgstr[1] "поръчки в изчакване"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:212
+msgid "My Account"
+msgstr "Моят профил"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:213
+msgid "Log out"
+msgstr "Изход"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:221
+msgid "Login failed, please try again"
+msgstr "Грешка, опитайте отново"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:228
+msgid "Username"
+msgstr "Потребителско име"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:229
+msgid "Password"
+msgstr "Парола"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:230
+msgid "Remember Me"
+msgstr "Запомни ме"
+
+# @ default
+#: ../woocommerce-my-account-widget.php:231
+msgid "Log In"
+msgstr "Вход"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:245
+msgid "Lost password?"
+msgstr "Изгубена парола?"
+
+# @ woocommerce-myaccount-widget
+#: ../woocommerce-my-account-widget.php:248
+msgid "Register"
+msgstr "Регистрация"
+
+#: ../woocommerce-my-account-widget.php:309
+msgid "Username or Email"
+msgstr "Потребителско име или имейл"
+
+# @ woocommerce-myaccount-widget
+#~ msgid "<span>%d</span> product in your shopping cart"
+#~ msgid_plural "<span>%d</span> products in your shoppingcart"
+#~ msgstr[0] "В вашей коризне <span>%d</span> товар "
+#~ msgstr[1] "В вашей коризне <span>%d</span> шт. "
+#~ msgstr[2] "В вашей коризне <span>%d</span> шт. "
+
+# @ woocommerce-myaccount-widget
+#~ msgid "<span>%d</span> file to upload"
+#~ msgid_plural "<span>%d</span> files to upload"
+#~ msgstr[0] "<span>%d</span> файл для загрузки"
+#~ msgstr[1] "Количество файлов для загрузки: <span>%d</span>"
+#~ msgstr[2] "Количество файлов для загрузки: <span>%d</span>"
+
+# @ woocommerce-myaccount-widget
+#~ msgid "<span>%d</span> payment required"
+#~ msgid_plural "<span>%d</span> payments required"
+#~ msgstr[0] "<span>%d</span> требует оплаты"
+#~ msgstr[1] "<span>%d</span> требуют оплаты"
+#~ msgstr[2] "<span>%d</span> требуют оплаты"
+
+# @ woocommerce-myaccount-widget
+#~ msgid "<span>%d</span> order pending"
+#~ msgid_plural "<span>%d</span> orders pending"
+#~ msgstr[0] "<span>%d</span> заказ ожидается"
+#~ msgstr[1] "<span>%d</span> заказа(-ов) ожидается"
+#~ msgstr[2] "<span>%d</span> заказа(-ов) ожидается"
+
+# @ woocommerce-myaccount-widget
+#, fuzzy
+#~ msgid "products in your shoppingcart"
+#~ msgstr "В вашей коризне <span>%d</span> товар "
+
+# @ woocommerce-myaccount-widget
+#, fuzzy
+#~ msgid "<span>%d</span> "
+#~ msgid_plural "<span>%d</span> "
+#~ msgstr[0] "<span>%d</span> заказ ожидается"
+#~ msgstr[1] "<span>%d</span> заказа(-ов) ожидается"
+#~ msgstr[2] "<span>%d</span> заказа(-ов) ожидается"
+
+# @ woocommerce-myaccount-widget
+#, fuzzy
+#~ msgid "files to upload"
+#~ msgstr "<span>%d</span> файл для загрузки"
+
+# @ woocommerce-myaccount-widget
+#, fuzzy
+#~ msgid "payments required"
+#~ msgstr "<span>%d</span> требует оплаты"
+
+# @ woocommerce-myaccount-widget
+#, fuzzy
+#~ msgid "orders pending"
+#~ msgstr "<span>%d</span> заказ ожидается"

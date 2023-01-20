@@ -1,0 +1,35 @@
+<wpml-config>  
+    <admin-texts>
+        <key name="br_filters_options">
+            <key name="ub_product_text" />
+            <key name="ub_product_button_text" />
+            <key name="ajax_load_text">
+                <key name="top" />
+                <key name="bottom" />
+                <key name="left" />
+                <key name="right" />
+            </key>
+        </key>
+		<key name="berocket_nn_permalink_option">
+            <key name="variable" />
+        </key>
+		<key name="berocket_permalink_option">
+            <key name="variable" />
+        </key>
+    </admin-texts> 
+    <shortcodes>
+        <shortcode>
+            <tag>br_filters</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>text_before_price</attribute>
+                <attribute>text_after_price</attribute>
+                <attribute>description</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+	<custom-types>
+		<custom-type translate="1">br_product_filter</custom-type>
+		<custom-type translate="1">br_filters_group</custom-type>
+	</custom-types>
+</wpml-config>

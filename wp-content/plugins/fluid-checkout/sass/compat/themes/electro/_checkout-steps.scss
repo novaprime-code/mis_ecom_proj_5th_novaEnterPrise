@@ -1,0 +1,29 @@
+// ------------------------------------
+// CHECKOUT STEPS
+// ------------------------------------
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } form.woocommerce-checkout .fc-wrapper .fc-step__substep .fc-step__substep-title {
+	padding-bottom: remsize( .3rem );
+	border-color: $light-grey;
+}
+
+
+
+body#{ $_body-theme-selector }#{ $_body-page-selector } form.woocommerce-checkout .fc-wrapper .fc-step__substep .fc-step__substep-title:after {
+	display: block;
+	width: 20%;
+}
+
+
+
+body#{ $_body-theme-selector }#{ $_body-page-selector }.has-checkout-layout--multi-step form.woocommerce-checkout .fc-wrapper [data-step-complete] .fc-step__substep .fc-step__substep-title {
+	padding-bottom: remsize( .3rem );
+	border-bottom: 0;
+}
+
+
+
+
+body#{ $_body-theme-selector } form.woocommerce-checkout {
+	margin-left: 0;
+}

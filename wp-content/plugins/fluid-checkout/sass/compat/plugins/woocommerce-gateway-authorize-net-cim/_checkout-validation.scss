@@ -1,0 +1,13 @@
+// ------------------------------------
+// CHECKOUT FIELD VALIDATION
+// ------------------------------------
+
+// VALID FIELDS
+div.woocommerce form .form-row#wc-authorize-net-cim-credit-card-account-number_field.woocommerce-validated:not( [class*='woocommerce-invalid'] ) {
+
+	// "valid" field check icon
+	&:not( .fc-no-validation-icon ):not( .fc-select2-field ) .woocommerce-input-wrapper:after {
+		#{ $alignment-right }: remsize( 6.5rem );
+	}
+
+}

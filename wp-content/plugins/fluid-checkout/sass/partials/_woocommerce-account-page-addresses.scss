@@ -1,0 +1,13 @@
+// ------------------------------------
+// WOOCOMMERCE ACCOUNT ADDRESSES
+// ------------------------------------
+.woocommerce-MyAccount-content .woocommerce-address-fields__field-wrapper {
+    display: block;
+    margin: 0;
+    margin-bottom: $global-spacing-medium;
+}
+
+.woocommerce-MyAccount-content .woocommerce-address-fields__field-wrapper::before,
+.woocommerce-MyAccount-content .woocommerce-address-fields__field-wrapper::after {
+	@include clearfix();
+}

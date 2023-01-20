@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce My Account Widget v0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-04-08 19:19+0100\n"
+"Last-Translator: admin <hcarlos123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: sl_SI\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:14
+msgid "WooCommerce My Account Widget shows order & account data"
+msgstr ""
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:15
+msgid "WooCommerce My Account Widget"
+msgstr ""
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:29
+msgid "Logged out title:"
+msgstr "Naslov odjave:"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:30 woocommerce-my-account-widget.php:102
+msgid "Customer Login"
+msgstr "Prijava za stranke"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:32
+msgid "Logged in title:"
+msgstr "Prijavljeni na naslovu:"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:33 woocommerce-my-account-widget.php:104
+#, php-format
+msgid "Welcome %s"
+msgstr "Dobrodošel %s"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:36
+msgid "Show link to shopping cart"
+msgstr "Prikaži povezavo za nakupovalno košarico"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:38
+msgid "Show number of items in cart"
+msgstr "Prikaži število postavk v košarici"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:43
+msgid "Show number of uploads left"
+msgstr "Show number of uploads left"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:46
+msgid "Show number of unpaid orders"
+msgstr "Prikaži število neplačanih nalogov"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:48
+msgid "Show number of uncompleted orders"
+msgstr "Prikaži število nezaključenih nalogov"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:50
+msgid "Show logout link"
+msgstr "Prikaži povezavo odjave"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:52
+msgid "Redirect to page after login:"
+msgstr "Preusmeri na stran po prijavi:"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:55
+msgid "Select page"
+msgstr "Izberi stran"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:67
+msgid "Other options"
+msgstr "Druge možnosti"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:69
+msgid "Login with email address"
+msgstr "Prijavite se z e-poštnim naslovom"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:128 woocommerce-my-account-widget.php:180
+#: woocommerce-my-account-widget.php:251
+msgid "View your shopping cart"
+msgstr "Vaša košarica"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:182
+msgid "product in your shopping cart"
+msgid_plural "products in your shopping cart"
+msgstr[0] "izdelek v košarici"
+msgstr[1] "izdelka v košarici"
+msgstr[2] "izdelka v košarici"
+msgstr[3] "izdelkov v košarici"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:189
+msgid "Upload files"
+msgstr "Nalaganje datotek"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:191
+msgid "file to upload"
+msgid_plural "files to upload"
+msgstr[0] "datoteka za nalaganje"
+msgstr[1] "datoteki za nalaganje"
+msgstr[2] "datotek za nalaganje"
+msgstr[3] "datotek za nalaganje"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:197
+msgid "Pay orders"
+msgstr "Plačati naročilo"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:199
+msgid "payment required"
+msgid_plural "payments required"
+msgstr[0] "zahteva za plačilo"
+msgstr[1] "zahtevi za plačilo"
+msgstr[2] "zahtev za plačilo"
+msgstr[3] "zahtev za plačilo"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:205
+msgid "View uncompleted orders"
+msgstr "Poglej neizpolnjena naročila"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:207
+msgid "order pending"
+msgid_plural "orders pending"
+msgstr[0] "naročilo v čakanju"
+msgstr[1] "naročili v čakanju"
+msgstr[2] "naročila na čakanju"
+msgstr[3] "naročil na čakanju"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:212
+msgid "My Account"
+msgstr "Moj Račun"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:213
+msgid "Log out"
+msgstr "Odjava"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:221
+msgid "Login failed, please try again"
+msgstr "Prijava ni uspela, poskusite znova"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:228
+msgid "Username"
+msgstr "Uporabniško ime"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:229
+msgid "Password"
+msgstr "Geslo"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:230
+msgid "Remember Me"
+msgstr "Zapomni me"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:231
+msgid "Log In"
+msgstr "Prijava"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:245
+msgid "Lost password?"
+msgstr "Ste pozabili geslo?"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:248
+msgid "Register"
+msgstr "Registracija"
+
+# @ woocommerce-my-account-widget
+#: woocommerce-my-account-widget.php:309
+msgid "Username or Email"
+msgstr "Uporabniško ime ali e-mail"

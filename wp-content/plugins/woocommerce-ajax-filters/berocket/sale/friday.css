@@ -1,0 +1,16 @@
+#adminmenu .toplevel_page_berocket_account,
+#adminmenu .toplevel_page_berocket_account .wp-menu-arrow {
+    background-color: #1A1A1A!important;
+}
+#adminmenu .toplevel_page_berocket_account .wp-menu-name:after {
+    content: "";
+    background: url(https://berocket.ams3.cdn.digitaloceanspaces.com/g/present.png);
+    display: inline-block;
+    height: 34px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    right: 8px;
+    background-size: cover;
+}

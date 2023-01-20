@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BeRocket framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-11 12:46+0000\n"
+"PO-Revision-Date: 2019-03-11 12:49+0000\n"
+"Last-Translator: RazyRx <djcrazysait@mail.ru>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.1"
+
+#: berocket/framework.php:241
+msgid "View Plugin Settings"
+msgstr "Показать Настройки Плагина"
+
+#: berocket/framework.php:242 berocket/framework.php:442
+#: berocket/templates/settings.php:14
+msgid "Settings"
+msgstr "Настройки"
+
+#: berocket/framework.php:257
+msgid "View Plugin Documentation"
+msgstr "Показать Документацию Плагина"
+
+#: berocket/framework.php:258
+msgid "Docs"
+msgstr "Документация"
+
+#: berocket/framework.php:262
+msgid "View Premium Support Page"
+msgstr "Показать Страницу Премиум Поддержки"
+
+#: berocket/framework.php:263
+msgid "Premium Support"
+msgstr "Премиум Поддержка"
+
+#: berocket/framework.php:266
+msgid "View Premium Version Page"
+msgstr "Показать Страницу Премиум Версии"
+
+#: berocket/framework.php:267
+msgid "Premium Version"
+msgstr "Премиум Версия"
+
+#: berocket/framework.php:542 berocket/framework.php:763
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: berocket/framework.php:670
+msgid "Plugin key"
+msgstr "Ключ плагина"
+
+#: berocket/framework.php:676
+msgid "Key for plugin from BeRocket.com"
+msgstr "Ключ для плагина с сайта BeRocket.com"
+
+#: berocket/includes/admin_notices.php:816
+msgid ""
+"Awesome, you've been using %plugin_name% Plugin for more than 1 week. May we "
+"ask you to give it a 5-star rating on WordPress?"
+msgstr ""
+"Отлично, вы используете плагин %plugin_name% более 1 недели. Можем ли мы "
+"попросить вас поставить ему рейтинг 5-звезд на WordPress?"
+
+#: berocket/includes/admin_notices.php:817
+msgid "May we ask you to give our plugin %plugin_name% a 5-star rating?"
+msgstr ""
+"Можем ли мы попросить вас поставить нашему плагину %plugin_name% рейтинг 5-"
+"звезд?"
+
+#: berocket/includes/admin_notices.php:828
+#: berocket/includes/admin_notices.php:970
+#: berocket/includes/admin_notices.php:1098
+msgid "Each good feedback is very important for plugin growth"
+msgstr "Каждый хороший отзыв очень важен для роста плагина."
+
+#: berocket/includes/admin_notices.php:830
+#: berocket/includes/admin_notices.php:972
+msgid "Ok, you deserved it"
+msgstr "Хорошо, вы заслужили это"
+
+#: berocket/includes/admin_notices.php:839
+msgid "Maybe later"
+msgstr "Может позже"
+
+#: berocket/includes/admin_notices.php:840
+msgid "Later"
+msgstr "Позже"
+
+#: berocket/includes/admin_notices.php:850
+msgid "I already did"
+msgstr "Я уже сделал это"
+
+#: berocket/includes/admin_notices.php:851
+msgid "Already"
+msgstr "Сделано"
+
+#: berocket/includes/admin_notices.php:963
+msgid "May we ask you to give us a 5-star feedback?"
+msgstr "Можем ли мы попросить вас дать нам отзыв 5-звезд?"
+
+#: berocket/includes/admin_notices.php:973
+msgid "Support the plugin by setting good feedback.<br>We really need this."
+msgstr ""
+"Поддержите плагин, поставив хороший отзыв. <br> Нам это действительно нужно."
+
+#: berocket/includes/admin_notices.php:1078
+msgid "Feature Title"
+msgstr "Название функции"
+
+#: berocket/includes/admin_notices.php:1079
+msgid "Email (optional)"
+msgstr "Электронная почта (необязательно)"
+
+#: berocket/includes/admin_notices.php:1080
+msgid "Feature Description"
+msgstr "Описание функции"
+
+#: berocket/includes/admin_notices.php:1081
+msgid "SEND FEATURE REQUEST"
+msgstr "ОТПРАВИТЬ ЗАПРОС ФУНКЦИИ"
+
+#: berocket/includes/admin_notices.php:1090
+msgid "While you're here, you could rate this plugin"
+msgstr "Пока вы здесь, вы можете оценить этот плагин"
+
+#: berocket/includes/admin_notices.php:1100
+msgid "This plugin deserves 5 stars"
+msgstr "Этот плагин заслуживает 5 звезд"
+
+#: berocket/includes/admin_notices.php:1102
+msgid "I'll rate it next time"
+msgstr "Я оценю в следующий раз"
+
+#: berocket/includes/admin_notices.php:1109
+msgid "I already rated it"
+msgstr "Я уже оценил его"
+
+#: berocket/includes/custom_post.php:160
+msgid "Name"
+msgstr "Имя"
+
+#: berocket/includes/custom_post.php:181
+msgid "Save content"
+msgstr "Сохранить контент"
+
+#: berocket/includes/custom_post.php:182
+msgid "Copy settings from"
+msgstr "Копировать настройки с"
+
+#: berocket/includes/custom_post.php:194
+msgid "Do not copy"
+msgstr "Не копировать"
+
+#: berocket/includes/custom_post.php:205
+msgid "Copy"
+msgstr "Копировать"
+
+#: berocket/includes/custom_post.php:242
+msgid "Delete Permanently"
+msgstr "Удалить Навсегда"
+
+#: berocket/includes/custom_post.php:244
+msgid "Move to Trash"
+msgstr "Отправить в корзину"
+
+#: berocket/includes/custom_post.php:254
+msgid "Save"
+msgstr "Сохранить"
+
+#: berocket/includes/custom_post.php:254
+msgid "Save/update notice"
+msgstr "Сохранить/обновить уведомление"
+
+#: berocket/includes/custom_post.php:407
+msgid "Order"
+msgstr "Порядок"
+
+#: berocket/includes/updater.php:218
+msgid "Please"
+msgstr "Пожалуйста"
+
+#: berocket/includes/updater.php:219
+msgid "activate plugin"
+msgstr "активируйте плагин"
+
+#: berocket/includes/updater.php:219
+msgid "with help of Plugin/Account Key from"
+msgstr "с помощью ключа Плагина/Аккаунта с"
+
+#: berocket/includes/updater.php:220
+msgid "BeRocket account"
+msgstr "учетной записи BeRocket"
+
+#: berocket/includes/updater.php:221
+msgid "You can activate plugin in"
+msgstr "Вы можете активировать плагин в"
+
+#: berocket/includes/updater.php:222
+msgid "BeRocket Account settings"
+msgstr "настройках Учетной Записи BeRocket"
+
+#: berocket/includes/functions.php:143
+msgid "Default"
+msgstr "Стандартные"
+
+#: berocket/includes/functions.php:170 berocket/includes/functions.php:220
+#: berocket/includes/functions.php:406
+msgid "Upload"
+msgstr "Загрузить"
+
+#: berocket/includes/functions.php:172 berocket/includes/functions.php:223
+#: berocket/includes/functions.php:254 berocket/includes/functions.php:409
+msgid "Remove"
+msgstr "Убрать"
+
+#: berocket/includes/functions.php:221 berocket/includes/functions.php:252
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: berocket/includes/functions.php:281
+msgid "Enter 3 or more characters"
+msgstr "Введите 3 или больше символа"
+
+#: berocket/includes/functions.php:401
+msgid "Font awesome"
+msgstr "Font awesome"
+
+#: berocket/includes/conditions.php:85
+msgid "Product"
+msgstr "Продукт"
+
+#: berocket/includes/conditions.php:86
+msgid "On Sale"
+msgstr "На распродаже"
+
+#: berocket/includes/conditions.php:87
+msgid "Bestsellers"
+msgstr "Бестселлеры"
+
+#: berocket/includes/conditions.php:88
+msgid "Price"
+msgstr "Цена"
+
+#: berocket/includes/conditions.php:89
+msgid "Stock status"
+msgstr "Состояние на складе"
+
+#: berocket/includes/conditions.php:90
+msgid "Total sales"
+msgstr "Всего продано"
+
+#: berocket/includes/conditions.php:91
+msgid "Category"
+msgstr "Категория"
+
+#: berocket/includes/conditions.php:92
+msgid "Product attribute"
+msgstr "Атрибут продукта"
+
+#: berocket/includes/conditions.php:93
+msgid "Product age"
+msgstr "Возраст продукта"
+
+#: berocket/includes/conditions.php:94
+msgid "Sale price"
+msgstr "Цена со скидкой"
+
+#: berocket/includes/conditions.php:95
+msgid "Regular price"
+msgstr "Обычная цена"
+
+#: berocket/includes/conditions.php:96
+msgid "Stock quantity"
+msgstr "Количество в запасе"
+
+#: berocket/includes/conditions.php:97
+msgid "Featured"
+msgstr "Сопутствующие"
+
+#: berocket/includes/conditions.php:98
+msgid "Shipping Class"
+msgstr "Класс Доставки"
+
+#: berocket/includes/conditions.php:99
+msgid "Product Type"
+msgstr "Тип Продукта"
+
+#: berocket/includes/conditions.php:100
+msgid "Product Rating"
+msgstr "Рейтинг Продукта"
+
+#: berocket/includes/conditions.php:102
+msgid "Page ID"
+msgstr "ID Страницы"
+
+#: berocket/includes/conditions.php:103
+msgid "Product Attribute"
+msgstr "Атрибут Продукта"
+
+#: berocket/includes/conditions.php:104
+msgid "Product Search"
+msgstr "Поиск Продукта"
+
+#: berocket/includes/conditions.php:105
+msgid "Product Category"
+msgstr "Категория Продукта"
+
+#: berocket/includes/conditions.php:118
+msgid "Equal"
+msgstr "Равно"
+
+#: berocket/includes/conditions.php:119
+msgid "Not equal"
+msgstr "Не равно"
+
+#: berocket/includes/conditions.php:122
+msgid "Equal or less"
+msgstr "Равно или меньше"
+
+#: berocket/includes/conditions.php:125
+msgid "Equal or more"
+msgstr "Равно или больше"
+
+#: berocket/includes/conditions.php:171
+msgid "Is on sale"
+msgstr "Или на распродаже"
+
+#: berocket/includes/conditions.php:172 berocket/includes/conditions.php:229
+#: berocket/includes/conditions.php:390
+msgid "Yes"
+msgstr "Да"
+
+#: berocket/includes/conditions.php:173 berocket/includes/conditions.php:230
+#: berocket/includes/conditions.php:391
+msgid "No"
+msgstr "Нет"
+
+#: berocket/includes/conditions.php:181 berocket/includes/conditions.php:274
+msgid "Count of product"
+msgstr "Количество продукта"
+
+#: berocket/includes/conditions.php:227
+msgid "Has Rating:"
+msgstr "Имеет рейтинг:"
+
+#: berocket/includes/conditions.php:243 berocket/includes/conditions.php:364
+#: berocket/includes/conditions.php:377
+msgid "From:"
+msgstr "От:"
+
+#: berocket/includes/conditions.php:244 berocket/includes/conditions.php:365
+#: berocket/includes/conditions.php:378
+msgid "To:"
+msgstr "До:"
+
+#: berocket/includes/conditions.php:246
+msgid "Product price"
+msgstr "Цена продукта"
+
+#: berocket/includes/conditions.php:247
+msgid "With tax"
+msgstr "С налогами"
+
+#: berocket/includes/conditions.php:248
+msgid "Without tax"
+msgstr "Без налогов"
+
+#: berocket/includes/conditions.php:263
+msgid "In stock"
+msgstr "В наличии"
+
+#: berocket/includes/conditions.php:264
+msgid "Out of stock"
+msgstr "Не в наличии"
+
+#: berocket/includes/conditions.php:265
+msgid "On Backorder"
+msgstr "С предзаказом"
+
+#: berocket/includes/conditions.php:292
+msgid "Include subcategories"
+msgstr "Включать подкатегории"
+
+#: berocket/includes/conditions.php:325
+msgid "Select attribute"
+msgstr "Выбрать атрибут"
+
+#: berocket/includes/conditions.php:352
+msgid "day(s)"
+msgstr "день(дней)"
+
+#: berocket/includes/conditions.php:386
+msgid "Products in stock"
+msgstr "Продуктов в наличии"
+
+#: berocket/includes/conditions.php:388
+msgid "Backorder allowed"
+msgstr "Предзаказ разрешен"
+
+#: berocket/includes/conditions.php:389
+msgid "Any"
+msgstr "Любой"
+
+#: berocket/libraries/addons/addons.php:105
+msgid "Active Addons"
+msgstr "Активные Аддоны"
+
+#: berocket/libraries/addons/addons.php:109
+msgid "Inactive Addons"
+msgstr "Не Активные аддоны"
+
+#: berocket/libraries/addons/addons.php:151
+#: berocket/libraries/templates/templates.php:163
+msgid "Go Premium"
+msgstr "Премиум"

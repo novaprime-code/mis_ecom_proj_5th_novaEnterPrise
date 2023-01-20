@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce My Account Widget\n"
+"POT-Creation-Date: 2014-04-06 12:36+0100\n"
+"PO-Revision-Date: 2014-09-12 09:12+0100\n"
+"Last-Translator: Bart Pluijms <info@geev.nl>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_n:1,2;_nx_noop:1,2;"
+"_n_noop:1,2;_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../woocommerce-my-account-widget.php:14
+msgid "WooCommerce My Account Widget shows order & account data"
+msgstr "WooCommerce My Account Widget muestra ordenes y datos de cuenta"
+
+#: ../woocommerce-my-account-widget.php:15
+msgid "WooCommerce My Account Widget"
+msgstr "WooCommerce My Account Widget"
+
+#: ../woocommerce-my-account-widget.php:29
+msgid "Logged out title:"
+msgstr "Título desconecto"
+
+#: ../woocommerce-my-account-widget.php:30
+#: ../woocommerce-my-account-widget.php:102
+msgid "Customer Login"
+msgstr "Login cliente"
+
+#: ../woocommerce-my-account-widget.php:32
+msgid "Logged in title:"
+msgstr "Título Login"
+
+#: ../woocommerce-my-account-widget.php:33
+#: ../woocommerce-my-account-widget.php:104
+#, php-format
+msgid "Welcome %s"
+msgstr "Bienvenido %s"
+
+#: ../woocommerce-my-account-widget.php:36
+msgid "Show link to shopping cart"
+msgstr "Muestra link al carrito"
+
+#: ../woocommerce-my-account-widget.php:38
+msgid "Show number of items in cart"
+msgstr "Muestra numero de elementos en el carrito"
+
+#: ../woocommerce-my-account-widget.php:43
+msgid "Show number of uploads left"
+msgstr "Muestra número de subidas restantes"
+
+#: ../woocommerce-my-account-widget.php:46
+msgid "Show number of unpaid orders"
+msgstr "Mostra numero de órdenes impagadas"
+
+#: ../woocommerce-my-account-widget.php:48
+msgid "Show number of uncompleted orders"
+msgstr "Muestra el número de órdenes incompletas"
+
+#: ../woocommerce-my-account-widget.php:50
+msgid "Show logout link"
+msgstr "Mostrar logout"
+
+#: ../woocommerce-my-account-widget.php:52
+msgid "Redirect to page after login:"
+msgstr "Redirigir a pagina después de login:"
+
+#: ../woocommerce-my-account-widget.php:55
+msgid "Select page"
+msgstr "Selecciona página"
+
+#: ../woocommerce-my-account-widget.php:67
+msgid "Other options"
+msgstr "Otras opciones"
+
+#: ../woocommerce-my-account-widget.php:69
+msgid "Login with email address"
+msgstr "Login con email"
+
+#: ../woocommerce-my-account-widget.php:128
+#: ../woocommerce-my-account-widget.php:180
+#: ../woocommerce-my-account-widget.php:251
+msgid "View your shopping cart"
+msgstr "Mostrar el carrito"
+
+#: ../woocommerce-my-account-widget.php:182
+msgid "product in your shopping cart"
+msgid_plural "products in your shopping cart"
+msgstr[0] "producto en el carrito"
+msgstr[1] "productos en el carrito"
+
+#: ../woocommerce-my-account-widget.php:189
+msgid "Upload files"
+msgstr "Subir archivos"
+
+#: ../woocommerce-my-account-widget.php:191
+msgid "file to upload"
+msgid_plural "files to upload"
+msgstr[0] "archivo para subir"
+msgstr[1] "archivos para subir"
+
+#: ../woocommerce-my-account-widget.php:197
+msgid "Pay orders"
+msgstr "Pagar órdenes"
+
+#: ../woocommerce-my-account-widget.php:199
+msgid "payment required"
+msgid_plural "payments required"
+msgstr[0] "pago requerido"
+msgstr[1] "pagos requeridos"
+
+#: ../woocommerce-my-account-widget.php:205
+msgid "View uncompleted orders"
+msgstr "Ver órdenes incompletas"
+
+#: ../woocommerce-my-account-widget.php:207
+msgid "order pending"
+msgid_plural "orders pending"
+msgstr[0] "orden pendiente"
+msgstr[1] "órdenes pendientes"
+
+#: ../woocommerce-my-account-widget.php:212
+msgid "My Account"
+msgstr "Mi Cuenta"
+
+#: ../woocommerce-my-account-widget.php:213
+msgid "Log out"
+msgstr "Salir"
+
+#: ../woocommerce-my-account-widget.php:221
+msgid "Login failed, please try again"
+msgstr "Error de login, intenta de nuevo"
+
+#: ../woocommerce-my-account-widget.php:228
+msgid "Username"
+msgstr "Nombre de Usuario"
+
+#: ../woocommerce-my-account-widget.php:229
+msgid "Password"
+msgstr "Password"
+
+#: ../woocommerce-my-account-widget.php:230
+msgid "Remember Me"
+msgstr "Recordarme"
+
+#: ../woocommerce-my-account-widget.php:231
+msgid "Log In"
+msgstr "Acceder"
+
+#: ../woocommerce-my-account-widget.php:245
+msgid "Lost password?"
+msgstr "¿Recuperar password?"
+
+#: ../woocommerce-my-account-widget.php:248
+msgid "Register"
+msgstr "Registrarse"
+
+#: ../woocommerce-my-account-widget.php:309
+msgid "Username or Email"
+msgstr "Nombre de usuario o Email"
+
+#, fuzzy
+#~ msgid "products in your shoppingcart"
+#~ msgstr "<span>%d</span> prodotti nel tuo carrello "
+
+#, fuzzy
+#~ msgid "<span>%d</span> "
+#~ msgstr "<span>%d</span> ordine in sospeso"
+
+#, fuzzy
+#~ msgid "files to upload"
+#~ msgstr "<span>%d</span> archivi da caricare"
+
+#, fuzzy
+#~ msgid "payments required"
+#~ msgstr "<span>%d</span>pagamenti rchiesti"
+
+#, fuzzy
+#~ msgid "orders pending"
+#~ msgstr "<span>%d</span> ordini in sospeso"
+
+#~ msgid "Sorry, no files have been uploaded yet."
+#~ msgstr "Mi dispiace non ci sono file caricati ancora"

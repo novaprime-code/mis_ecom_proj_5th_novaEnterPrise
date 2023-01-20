@@ -1,0 +1,811 @@
+.br_framework_settings{
+    position: relative;
+    padding-bottom: 30px;
+}
+.br_framework_settings .nav-block{
+    display: none;
+}
+.br_framework_settings .nav-block.nav-block-active{
+    display: block;
+}
+.br_framework_settings textarea{
+    width: 100%;
+    resize: vertical;
+    min-height: 200px;
+}
+.br_framework_settings textarea.small {
+    min-height: 100px;
+}
+.br_framework_settings .br_line_delimiter {
+    display: inline-block;
+    width: 2em;
+}
+.br_saved,
+.br_not_saved{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 9999999;
+    color: #333333;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: br_saved_anim;
+    animation-duration: 0.2s;
+    transition: background-color 0.6s;
+    transition: box-shadow 0.6s;
+}
+@keyframes br_saved_anim {
+    from {
+        right: -50px;
+    }
+
+    to {
+        right: 50px;
+    }
+}
+.br_saved_remove {
+    animation-name: br_saved_remove_anim;
+    animation-duration: 0.2s;
+}
+@keyframes br_saved_remove_anim {
+    from {
+        right: 50px;
+    }
+
+    to {
+        right: -50px;
+    }
+}
+.br_saved{
+    box-shadow: 1px 1px 3px 1px #55ff55 inset, 0 0 5px 0;
+    background-color: #33bb33;
+}
+.br_not_saved{
+    box-shadow: 1px 1px 3px 1px #ff5555 inset, 0 0 5px 0;
+    background-color: #bb3333!important;
+}
+.br_saving {
+    box-shadow: 1px 1px 3px 1px #cfcfcf inset, 0 0 5px 0;
+    background-color: #bbbbbb!important;
+}
+.br_saved .fa,
+.br_not_saved .fa{
+    width: 50px;
+    display: block;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 32px;
+}
+.br_saved .fa-check,
+.br_not_saved .fa-times{
+    animation-name: br_saved_anim_fa;
+    animation-duration: 0.4s;
+}
+@keyframes br_saved_anim_fa {
+    0% {
+        font-size: 0px;
+    }
+
+    50% {
+        font-size: 0px;
+    }
+
+    100% {
+        font-size: 32px;
+    }
+}
+
+
+
+
+/* New Design */
+
+.br_framework_settings h2 {
+    padding: 20px 0 30px!important;
+}
+
+.br_framework_settings header {
+    background-color: #2c3b48;
+    height: 80px;
+    position: relative;
+    z-index: 1000;
+}
+
+.br_framework_settings header .br_logo_white {
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.br_framework_settings header .br_logo_white img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.br_framework_settings header .br_plugin_name {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 14px 40px 14px 150px;
+}
+
+.br_framework_settings header .br_plugin_name h1,
+.br_framework_settings header .br_plugin_name h3 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.br_framework_settings header .br_plugin_name h3 {
+    font-size: 13px;
+    font-weight: normal;
+    color: #B8B8B8;
+}
+
+.br_framework_settings header nav.premium {
+    float: right;
+}
+
+.br_framework_settings header nav.premium a {
+    color: white;
+    font-size: 42px;
+    line-height: 80px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.br_framework_settings .body {
+    position: relative;
+    background-color: #f0f0f0;
+    display: table;
+    width: 100%;
+}
+
+.br_framework_settings .body ul.side {
+    width: 150px;
+    display: table-cell;
+    background-color: #2c3b48;
+    box-shadow: 4px 0 6px #ddd;
+    margin: 0;
+    padding: 0 0 60px;
+    list-style-type: none;
+}
+
+.br_framework_settings .body .content {
+    box-sizing: border-box;
+    display: table-cell;
+    min-height: 400px;
+    padding: 0 30px 20px 30px;
+    width: 90%;
+}
+
+.br_framework_settings .body ul.side li {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    background-color: #2c3b48;
+}
+
+.br_framework_settings .body ul.side li a {
+    display: block;
+    color: #B8B8B8;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px 5px;
+    transition: 0.5s background;
+}
+.br_framework_settings .body ul.side li a.redirect_link.default {
+    background-color: #0085ba;
+}
+
+.br_framework_settings .body ul.side li a,
+.br_framework_settings .body ul.side li a:hover,
+.br_framework_settings .body ul.side li a:active,
+.br_framework_settings .body ul.side li a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.br_framework_settings .body ul.side li:hover a {
+    color: white;
+}
+
+.br_framework_settings .body ul.side li a.active {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    border-left: 3px solid #009688;
+    border-right: 3px solid #2c3b48;
+    color: white;
+}
+
+.br_framework_settings .body ul.side li span {
+    display: block;
+    color: white;
+    font-size: 32px;
+    padding-bottom: 6px;
+}
+
+.br_framework_settings .body .content .title {
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-left: 40px;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    color: #777;
+    font-size: 18px;
+    position: relative;
+    box-shadow: -5px 0 8px #ddd;
+    box-sizing: border-box;
+}
+
+.br_framework_settings .body .content .title:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    left: 20px;
+    position: absolute;
+}
+
+.br_framework_settings .body .content .title span {
+    padding-right: 5px;
+}
+
+.br_framework_settings .body .content .framework-form-table {
+    margin-top: 0;
+    width: 100%;
+}
+
+.br_framework_settings .framework-form-table h2{
+    padding: 0 !important
+}
+
+.br_framework_settings .body .content form {
+    margin-top: 30px;
+}
+
+.br_framework_settings form.show_premium .nav-block {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.br_framework_settings form.show_premium .paid_features,
+.br_framework_settings form.show_premium .berocket_subscribe {
+    float: right;
+    clear: right;
+    width: 38%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.br_framework_settings form.show_premium .paid_features ul li {
+    text-align: left;
+}
+
+.br_framework_settings .button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    text-shadow: none;
+    border: 0 none;
+    min-width: 120px;
+    -moz-user-select: none;
+    background: #009688 none repeat scroll 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    outline: 0 none;
+    padding: 8px 32px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s, background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    white-space: nowrap;
+    height: auto;
+}
+
+.br_framework_settings .br_colorpicker {
+    width: 2em; 
+    height: 2em; 
+    border: 2px solid #009688; 
+    position: relative; 
+    display: inline-block;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.br_framework_settings .berocket_color {
+    display: inline-block;
+}
+
+.br_framework_settings .br_colorpicker:hover {
+    border: 2px solid #00beb0; 
+}
+
+.br_framework_settings .br_colorpicker ~ .br_colorpicker_default {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.berocket_selected_image {
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    line-height: 85px;
+    padding: 5px;
+    vertical-align: bottom;
+}
+.berocket_selected_image img {
+    max-width: 90px;
+    max-height: 90px;
+    vertical-align: middle;
+}
+
+/* FONT AWESOME SELECTOR */
+
+.berocket_select_fontawesome {
+    margin: 0.5em 0;
+}
+
+.br_framework_settings .berocket_select_fontawesome .button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.br_framework_settings .berocket_select_fontawesome .berocket_selected_fa {
+    font-size: 32px;
+    line-height: 62px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.br_framework_settings .berocket_select_fontawesome .berocket_selected_image.berocket_selected_fa {
+    font-size: 62px;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+}
+
+.br_framework_settings .berocket_select_fontawesome.berocket_select_image .button {
+    margin: 29px 0.5em 29px 0;
+}
+
+.berocket_select_fontawesome .berocket_fa_dark {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.berocket_select_fontawesome .berocket_fa_popup {
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    z-index: 50100;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.berocket_select_fontawesome .berocket_fa_search {
+    height: 30px;
+    box-sizing: border-box;
+    margin: 5px 15%;
+    width: 70%;
+}
+
+.berocket_select_fontawesome .berocket_fa_close {
+    font-size: 32px;
+    color: #555;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 500;
+}
+
+.berocket_select_fontawesome .berocket_fa_close:hover {
+    color: #338;
+}
+
+.berocket_select_fontawesome .berocket_fa_list {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon {
+    font-size: 32px;
+    display: inline-block;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 0.5em;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .fa {
+    font-size: 32px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    color: #555;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_preview {
+    position: absolute;
+    height: 50px;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover:hover ~ .berocket_fa_preview {
+    background-color: #CCC;
+    z-index: 50;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_preview span {
+    display: none;
+    font-size: 18px;
+    white-space: nowrap;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 50px;
+    vertical-align: top;
+    color: #555;
+}
+
+.berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover:hover ~ .berocket_fa_preview span {
+    display: inline-block;
+}
+
+/* PRODUCTS SELECTOR */
+
+.br_framework_settings .berocket_search_box {
+    position: relative;
+}
+.br_framework_settings .berocket_products_search {
+    border: 1px solid #777;
+    background: #ffffff;
+    padding: 0.3em 0.3em 0 0.3em;
+    cursor: text;
+    margin: 0;
+    position: relative;
+    top: 1px;
+}
+.br_framework_settings .berocket_products_search * {
+    font-size: 1em;
+}
+.br_framework_settings .berocket_products_search li {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    margin-right: 0.3em!important;
+    margin-bottom: 0.3em!important;
+}
+.br_framework_settings .berocket_products_search li .berocket_loads {
+    position: absolute;
+    right: 0.3em;
+    bottom: 0.3em;
+    font-size: 28px;
+}
+.br_framework_settings .berocket_products_search .berocket_search_input {
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0.1em;
+    border: 0;
+    outline: 0;
+    min-width: 250px;
+    height: 28px;
+    box-shadow: none;
+}
+.br_framework_settings .berocket_products_search .berocket_search_input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.berocket_search_result {
+    border: 1px solid #999;
+    border-top: 0;
+    background: #f7f7f7;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    max-height: 200px;
+    overflow: auto;
+    padding: 0.3em;
+    z-index: 1000;
+}
+.berocket_search_result li {
+    cursor: pointer;
+    padding: 0.3em;
+}
+.berocket_search_result li:hover {
+    background: #efefef;
+}
+
+.br_framework_settings .berocket_products_search li.button {
+    line-height: 26px;
+    padding: 0 10px;
+    max-width: 600px;
+    overflow: hidden;
+}
+.br_framework_settings .single_product .berocket_products_search li.button {
+    max-width: initial;
+    width: 100%;
+}
+
+/* ----------------- */
+
+.br_framework_settings .button:hover,
+.br_framework_settings .button:focus,
+.br_framework_settings .button:active{
+    background: #00beb0 none repeat scroll 0 0;
+    color: white;
+}
+
+.br_framework_settings form .framework-form-table > tbody > tr > th,
+.br_framework_settings form .framework-form-table > thead > tr > th,
+.br_framework_settings form .framework-form-table > tfoot > tr > th,
+.br_framework_settings form .framework-form-table > tr > th {
+    width: 210px;
+    padding: 10px 10px 10px 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.br_framework_settings .framework-form-table > tbody > tr > td,
+.br_framework_settings .framework-form-table > thead > tr > td,
+.br_framework_settings .framework-form-table > tfoot > tr > td,
+.br_framework_settings .framework-form-table > tr > td {
+    padding: 10px;
+}
+
+.br_framework_settings form .nav-block,
+.br_framework_settings form .paid_features,
+.br_framework_settings form .berocket_subscribe {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    overflow: auto;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
+    padding: 0 25px;
+}
+.br_framework_settings form .berocket_subscribe {
+    background-color: #2c3644;
+    background-image: url(mail.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    color: #aaa;
+    font-size: 16px;
+    overflow: hidden;
+}
+.br_framework_settings form .berocket_subscribe h3 {
+    color: white;
+}
+.br_framework_settings form .berocket_subscribe p {
+    font-size: 16px;
+    text-align: left;
+}
+.br_framework_settings form .berocket_subscribe .error {
+    color: #d02c21;
+}
+.br_framework_settings form .berocket_subscribe .berocket_subscribe_email {
+    background-color: #404c5d;
+    border: 0;
+    outline: 0;
+    color: #aaa;
+    width: 100%;
+    line-height: 2em;
+    font-size: 16px;
+}
+
+.br_framework_settings form .nav-block {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#berocket_product_key {
+    width: 80%;
+    min-width: 100px;
+}
+
+.br_settings_footer {
+    margin-right: 20px;
+}
+
+.br_settings_footer a {
+    color: #009688;
+    text-decoration: none;
+}
+
+.br_framework_settings .button.accent {
+    background: #ff5252 none repeat scroll 0 0;
+}
+
+.br_framework_settings .button.accent:hover,
+.br_framework_settings .button.accent:focus,
+.br_framework_settings .button.accent:active {
+    background: #ff6e68 none repeat scroll 0 0;
+    color: white;
+}
+
+.paid_features ul li{
+    list-style: initial;
+    margin-left: 2em;
+}
+
+#footer-thankyou, #footer-upgrade{
+    display: none;
+}
+
+.clear-both {
+    clear: both;
+}
+
+
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 900px) {
+    .br_framework_settings form.show_premium .nav-block,
+    .br_framework_settings form.show_premium .paid_features,
+    .br_framework_settings form.show_premium .berocket_subscribe {
+        float: none;
+        width: 100%;
+    }
+
+    .br_framework_settings form.show_premium .paid_features,
+    .br_framework_settings form.show_premium .berocket_subscribe {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .br_framework_settings header .br_logo_white {
+        width: 60px;
+    }
+
+    .br_framework_settings header .br_plugin_name {
+        padding-left: 80px;
+    }
+
+    .br_framework_settings .body ul.side {
+        width: 100px;
+    }
+
+    .br_framework_settings .body .content {
+        padding-left: 20px;
+    }
+
+    .br_framework_settings .body .content .title {
+        margin-left: -20px;
+    }
+
+    .br_framework_settings .framework-form-table > tbody > tr > td,
+    .br_framework_settings .framework-form-table > thead > tr > td,
+    .br_framework_settings .framework-form-table > tfoot > tr > td,
+    .br_framework_settings .framework-form-table > tr > td,
+    .br_framework_settings .framework-form-table > tbody > tr > th,
+    .br_framework_settings .framework-form-table > thead > tr > th,
+    .br_framework_settings .framework-form-table > tfoot > tr > th,
+    .br_framework_settings .framework-form-table > tr > th {
+        display: table-cell;
+        padding: 5px 10px;
+    }
+
+    .br_framework_settings .framework-form-table > tbody > tr > td,
+    .br_framework_settings .framework-form-table > thead > tr > td,
+    .br_framework_settings .framework-form-table > tfoot > tr > td,
+    .br_framework_settings .framework-form-table > tr > td {
+        padding: 10px 10px 10px 0;
+    }
+
+    .br_framework_settings header nav.premium a {
+        font-size: 32px;
+    }
+
+    .br_framework_settings header .br_plugin_name h1 {
+        font-size: 14px;
+    }
+
+    .br_framework_settings header .br_plugin_name h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .br_framework_settings header .br_plugin_name {
+        display: none;
+    }
+
+    .br_framework_settings .body .content .title {
+        padding-left: 20px;
+    }
+
+    .br_framework_settings .framework-form-table > tbody > tr > td,
+    .br_framework_settings .framework-form-table > thead > tr > td,
+    .br_framework_settings .framework-form-table > tfoot > tr > td,
+    .br_framework_settings .framework-form-table > tr > td,
+    .br_framework_settings .framework-form-table > tbody > tr > th,
+    .br_framework_settings .framework-form-table > thead > tr > th,
+    .br_framework_settings .framework-form-table > tfoot > tr > th,
+    .br_framework_settings .framework-form-table > tr > th {
+        display: block;
+        padding: 10px 10px 0 0;
+    }
+
+    .br_framework_settings .framework-form-table > tbody > tr > td,
+    .br_framework_settings .framework-form-table > thead > tr > td,
+    .br_framework_settings .framework-form-table > tfoot > tr > td,
+    .br_framework_settings .framework-form-table > tr > td {
+        margin-bottom: 0;
+        padding: 4px 10px 6px 0;
+    }
+}
+
+.br_framework_settings.br_setup_wizard .body ul.side li a.close {
+    opacity: 0.3;
+}
+.br_framework_settings.br_setup_wizard {
+    max-width: 900px;
+    margin: auto;
+}
+.br_framework_settings.br_setup_wizard .br_setup_wizard_bottom_links {
+    text-align: center;
+}
+.br_framework_settings.br_setup_wizard .br_setup_wizard_bottom_links a {
+    margin: 5px;
+}
+.br_framework_settings.br_setup_wizard .body {
+    min-height: 100vh;
+}

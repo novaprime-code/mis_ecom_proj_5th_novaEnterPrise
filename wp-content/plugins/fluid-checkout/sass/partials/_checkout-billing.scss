@@ -1,0 +1,65 @@
+// ------------------------------------
+// CHECKOUT BILLING STEP
+// ------------------------------------
+body.has-highlighted-billing-section div.woocommerce form .fc-step__substep[data-substep-id="billing_address"] {
+	background-color: $lighter-grey;
+
+	// Make fields background white
+	textarea,
+	select,
+	input[type="email"],
+	input[type="number"],
+	input[type="date"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	.select2-selection,
+	.select2-selection .select2-selection__rendered {
+		background-color: $white;
+		color: inherit;
+	}
+}
+
+
+
+div.woocommerce form .woocommerce-billing-only-fields__field-wrapper {
+	margin-top: $global-spacing-small;
+}
+div.woocommerce form .woocommerce-billing-only-fields__field-wrapper:before,
+div.woocommerce form .woocommerce-billing-only-fields__field-wrapper:after {
+	@include clearfix();
+}
+
+
+
+div.woocommerce form .woocommerce-billing-fields__field-wrapper {
+	display: block;
+	margin: 0;
+}
+div.woocommerce form .woocommerce-billing-only-fields__field-wrapper:not( :last-child ),
+div.woocommerce form .woocommerce-billing-fields__field-wrapper:not( :last-child ) {
+	padding-bottom: $global-spacing-small;
+}
+
+div.woocommerce form .woocommerce-billing-fields__field-wrapper:after {
+	@include clearfix();
+}
+
+
+
+// Temporarily hide expansible form sections while the collapsible-block script is not yet loaded
+body:not( .has-collapsible-block ) .woocommerce-billing-fields__field-wrapper.is-collapsed > .collapsible-content__inner {
+	display: none;
+}
+
+
+
+div.woocommerce form #billing_same_as_shipping_field.form-row {
+	margin-bottom: $global-spacing-small;
+}
+
+div.woocommerce form #billing_same_as_shipping_field.form-row label {
+	display: inline-block;
+}
